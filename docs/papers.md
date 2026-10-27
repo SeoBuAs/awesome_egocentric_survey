@@ -35,7 +35,7 @@
 | DynStream | DynStream: Online Streaming 4D Gaussian Reconstruction of Dynamic Worlds from Unposed Video | 2026-10 | — | [2610.09720](https://arxiv.org/abs/2610.09720) | — | 원문 기준 | ✓ |
 | MonST3R | MonST3R | 미확인 | 원문 기준 | — | — | 원문 기준 |  |
 
-## 축 2 · 3D 손·몸·물체 추적과 HOI (20)
+## 축 2 · 3D 손·몸·물체 추적과 HOI (21)
 
 | id | 제목 | 연월 | 게재처 | arXiv | 함께 걸친 축 | 검증 | 신규 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -55,6 +55,7 @@
 | EgoHandICL | EgoHandICL: Egocentric 3D Hand Reconstruction via In-Context Learning | 2026-01 | ICLR 2026 (원문) | [2601.19850](https://arxiv.org/abs/2601.19850) | — | 원문 기준 |  |
 | WHOLE | WHOLE: World-Grounded Hand-Object Lifted from Egocentric Videos | 2026-02 | — | [2602.22209](https://arxiv.org/abs/2602.22209) | — | 원문 기준 |  |
 | StableHand | StableHand: Quality-Aware Flow Matching for World-Space Dual-Hand Motion | 2026-05 | — | [2605.18553](https://arxiv.org/abs/2605.18553) | — | 원문 기준 |  |
+| ComPose | ComPose: When to Trust Hands for Object Pose Tracking | 2026-05 | NeurIPS 2026 (사용자 제공·저자 게시물 기준) | [2605.23523](https://arxiv.org/abs/2605.23523) | 5 | 2차 확인 | ✓ |
 | ACEEgoHand | ACE-Ego-Hand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery | 2026-08 | — | [2608.20308](https://arxiv.org/abs/2608.20308) | — | 검증됨 |  |
 | MINT | MINT: Unified World-Space Camera and Hand Motion Estimation | 2026-09 | — | [2609.04958](https://arxiv.org/abs/2609.04958) | 1∩2 | 원문 기준 | ✓ |
 | EgoHand | EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video | 2026-10 | arXiv | [2610.30293](https://arxiv.org/abs/2610.30293) | — | 검증됨 | ✓ |

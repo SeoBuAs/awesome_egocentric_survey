@@ -1624,6 +1624,19 @@
    "isNew": "Y",
    "status": "2차 확인",
    "note": "Cho·Joo (서울대). 희소한 머리·손 신호 + 시퀀스 단위 맥락으로 착용자 전신 형상·동작을 확산 모델로 복원. 기하 인지 가시성 증강으로 기기 불문. OmniEgoDB(여러 소비자 에고 기기 + GT 동작) 공개. arXiv 제목은 'Camera-Agnostic'. 코드 공개 예정"
+  },
+  {
+   "id": "ComPose",
+   "label": "ComPose",
+   "title": "ComPose: When to Trust Hands for Object Pose Tracking",
+   "date": "2026-05",
+   "venue": "NeurIPS 2026 (사용자 제공·저자 게시물 기준)",
+   "arxiv": "2605.23523",
+   "axis": "2",
+   "axis2": "5",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "Jisu Shin 외 7인. 손을 가림 요인이 아닌 보완 신호로 사용: 정보량 높은 손 관절을 적응적으로 골라 손·물체 유래 운동 단서를 결합하고, 보이는 기하와 학습된 보정으로 물체 운동을 정제. RGB 영상만으로 손에 든 물체의 6DoF 궤적 추적. YouTube 영상 → Franka 로봇 시연"
   }
  ],
  "edges": [
@@ -2522,6 +2535,27 @@
    "rel": "cross",
    "evidence": "추정",
    "note": "착용자(viewer) 몸 복원이라는 공통 과제"
+  },
+  {
+   "source": "MANO",
+   "target": "ComPose",
+   "rel": "backbone",
+   "evidence": "추정",
+   "note": "손 관절 단서"
+  },
+  {
+   "source": "WHOLE",
+   "target": "ComPose",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "손-물체 공동 추적 (WHOLE은 월드 좌표 복원)"
+  },
+  {
+   "source": "ComPose",
+   "target": "Phantom",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "사람 영상 → 로봇 전이용 물체 궤적"
   }
  ],
  "axes": [

@@ -4,7 +4,7 @@
 
 `A → B`: B가 A를 백본·데이터·비교 대상 등으로 사용함.
 
-## 백본으로 사용 (`backbone`, 15)
+## 백본으로 사용 (`backbone`, 16)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -23,6 +23,7 @@
 | HaMeR → UniHand | 확인 | 2D 손 관절 라벨링 |
 | MANO → GazeHandPred | 추정 |  |
 | MANO → Gaze2HOI | 확인 | MANO 별도 라이선스 필요 |
+| MANO → ComPose | 추정 | 손 관절 단서 |
 
 ## 직접 확장 (`extends`, 9)
 
@@ -111,7 +112,7 @@
 | GLC → CSTS | 확인 | GLC를 기준선으로 비교 |
 | GLC → ARGaze | 추정 |  |
 
-## 개념 연결 (`cross`, 38)
+## 개념 연결 (`cross`, 40)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -153,6 +154,8 @@
 | Nymeria → OmniEgoCap | 추정 | 에고 전신 동작 데이터 계보 |
 | EgoBody3M → OmniEgoCap | 추정 | 에고 기기 기반 전신 추적 |
 | OmniEgoCap → ReViV | 추정 | 착용자(viewer) 몸 복원이라는 공통 과제 |
+| WHOLE → ComPose | 추정 | 손-물체 공동 추적 (WHOLE은 월드 좌표 복원) |
+| ComPose → Phantom | 추정 | 사람 영상 → 로봇 전이용 물체 궤적 |
 
 ## 인용 (`cites`, 5)
 
