@@ -1,0 +1,103 @@
+source,target,rel,evidence,note
+VGGT,FastVGGT,extends,원문,
+VGGT,RegVGGT,extends,원문,
+STream3R,DynStream,compares,원문,
+MonST3R,STream3R,compares,원문,
+EgoGaussian,IA4DGS,compares,확인,
+EgoExo4D,EgoPOV3DGS,evaluates_on,원문,
+MANO,Hand4DGS,backbone,원문,
+HaMeR,HaWoR,backbone,원문,
+DROIDSLAM,HaWoR,backbone,원문,
+MANO,HaWoR,backbone,원문,
+HaWoR,StableHand,compares,원문,
+DynHaMR,StableHand,compares,원문,
+HOT3D,StableHand,evaluates_on,원문,
+VITRA,MINT,extends,원문,
+Ego4D,MINT,trains_on,원문,
+EgoDex,MINT,trains_on,원문,
+HOT3D,MINT,evaluates_on,원문,
+EgoDex,EgoHand,compares,확인,블라인드 선호 평가 77.0%
+Xp10M,EgoHand,compares,확인,블라인드 선호 평가 95.5%
+HOT3D,EgoHand,evaluates_on,확인,제로샷 평가
+HOT3D,Whareformer,cross,원문,
+HDEPIC,Whareformer,evaluates_on,원문,
+AMEGO,Whareformer,compares,원문,
+OSNOM,Whareformer,extends,원문,OSNOM 과제의 첫 학습 기반 해법
+VGGT,EgoXperience,backbone,확인,VGGT의 피드포워드 재구성 패러다임 확장
+MANO,EgoXperience,backbone,확인,MANO 관절 회전 표현
+HOT3D,EgoXperience,trains_on,확인,"평가는 확인, 학습 사용은 원문 기준"
+HaWoR,EgoXperience,compares,원문,
+DynHaMR,EgoXperience,compares,원문,
+MINT,EgoXperience,compares,원문,
+Xp10M,EgoXperience,cross,원문,"같은 Ropedia 데이터 생태계, 부록 인용"
+EgoXperience,RopediaW0,cross,원문,"같은 조직·같은 날 공개, 직접 의존 미확인"
+VGGT,SpatialMLLM,backbone,원문,
+HDEPIC,NeverLookBack,evaluates_on,확인,
+UCSBench,NeverLookBack,evaluates_on,확인,DirectMe 메모리도 비교 대상
+Ego4D,NeverLookBack,evaluates_on,확인,VQ3D
+FastVGGT,NeverLookBack,backbone,원문,포즈 추정기
+AMEGO,NeverLookBack,compares,확인,
+OSNOM,NeverLookBack,compares,확인,
+EmbVideoAgent,NeverLookBack,compares,확인,
+Whareformer,NeverLookBack,cross,원문,"인용, 같은 문제 계보"
+AMEGO,MEMORA,cross,원문,
+MEMORA,AtlasVLA,cross,원문,지속형 상태를 VLA로
+NVILA,EgoVLA,backbone,원문,
+MANO,EgoVLA,backbone,원문,
+HOT3D,EgoVLA,trains_on,원문,
+EgoMimic,EgoScale,cross,원문,
+EgoDex,ACEEgo0,trains_on,원문,
+EgoScale,ACEEgo0,compares,원문,
+EgoDex,QwenVLA,trains_on,원문,
+Xp10M,QwenVLA,trains_on,원문,
+EgoVLA,EgoRecovery,cross,원문,
+HaWoR,EgoRecovery,backbone,원문,손 재구성
+VGGT,VGGTDP,backbone,확인,VGGT를 시각 인코더로 채택
+EgoControl,SparseHandJoints,compares,원문,
+PEVA,GenReality,cross,원문,
+GenReality,HandsOnWorld,compares,원문,
+SparseHandJoints,EgoGenesis,cross,확인,EgoGenesis 참고문헌 인용
+HandsOnWorld,EgoGenesis,cross,원문,
+EgoHOI,EgoGenesis,cites,확인,
+EgoDex,EgoGenesis,cites,확인,
+EgoGenesis,MultiAgentEgoWM,cross,원문,메모리 개념 공유
+EgoGenesis,P3WAM,compares,원문,
+HaWoR,P3WAM,cross,원문,Perceive 모드 = 축 2 과제
+EgoXGen,EgoExoWM,extends,원문,
+DexWM,EgoExoWM,cites,확인,
+Xp10M,RopediaW0,trains_on,원문,
+EgoDex,RopediaW0,trains_on,원문,
+DexWM,P3WAM,cross,원문,
+EgoDex,DexWM,trains_on,확인,
+DROIDdata,DexWM,trains_on,확인,
+DWM,DexWM,cross,추정,동시기 dexterous 월드 모델
+MMTwin,UniHand,extends,확인,같은 저자 그룹
+HaMeR,UniHand,backbone,확인,2D 손 관절 라벨링
+MADiff,MMTwin,extends,추정,같은 저자 그룹 계보
+MMTwin,EgoMAN,compares,확인,
+EgoExo4D,EgoMAN,trains_on,확인,
+HOT3D,EgoMAN,evaluates_on,확인,분포 밖 평가
+EgoMAN,EgoHandICL,cross,추정,
+HOT3D,DPDeGauss,evaluates_on,확인,
+EPICFields,DPDeGauss,evaluates_on,확인,
+HaWoR,MINT,compares,추정,
+Ego1K,Hand4DGS,cross,추정,다시점 손–물체 GT 후보
+World2VLM,R3D,cross,추정,같은 축의 대안 접근
+HOMIEGen2,EgoXData6M,captures,원문,
+EgoXData6M,EgoXperience,part_of,확인,
+MINT,MINTEgoPipe,produces,원문,
+HOT3D,ACEEgoHand,evaluates_on,확인,
+STream3R,IGGT4D,compares,추정,"스트리밍 재구성 기준선과 비교했다고 보고, STream3R 포함 여부는 미확인"
+IGGT4D,NeverLookBack,cross,추정,정체성을 유지하는 스트리밍 4D가 물체 메모리의 백본이 될 수 있음
+EgoInteract,EgoInfinity,cross,추정,둘 다 손–물체 상호작용 학습 데이터를 대량으로 만드는 엔진(합성 시뮬레이션 대 웹 영상)
+HOISynth,HOISynthExt,extends,확인,같은 파이프라인·벤치마크의 확장
+IndSynthHOI,HOISynth,cross,추정,같은 계열의 합성 에고 HOI 데이터 생성
+HOISynth,EgoInteract,compares,추정,EgoInteract가 정지 이미지 한계로 언급한 기존 합성 HOI 파이프라인으로 추정
+EgoGen,EgoInteract,cross,추정,합성 에고 데이터 생성기 계보
+Phantom,Masquerade,extends,확인,Phantom의 데이터 편집 파이프라인을 야생 영상으로 확장
+Masquerade,EgoMatrix,cross,추정,사람 영상 → 로봇 시연 변환
+DexWM,Wh0,cross,추정,생성 월드 모델을 데이터원으로 활용하는 반대 방향
+EgoXGen,Exo2EgoHOI,compares,추정,엑소→에고 생성 선행 연구
+DWM,EgoSim,cites,확인,
+EgoExo4D,EgoSim,cites,확인,
+Xp10M,Wh0,cross,추정,실제 대규모 에고 데이터 대 생성 데이터

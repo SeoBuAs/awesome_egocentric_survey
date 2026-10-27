@@ -1,0 +1,110 @@
+id,label,title,date,venue,arxiv,axis,axis2,isNew,status,note
+Ego4D,Ego4D,"Ego4D: Around the World in 3,000 Hours of Egocentric Video",2021-10,CVPR 2022 (2차 인용),2110.07058,B,,N,검증됨,
+MANO,MANO,Embodied Hands (MANO),2017,SIGGRAPH Asia 2017 (원문),,B,,N,미확인,arXiv ID 미확인
+HaMeR,HaMeR,Reconstructing Hands in 3D with Transformers,2023-12,미확인,2312.05251,B,,N,검증됨,"arXiv ID만 확인, 게재처 미확인"
+DROIDSLAM,DROID-SLAM,"DROID-SLAM: Deep Visual SLAM for Monocular, Stereo, and RGB-D Cameras",2021-08,미확인,2108.10869,B,,N,검증됨,arXiv ID만 확인. DROID 로봇 데이터셋과 다른 대상
+VGGT,VGGT,VGGT: Visual Geometry Grounded Transformer,2025-03,CVPR 2025 (2차 인용),2503.11651,B,,N,검증됨,
+FastVGGT,FastVGGT,FastVGGT: Training-free Acceleration of VGGT,2025-09,미확인,2509.02560,B,,N,검증됨,arXiv ID만 확인
+NVILA,NVILA,NVILA: Efficient Frontier Visual Language Models,2024-12,미확인,2412.04468,B,,N,검증됨,arXiv ID만 확인
+DROIDdata,DROID 데이터셋,"DROID (로봇 조작 데이터셋, DROID-SLAM과 별개)",2024,미확인,,B,5,N,미확인,DexWM 학습 데이터로 사용 확인
+Xp10M,Xperience-10M,"Xperience-10M (Ropedia HF 데이터셋, 1만 시간)",2026,데이터셋,,B,5,N,원문 기준,EgoHand 논문에서 이름 확인. 같은 회사의 EgoXperience·Ropedia W0와 생태계 공유
+MonST3R,MonST3R,MonST3R,미확인,원문 기준,,1,,N,원문 기준,arXiv ID 미확인
+EgoGaussian,EgoGaussian,EgoGaussian,2024-06,미확인,2406.19811,1,,N,검증됨,
+EgoSplat,EgoSplat,EgoSplat,2025-03,미확인,2503.11345,1,,N,검증됨,
+DPDeGauss,DP-DeGauss,DP-DeGauss: Dynamic Probabilistic Gaussian Decomposition for Egocentric 4D Scene Reconstruction,2026-04,arXiv,2604.07986,1,,N,검증됨,기준선 대비 평균 PSNR +1.70 dB 보고
+GHOST,GHOST,GHOST: Fast Category-agnostic Hand-Object Interaction Reconstruction,2026-03,CVPR Findings 2026,2603.18912,1,2,N,검증됨,
+STream3R,STream3R,STream3R: Scalable Sequential 3D Reconstruction with Causal Transformer,2025-08,ICLR 2026 (원문),2508.10893,1,,N,원문 기준,
+LingBotMap,LingBot-Map,Geometric Context Transformer for Streaming 3D Reconstruction,2026-04,—,2604.14141,1,,N,원문 기준,
+HorizonStream,HorizonStream,HorizonStream: Long-Horizon Attention for Streaming 3D Reconstruction,2026-05,—,2605.23889,1,,N,원문 기준,
+RegVGGT,RegVGGT,RegVGGT: Sustainable Visual Geometry Grounding for Streaming via Regulated Memory,2026-09,—,2609.23286,1,,Y,원문 기준,
+DynStream,DynStream,DynStream: Online Streaming 4D Gaussian Reconstruction of Dynamic Worlds from Unposed Video,2026-10,—,2610.09720,1,,Y,원문 기준,
+IGGT4D,IGGT4D,IGGT4D: Streaming 4D Instance-Grounded Geometry Transformer,2026-07,—,2607.19228,1,7,N,검증됨,Horizon Robotics·NTU S-Lab. IGGT를 동적 장면으로 확장해 카메라·기하·물체 정체성을 프레임 단위로 함께 갱신. 가림·재등장에도 정체성 유지. 에고 특화 방법은 아니며 축 7 메모리의 백본 후보
+EgoPOV3DGS,Personal Point of View,Bringing a Personal Point of View: Evaluating Dynamic 3DGS for Egocentric Scene Reconstruction,2026-04,CVPR 2026 EgoVis WS (원문),2604.23803,1,,N,원문 기준,
+IA4DGS,Interaction-Aware 4DGS,Interaction-Aware 4D Gaussian Splatting for Dynamic HOI Reconstruction,2025-11,—,2511.14540,1,,N,검증됨,
+Hand4DGS,Hand-4DGS,Hand-4DGS: Feed-Forward 3DGS for 4D Hand Reconstruction from Egocentric Videos,2026-06,—,2606.19156,1,2,N,검증됨,"최초의 피드포워드 에고 4D 손, 약 60 FPS"
+HOT3D,HOT3D,HOT3D: Hand and Object Tracking in 3D from Egocentric Multi-View Videos,2024-11,미확인 (원문: CVPR 2025),2411.19167,2,3,N,검증됨,arXiv ID만 확인
+Nymeria,Nymeria,Nymeria: A Massive Collection of Multimodal Egocentric Daily Motion in the Wild,2024-06,미확인 (원문: ECCV 2024),2406.09905,2,,N,검증됨,arXiv ID만 확인
+HaWoR,HaWoR,HaWoR: World-Space Hand Motion Reconstruction from Egocentric Videos,2025-01,CVPR 2025 (원문),2501.02973,2,,N,검증됨,
+DynHaMR,Dyn-HaMR,Dyn-HaMR: Recovering 4D Interacting Hand Motion from a Dynamic Camera,2024-12,미확인,2412.12861,2,,N,검증됨,arXiv ID만 확인
+HOLD,HOLD,HOLD: Category-agnostic 3D Reconstruction of Interacting Hands and Objects from Video,2023-11,미확인,2311.18448,2,,N,검증됨,arXiv ID만 확인
+EgoBody3M,EgoBody3M,EgoBody3M: Egocentric Body Tracking on a VR Headset Using a Diverse Dataset,2024,ECCV 2024,,2,,N,검증됨,"게재처 확인, arXiv ID 미확인"
+UniHand,Uni-Hand,Uni-Hand: Universal Hand Motion Forecasting in Egocentric Views,2025-11,TPAMI 2026 (프로젝트 페이지 표기),2511.12878,2,,N,검증됨,UniHand(2602.21631)와 다른 논문
+MADiff,MADiff,MADiff: Motion-Aware Mamba Diffusion Models for Hand Trajectory Prediction on Egocentric Videos,2024-09,미확인,2409.02638,2,,N,검증됨,
+MMTwin,MMTwin,Novel Diffusion Models for Multimodal 3D Hand Trajectory Prediction (MMTwin),2025-04,IROS 2025 (저장소 표기),2504.07375,2,,N,검증됨,
+EgoH4,EgoH4,The Invisible EgoHand: 3D Hand Forecasting through EgoBody Pose Estimation,2025-04,미확인,2504.08654,2,,N,검증됨,EgoHand(2610.30293)와 다른 논문
+EgoMAN,EgoMAN,Flowing from Reasoning to Motion (EgoMAN),2025-12,미확인,2512.16907,2,5,N,검증됨,"219K 6DoF 궤적, 300만 구조화 QA"
+StableHand,StableHand,StableHand: Quality-Aware Flow Matching for World-Space Dual-Hand Motion,2026-05,—,2605.18553,2,,N,원문 기준,
+WHOLE,WHOLE,WHOLE: World-Grounded Hand-Object Lifted from Egocentric Videos,2026-02,—,2602.22209,2,,N,원문 기준,
+EgoHandICL,EgoHandICL,EgoHandICL: Egocentric 3D Hand Reconstruction via In-Context Learning,2026-01,ICLR 2026 (원문),2601.19850,2,,N,원문 기준,
+EgoInfinity,EgoInfinity,EgoInfinity: A Web-Scale 4D HOI Data Engine,2026-06,—,2606.17385,8,"2,5",N,원문 기준,
+EgoInteract,EgoInteract,EgoInteract: Synthetic Egocentric Videos Generation for Interaction Understanding and Anticipation,2026-05,—,2605.18214,8,"2,6",N,검증됨,"카메라·몸·손 동작, 물체 조작, 장면 구성을 제어하는 합성 에고 영상 시뮬레이터. 행동 분할, 다음 활성 물체, 상호작용 예측, 손–물체 상호작용 검출용 조밀 주석을 생성하고 실제 에고 벤치마크에서 성능 향상을 보고. 3D 재구성보다는 상호작용 이해용 데이터 쪽이라 이 서베이 범위의 경계에 있음"
+MINT,MINT,MINT: Unified World-Space Camera and Hand Motion Estimation,2026-09,—,2609.04958,2,1∩2,Y,원문 기준,
+EgoHand,EgoHand,EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video,2026-10,arXiv,2610.30293,2,,Y,검증됨,"블라인드 선호 평가에서 EgoDex 클립 77.0%, Xperience-10M 클립 95.5%에서 선호"
+ACEEgoHand,ACE-Ego-Hand,ACE-Ego-Hand: Repurposing Video Diffusion Models for Occlusion-Robust Egocentric 3D Hand Motion Recovery,2026-08,—,2608.20308,2,,N,검증됨,"원문 서베이에 없던 추가 노드. MPJPE-p ARCTIC 30%, HOT3D 40% 감소 보고"
+MINTEgoPipe,MINT EgoPipeline,"MINT EgoPipeline (Ego4D·EPIC-KITCHENS·EgoDex 1,021시간 의사라벨)",2026-09,—,,8,2,Y,원문 기준,
+EgoXperience,EgoXperience,EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience,2026-10,Ropedia Technical Report,2610.26625,1∩2,,Y,검증됨,"EgoX 모델 포함. 최강 기준선 대비 카메라 68.9%·손 65.6%·깊이 42.9% 오차 감소, 물체 포즈 28.0% 향상(자체 보고). 데이터·가중치 공개 예정"
+EgoXData6M,EgoX-Engine / Data-6M,"EgoX-Data-6M (50시간, 공개 예정)",2026-10,coming soon,,8,1∩2,Y,검증됨,1시간 분량을 골라 EgoX-Bench로 사용 EgoX-Engine(SLAM 정렬·자동 주석 엔진)이 만든 데이터.
+EgoExo4D,Ego-Exo4D,Ego-Exo4D,2023-11,미확인 (원문: CVPR 2024),2311.18259,3,,N,검증됨,arXiv ID만 확인
+EPICFields,EPIC Fields,EPIC Fields,2023-06,미확인,2306.08731,3,,N,검증됨,"45개 주방 99시간, 1,900만 프레임 등록"
+Ego1K,Ego-1K,Ego-1K: A Large-Scale Multiview Video Dataset for Egocentric Vision,2026-03,CVPR 2026,2603.13741,3,,N,검증됨,"12+4 동기화 카메라, 956개 영상, 514k 프레임"
+MultiEgo,MultiEgo,MultiEgo: A Multi-View Egocentric Video Dataset for 4D Scene Reconstruction,2025-12,ACM MM 2025 Dataset Track,2512.11301,3,,N,검증됨,
+AriaGen2,Aria Gen 2 Pilot,Aria Gen 2 Pilot Dataset,2025-10,—,2510.16134,3,,N,원문 기준,
+EgoKit,EgoKit,EgoKit: Unified Low-Cost Egocentric Data Collection,2026-05,—,2605.16797,3,,N,원문 기준,
+OpenAoE,Open-AoE,Open-AoE,2026-07,—,2607.14183,3,,N,원문 기준,
+HOMIEGen2,HOMIE Gen2 리그,HOMIE Gen2 헤드 마운트 캡처 리그 (EgoX-Data-6M 수집),2026,—,,3,,Y,원문 기준,
+HDEPIC,HD-EPIC,HD-EPIC: A Highly-Detailed Egocentric Video Dataset,2025-02,미확인 (원문: CVPR 2025),2502.04144,4,,N,검증됨,arXiv ID만 확인
+Ego3DBench,Ego3D-Bench,Spatial Reasoning with VLMs in Ego-Centric Multi-View Scenes (Ego3D-Bench / Ego3D-VLM),2025-09,ICLR 2026 (저장소 표기),2509.06266,4,,N,검증됨,
+CambrianS,Cambrian-S,Cambrian-S: Towards Spatial Supersensing in Video,2025-11,미확인,2511.04670,4,,N,검증됨,arXiv ID만 확인
+SpatialMLLM,Spatial-MLLM,Spatial-MLLM: Boosting MLLM Capabilities in Visual-based Spatial Intelligence,2025-05,미확인,2505.23747,4,,N,검증됨,arXiv ID만 확인
+World2VLM,World2VLM,World2VLM: Distilling World Model Imagination into VLMs for Dynamic Spatial Reasoning,2026-04,미확인,2604.26934,4,,N,검증됨,
+EgoProx,EgoProx,EgoProx: Evaluating MLLMs on Egocentric 3D Proximity Reasoning,2026-05,CVPR 2026 (원문),2605.24456,4,,N,원문 기준,
+EgoAdapt,EgoAdapt,EgoAdapt: Adaptive Multisensory Distillation and Policy Learning for Efficient Egocentric Perception,2025-06,ICCV 2025,2506.21080,4,,N,검증됨,
+R3D,R3D,R3D: Quantitative 3D Spatial Reasoning for Egocentric Wearables,2026-07,—,2607.02921,4,,N,검증됨,"R3D-Bench 3,033문항, Qwen3-VL 235B 기준 평균 상대 정확도 73.5%"
+ReRe,ReRe,"Reason, Then Re-reason: Cross-view Revisiting Improves Spatial Reasoning",2026-06,PMLR 306 (원문),2606.11683,4,,N,원문 기준,
+EgoMind,EgoMind,EgoMind: Activating Spatial Cognition through Linguistic Reasoning,2026-04,—,2604.03318,4,,N,원문 기준,
+UCSBench,UCS-Bench / DirectMe,Keep It in Mind: User-Centric Continual Spatial Intelligence Reasoning in Egocentric Video Streams,2026-06,—,2606.15200,4,7,N,원문 기준,
+EgoCrossCh,EgoCross Challenge,The First EgoCross Challenge at EgoVis 2026,2026-08,CVPR 2026 WS (원문),2608.04589,4,,N,원문 기준,기존 벤치마크 EgoCross(2508.10729)와 별개
+CASTLECh,CASTLE Challenge,CASTLE Challenge,2026-08,—,2608.22914,4,,N,원문 기준,
+EgoDex,EgoDex,EgoDex: Learning Dexterous Manipulation from Large-Scale Egocentric Video,2025-05,ICLR 2026,2505.11709,5,B,N,2차 확인,
+VITRA,VITRA,Scalable VLA Pretraining with Real-Life Human Activity Videos (VITRA),2025-10,ICRA 2026 (원문),2510.21571,5,,N,원문 기준,
+EgoMimic,EgoMimic,EgoMimic: Scaling Imitation Learning via Egocentric Video,2024-10,ICRA 2025 (2차 인용),2410.24221,5,,N,검증됨,
+EgoZero,EgoZero,EgoZero: Robot Learning from Smart Glasses,2025-05,미확인,2505.20290,5,,N,검증됨,Aria 글래스 데이터만으로 7개 작업 제로샷 성공률 70%
+EgoVLA,EgoVLA,EgoVLA: Learning VLA Models from Egocentric Human Videos,2025-07,—,2507.12440,5,,N,2차 확인,
+DexWM,DexWM,World Models for Learning Dexterous Hand-Object Interactions from Human Videos,2025-12,미확인,2512.13644,5,6,N,검증됨,"EgoDex와 DROID 900시간 이상, 잡기 성공률 83%"
+EgoScale,EgoScale,EgoScale: Scaling Dexterous Manipulation with Diverse Egocentric Human Data,2026-02,—,2602.16710,5,,N,2차 확인,
+ACEEgo0,ACE-Ego-0,ACE-Ego-0: Unifying Egocentric Human and Robotic Data for VLA Pretraining,2026-06,—,2606.17200,5,,N,원문 기준,
+QwenVLA,Qwen-VLA,Qwen-VLA,2026-05,—,2605.30280,5,,N,2차 확인,정식 제목 미확인
+EgoRecovery,EgoRecovery,EgoRecovery: Failure Recovery Through Human Recovery Demonstration,2026-07,—,2607.19745,5,,N,원문 기준,
+EgoMatrix,EgoMatrix,EgoMatrix: Physically Faithful Dexterous Robot Demonstrations from Egocentric Human Videos,2026-10,—,2610.18822,8,5,Y,원문 기준,사람 영상을 로봇 시연 데이터로 바꾸는 생성 파이프라인이라 데이터 생성 축으로 옮김.
+EgoVerse,EgoVerse,EgoVerse: An Egocentric Human Dataset for Robot Learning,2026-04,—,2604.07607,5,B,N,2차 확인,
+EgoLive,EgoLive,EgoLive: A Large-Scale Egocentric Dataset from Real-World Human Tasks,2026-04,—,2604.23570,5,B,N,2차 확인,
+VGGTDP,VGGT-DP,VGGT-DP: Generalizable Robot Control via Vision Foundation Models,2025-09,미확인,2509.18778,5,,N,검증됨,
+PEVA,PEVA,Whole-Body Conditioned Egocentric Video Prediction (PEVA),2025-06,미확인,2506.21552,6,,N,검증됨,
+EgoControl,EgoControl,EgoControl: Controllable Egocentric Video Generation via 3D Full-Body Poses,2025-11,—,2511.18173,6,,N,원문 기준,
+EgoHOI,EgoHOI,Egocentric World Model for Photorealistic Hand-Object Interaction Synthesis,2026-03,미확인,2603.13615,6,,N,2차 확인,"하위 에이전트 확인, 신뢰도 중상"
+DWM,Dexterous World Models,Dexterous World Models,2025-12,미확인,2512.17907,6,,N,검증됨,
+GenReality,Generated Reality,Generated Reality: Human-centric World Simulation with Hand and Camera Control,2026-02,CVPR 2026 Findings (원문),2602.18422,6,,N,원문 기준,
+SparseHandJoints,Sparse 3D Hand Joints,Controllable Egocentric Video Generation via Occlusion-Aware Sparse 3D Hand Joints,2026-03,—,2603.11755,6,,N,원문 기준,
+HandsOnWorld,HandsOnWorld,HandsOnWorld: Unconstrained Egocentric Video Generation with Camera-Disentangled Hand Control,2026-07,—,2607.02075,6,,N,원문 기준,
+EgoGenesis,EgoGenesis,EgoGenesis: Egocentric World-Action Modeling with Online Anchored Projective Memory and Action-3D RoPE,2026-07,—,2607.28243,6,7,N,검증됨,
+EgoExoWM,EgoExo-WM,EgoExo-WM: Unlocking Exo Video for Ego World Models,2026-05,—,2605.15477,6,,N,검증됨,
+EgoXGen,EgoX (생성),EgoX: Egocentric Video Generation from a Single Exocentric Video,2025-12,—,2512.08269,6,8,N,원문 기준,EgoXperience의 EgoX 모델과 다른 논문
+MultiAgentEgoWM,Multi-Agent Ego WM,Multi-Agent Egocentric World Model with Fine-Grained Embodied Interaction,2026-10,—,2610.12299,6,,Y,원문 기준,
+P3WAM,P³-WAM,"Perceive, Predict, and Plan: a Unified World Action Model for Egocentric Dexterous Manipulation",2026-10,arXiv,2610.22363,6,"5,2",Y,검증됨,Perceive 모드는 축 1∩2 과제(손·카메라 재구성)
+RopediaW0,Ropedia W0,Ropedia W0: Scaling Loco-Manipulation World Models across Embodiments with Human Experience,2026-10,기업 발표,2610.26855,6,,Y,원문 기준,세부 수치 1차 확인 못 함
+AMEGO,AMEGO,AMEGO: Active Memory from Long EGOcentric Videos,2024-09,ECCV 2024 (원문),2409.10917,7,,N,검증됨,arXiv ID만 확인
+OSNOM,OSNOM,"Spatial Cognition from Egocentric Video: Out of Sight, Not Out of Mind",2024-04,3DV 2025 (원문),2404.05072,7,,N,2차 확인,
+EmbVideoAgent,Embodied VideoAgent,Embodied VideoAgent: Persistent Memory from Egocentric Videos and Embodied Sensors,2025-01,—,2501.00358,7,,N,원문 기준,
+Whareformer,Whareformer,Whareformer: Learning to Track What is Where in Long Egocentric Videos,2026-07,ECCV 2026 (원문),2607.08537,7,2,N,원문 기준,별칭·정확한 제목 미확인
+NeverLookBack,Never Look Back (Ledger),Never Look Back: Understanding Persistence in 3D Object Memory from Egocentric Videos,2026-10,arXiv 프리프린트,2610.10538,7,,Y,검증됨,"HD-EPIC 29.7%→42.6%, UCS-Bench 33.8%→38.5%, VQ3D 중앙값 오차 0.99 m. 메모리는 오프라인 구성"
+MEMORA,MEMORA,MEMORA: Embodied Action Memory from Egocentric Videos for Reasoning and Planning,2026-07,—,2607.14252,7,,N,원문 기준,
+AtlasVLA,AtlasVLA,AtlasVLA: Persistent World-Ego State Modeling for VLA Models,2026-08,—,2608.06729,7,5,N,원문 기준,
+EgoGen,EgoGen,EgoGen: An Egocentric Synthetic Data Generator,2024-01,CVPR 2024 (Oral),2401.08739,8,"1,2",N,검증됨,"ETH Zürich·Microsoft. 가상 인간이 1인칭 시야로 3D 환경을 감지하며 움직이는 모션 합성 모델로 헤드마운트 카메라 데이터를 생성. 매핑·위치추정, 에고 카메라 추적, 에고 시점 인체 메시 복원에서 효과 검증"
+IndSynthHOI,산업용 합성 HOI,Exploiting Multimodal Synthetic Data for Egocentric Human-Object Interaction Detection in an Industrial Scenario,2023-06,—,2306.12152,8,2,N,검증됨,"대상 환경과 물체의 3D 재구성을 바탕으로 손–물체 상호작용 합성 이미지와 2D·3D 박스, 접촉 상태, 분할 마스크, 깊이를 자동 생성"
+HOISynth,HOI-Synth,Are Synthetic Data Useful for Egocentric Hand-Object Interaction Detection?,2023-12,ECCV 2024,2312.02672,8,2,N,검증됨,"Catania FPV-IPLab. 실제 라벨 10%만 쓰고 합성 데이터를 더해 VISOR +5.67, EgoHOS +8.24, ENIGMA-51 +11.69 Overall AP"
+HOISynthExt,HOI-Synth 확장판,Leveraging Synthetic Data for Enhancing Egocentric Hand-Object Interaction Detection,2026-03,—,2603.29733,8,2,N,검증됨,HOI-Synth 파이프라인·벤치마크의 확장 버전
+Phantom,Phantom,Phantom: Training Robots Without Robots Using Only Human Videos,2025-03,CoRL 2025,2503.00779,8,5,N,검증됨,"손 포즈 추정으로 행동을 뽑고, 사람 팔을 인페인팅으로 지운 뒤 렌더링한 로봇 팔을 덧씌워 로봇 시연으로 변환. 로봇 데이터 없이 제로샷 배치"
+Masquerade,Masquerade,Masquerade: Learning from In-the-wild Human Videos using Data-Editing,2025-08,—,2508.09976,8,5,N,검증됨,Phantom의 데이터 편집을 EPIC-KITCHENS 같은 야생 에고 영상으로 확장
+Wh0,Wh0,Wh0: Generative World Models as Scalable Sources of Egocentric Human Hand Manipulation Data,2026-06,—,2606.22136,8,"6,5",N,검증됨,"생성 비디오 월드 모델로 에고 손 조작 영상 5만 에피소드(WM-H)를 만들고, 소량의 실로봇 데이터와 함께 학습해 덱스터러스 VLA를 적응"
+Exo2EgoHOI,Exo2EgoHOI,Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation,2026-09,—,2609.38615,8,6,Y,검증됨,풍부한 3인칭 조작 영상을 1인칭으로 바꾸면서 손–물체 상호작용을 보존. 장면 기하·손 렌더링·손–물체 관계장을 합친 4D HOI prior 사용
+EgoSim,EgoSim,EgoSim: Egocentric World Simulator for Embodied Interaction Generation,2026-04,—,2604.01001,6,8,N,검증됨,웹 규모 단안 에고 영상에서 정적 3D 장면·카메라 궤적·손 동작을 짝지은 학습 데이터를 만드는 파이프라인 포함. 저가 수집 장치 EgoCap도 제안
