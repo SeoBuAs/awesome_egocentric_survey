@@ -22,3 +22,9 @@ arxiv,title,found,axis_guess,axis2_guess,status,note
 2610.22822,VISTA: A Multimodal Egocentric Benchmark for Goal-Oriented Perception and Assistance to BLV Users,2026-10-27,,,대기,검색 스니펫 기준 · 관찰 주제: 시각장애인 보조
 2610.18836,PLAN-Bench: Can Existing VLMs Go Well Beyond Perception to Reason and Plan in Embodied Worlds?,2026-10-27,,,대기,검색 스니펫 기준
 2610.00069,A Framework for Egocentric and Exocentric Procedural Understanding via Temporal Segmentation and Semantic Abstraction,2026-10-27,,,대기,검색 스니펫 기준 · 3D와 무관할 가능성 큼
+2610.31320,Stream4D: Streaming 4D Reconstruction with Training-free Motion Decoupling via Causal KV-Cache Attention,2026-10-28,1,B,대기,검색 스니펫 기준 · 에고 특화 아님. 학습 없이 causal Transformer 백본에 붙는 스트리밍 4D (ACM MM 2026)
+2610.16256,EgoWholeView: Camera-Only Head-Mounted Capture of Body and Bimanual Hand Motion for Embodied Demonstrations,2026-10-28,2,"3,5",대기,검색 스니펫 기준 · 머리 장착 광각 RGB 6대로 몸·양손 모션 캡처
+2609.16684,MEgoVista: Multi-view Ego-aware Motion Estimation for Metric 4D Hands and Head in the Wild,2026-10-28,2,3,대기,검색 스니펫 기준 · 실외 환경 메트릭 4D 손·머리 모션
+2610.16176,EgoAlign: Situated 3D Understanding without Situation Descriptions,2026-10-28,4,,대기,검색 스니펫 기준(제3자 미러) · 에이전트 중심 좌표 3D-LLM. SQA3D/Real-3DQA/MSQA
+2610.28502,GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction,2026-10-28,4,9,대기,검색 스니펫 기준 · 시선으로 토큰을 줄이는 스마트 글래스 VQA. 3D 비중 낮음
+2610.27946,Decoupling Action from Egocentric Observation for World Simulation,2026-10-28,6,,대기,검색 스니펫 기준(제목만) · 10/20 제출

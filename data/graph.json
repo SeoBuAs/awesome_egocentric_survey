@@ -2877,6 +2877,60 @@
    "axis2_guess": "",
    "status": "대기",
    "note": "검색 스니펫 기준 · 3D와 무관할 가능성 큼"
+  },
+  {
+   "arxiv": "2610.31320",
+   "title": "Stream4D: Streaming 4D Reconstruction with Training-free Motion Decoupling via Causal KV-Cache Attention",
+   "found": "2026-10-28",
+   "axis_guess": "1",
+   "axis2_guess": "B",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 에고 특화 아님. 학습 없이 causal Transformer 백본에 붙는 스트리밍 4D (ACM MM 2026)"
+  },
+  {
+   "arxiv": "2610.16256",
+   "title": "EgoWholeView: Camera-Only Head-Mounted Capture of Body and Bimanual Hand Motion for Embodied Demonstrations",
+   "found": "2026-10-28",
+   "axis_guess": "2",
+   "axis2_guess": "3,5",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 머리 장착 광각 RGB 6대로 몸·양손 모션 캡처"
+  },
+  {
+   "arxiv": "2609.16684",
+   "title": "MEgoVista: Multi-view Ego-aware Motion Estimation for Metric 4D Hands and Head in the Wild",
+   "found": "2026-10-28",
+   "axis_guess": "2",
+   "axis2_guess": "3",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 실외 환경 메트릭 4D 손·머리 모션"
+  },
+  {
+   "arxiv": "2610.16176",
+   "title": "EgoAlign: Situated 3D Understanding without Situation Descriptions",
+   "found": "2026-10-28",
+   "axis_guess": "4",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준(제3자 미러) · 에이전트 중심 좌표 3D-LLM. SQA3D/Real-3DQA/MSQA"
+  },
+  {
+   "arxiv": "2610.28502",
+   "title": "GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction",
+   "found": "2026-10-28",
+   "axis_guess": "4",
+   "axis2_guess": "9",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 시선으로 토큰을 줄이는 스마트 글래스 VQA. 3D 비중 낮음"
+  },
+  {
+   "arxiv": "2610.27946",
+   "title": "Decoupling Action from Egocentric Observation for World Simulation",
+   "found": "2026-10-28",
+   "axis_guess": "6",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준(제목만) · 10/20 제출"
   }
  ],
  "hoi": [

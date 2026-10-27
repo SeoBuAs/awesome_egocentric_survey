@@ -5,6 +5,12 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-28 | [2610.31320](https://arxiv.org/abs/2610.31320) | Stream4D: Streaming 4D Reconstruction with Training-free Motion Decoupling via Causal KV-Cache Attention | 1, B | 대기 | 검색 스니펫 기준 · 에고 특화 아님. 학습 없이 causal Transformer 백본에 붙는 스트리밍 4D (ACM MM 2026) |
+| 2026-10-28 | [2610.28502](https://arxiv.org/abs/2610.28502) | GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction | 4, 9 | 대기 | 검색 스니펫 기준 · 시선으로 토큰을 줄이는 스마트 글래스 VQA. 3D 비중 낮음 |
+| 2026-10-28 | [2610.27946](https://arxiv.org/abs/2610.27946) | Decoupling Action from Egocentric Observation for World Simulation | 6 | 대기 | 검색 스니펫 기준(제목만) · 10/20 제출 |
+| 2026-10-28 | [2610.16256](https://arxiv.org/abs/2610.16256) | EgoWholeView: Camera-Only Head-Mounted Capture of Body and Bimanual Hand Motion for Embodied Demonstrations | 2, 3,5 | 대기 | 검색 스니펫 기준 · 머리 장착 광각 RGB 6대로 몸·양손 모션 캡처 |
+| 2026-10-28 | [2610.16176](https://arxiv.org/abs/2610.16176) | EgoAlign: Situated 3D Understanding without Situation Descriptions | 4 | 대기 | 검색 스니펫 기준(제3자 미러) · 에이전트 중심 좌표 3D-LLM. SQA3D/Real-3DQA/MSQA |
+| 2026-10-28 | [2609.16684](https://arxiv.org/abs/2609.16684) | MEgoVista: Multi-view Ego-aware Motion Estimation for Metric 4D Hands and Head in the Wild | 2, 3 | 대기 | 검색 스니펫 기준 · 실외 환경 메트릭 4D 손·머리 모션 |
 | 2026-10-27 | [2610.33685](https://arxiv.org/abs/2610.33685) | EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models | 5 | 대기 | 검색 스니펫 기준 |
 | 2026-10-27 | [2610.30089](https://arxiv.org/abs/2610.30089) | ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video | 7 | 대기 | 검색 스니펫 기준 |
 | 2026-10-27 | [2610.29936](https://arxiv.org/abs/2610.29936) | DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos | 2 | 대기 | 검색 스니펫 기준 · 재검색으로는 다시 안 잡힘 |
