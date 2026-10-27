@@ -3,7 +3,8 @@
 1인칭(egocentric) 비디오와 3D 비전이 만나는 연구를 **축(axis)별로 분류**하고, 논문·데이터셋 사이의 관계(백본, 확장, 학습/평가 데이터, 비교 기준선 등)를 **인터랙티브 그래프**로 정리한 저장소입니다.
 
 - **그래프 보기**: `index.html`을 브라우저로 열거나, GitHub Pages를 켜면 웹에서 바로 볼 수 있습니다.
-- **목록으로 보기**: [축별 논문 목록](docs/papers.md) · [연결 목록](docs/edges.md) · [축별 목표와 과제](docs/axes.md)
+- **목록으로 보기**: [축별 논문 목록](docs/papers.md) · [연결 목록](docs/edges.md) · [축별 목표와 과제](docs/axes.md) · [검토 대기](docs/review.md)
+- **검토 대기 탭**: 페이지 상단의 `검토 대기` 탭(`index.html#review`)에서 arXiv 데일리 스캔이 찾은 미배치 논문을 봅니다.
 
 ## 현황
 
@@ -50,12 +51,13 @@
 │   ├── nodes.csv       # 논문·데이터셋 (원본 데이터)
 │   ├── edges.csv       # 노드 간 관계 (원본 데이터)
 │   ├── axes.csv        # 축 정의: 문제·목표·과제·벤치마크·연결
+│   ├── review.csv      # 검토 대기 논문 (arXiv 데일리 스캔이 추가)
 │   └── graph.json      # 빌드 산출물 (CSV 3개를 합친 JSON)
 ├── docs/               # 빌드 산출물 (마크다운 표)
 └── scripts/build.py    # 검증 + 생성 스크립트
 ```
 
-**원본은 `data/*.csv` 세 개뿐입니다.** 나머지는 모두 빌드로 생성됩니다.
+**원본은 `data/*.csv` 네 개뿐입니다.** 나머지는 모두 빌드로 생성됩니다.
 
 ## 데이터 수정하는 법
 
@@ -90,6 +92,8 @@
 | `rel` | `backbone` · `extends` · `trains_on` · `evaluates_on` · `compares` · `cross` · `cites` · `part_of` · `captures` · `produces` |
 | `evidence` | 근거 수준: `원문` · `확인` · `추정` |
 | `note` | 메모 |
+
+**review.csv** — 지형도에 배치하기 전의 후보 논문. `status`는 `대기` · `보류` · `반영` · `제외` 중 하나이며 사용자가 바꿉니다. 지형도에 반영할 때는 `nodes.csv`에 행을 추가하고 여기 `status`를 `반영`으로 바꿉니다.
 
 ## GitHub Pages로 공개하기
 

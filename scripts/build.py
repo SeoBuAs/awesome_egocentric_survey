@@ -23,6 +23,7 @@ REL_KO = {
 }
 STATUSES = {"검증됨", "2차 확인", "원문 기준", "미확인"}
 EVIDENCE = {"원문", "확인", "추정"}
+REVIEW_STATUSES = {"대기", "보류", "반영", "제외"}
 
 
 def read(name):
@@ -57,6 +58,37 @@ def validate(nodes, edges, axes):
         if e["evidence"] not in EVIDENCE:
             errs.append(f"엣지 {e['source']}→{e['target']}: 알 수 없는 evidence '{e['evidence']}'")
     return errs
+
+
+def validate_review(review, nodes, axes):
+    errs = []
+    axis_ids = {a["axis"] for a in axes}
+    seen = set()
+    for r in review:
+        a = r["arxiv"]
+        if not re.fullmatch(r"\d{4}\.\d{4,5}", a):
+            errs.append(f"review: arXiv 형식 이상 '{a}'")
+        if a in seen:
+            errs.append(f"review: 중복 arXiv '{a}'")
+        seen.add(a)
+        for f in ("axis_guess", "axis2_guess"):
+            for x in filter(None, (t.strip() for t in r[f].split(","))):
+                if x not in axis_ids:
+                    errs.append(f"review {a}: 알 수 없는 {f} '{x}'")
+        if r["status"] not in REVIEW_STATUSES:
+            errs.append(f"review {a}: 알 수 없는 status '{r['status']}'")
+    return errs
+
+
+def review_md(review):
+    out = ["# 검토 대기 논문", "",
+           "> `scripts/build.py`가 `data/review.csv`에서 자동 생성합니다. 직접 수정하지 마세요.",
+           "> arXiv 데일리 스캔이 찾은, 아직 지형도에 배치하지 않은 논문입니다. 축은 잠정입니다.", "",
+           "| 발견일 | arXiv | 제목 | 잠정 축 | 상태 | 메모 |", "| --- | --- | --- | --- | --- | --- |"]
+    for r in sorted(review, key=lambda r: (r["found"], r["arxiv"]), reverse=True):
+        ax = ", ".join(filter(None, [r["axis_guess"], r["axis2_guess"]])) or "미정"
+        out.append(f"| {r['found']} | {arxiv_link(r['arxiv'])} | {md_cell(r['title'])} | {ax} | {r['status']} | {md_cell(r['note'])} |")
+    return "\n".join(out)
 
 
 def md_cell(s):
@@ -130,18 +162,18 @@ def stats_block(nodes, edges, axes):
 
 
 def main():
-    nodes, edges, axes = read("nodes"), read("edges"), read("axes")
-    errs = validate(nodes, edges, axes)
+    nodes, edges, axes, review = read("nodes"), read("edges"), read("axes"), read("review")
+    errs = validate(nodes, edges, axes) + validate_review(review, nodes, axes)
     if errs:
         print("검증 실패:\n  " + "\n  ".join(errs), file=sys.stderr)
         sys.exit(1)
-    print(f"검증 통과: 노드 {len(nodes)}, 엣지 {len(edges)}, 축 {len(axes)}")
+    print(f"검증 통과: 노드 {len(nodes)}, 엣지 {len(edges)}, 축 {len(axes)}, 검토 대기 {len(review)}")
     if "--check" in sys.argv:
         return
 
     for a in axes:
         a["order"] = int(a["order"])
-    graph = {"nodes": nodes, "edges": edges, "axes": axes}
+    graph = {"nodes": nodes, "edges": edges, "axes": axes, "review": review}
     (DATA / "graph.json").write_text(json.dumps(graph, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     html_path = ROOT / "index.html"
@@ -157,6 +189,7 @@ def main():
     (DOCS / "papers.md").write_text(papers_md(nodes, axes) + "\n", encoding="utf-8")
     (DOCS / "edges.md").write_text(edges_md(edges) + "\n", encoding="utf-8")
     (DOCS / "axes.md").write_text(axes_md(axes, nodes) + "\n", encoding="utf-8")
+    (DOCS / "review.md").write_text(review_md(review) + "\n", encoding="utf-8")
 
     readme = ROOT / "README.md"
     text = readme.read_text(encoding="utf-8")

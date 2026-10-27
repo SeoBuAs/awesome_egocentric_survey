@@ -2546,5 +2546,214 @@
    "benchmarks": "2D: F1·AUC · 3D: 고정점 거리 오차, 시퀀스 유사도, 3D 시야 IoU · Ego4D, EGTEA Gaze+, ADT, FoVS-Aria/FoVS-EgoExo.",
    "connections": "축 3(Aria 데이터)의 시선 GT와 축 1의 카메라 포즈·3D 기하를 입력으로 받고, 축 2의 손-물체 의도 예측, 축 4의 행동 이해, 축 5의 능동 시각 정책에 단서를 공급합니다."
   }
+ ],
+ "review": [
+  {
+   "arxiv": "2610.26780",
+   "title": "V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos",
+   "found": "2026-10-27",
+   "axis_guess": "2",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.29936",
+   "title": "DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos",
+   "found": "2026-10-27",
+   "axis_guess": "2",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 재검색으로는 다시 안 잡힘"
+  },
+  {
+   "arxiv": "2610.01210",
+   "title": "EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes",
+   "found": "2026-10-27",
+   "axis_guess": "2",
+   "axis2_guess": "1∩2",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2607.17790",
+   "title": "ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video",
+   "found": "2026-10-27",
+   "axis_guess": "1",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 10/7 v3"
+  },
+  {
+   "arxiv": "2610.07217",
+   "title": "RoboCap: A New Platform for Egocentric Robot Learning",
+   "found": "2026-10-27",
+   "axis_guess": "3",
+   "axis2_guess": "5",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.22681",
+   "title": "EgoP²C: Internalizing Plan-Perceive-Compose for Spatial Reasoning in Egocentric Video",
+   "found": "2026-10-27",
+   "axis_guess": "4",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.04139",
+   "title": "From Sight to Foresight: Predictive Spatial Reasoning in Vision-Language Models (SpatialMind)",
+   "found": "2026-10-27",
+   "axis_guess": "4",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.04506",
+   "title": "EgoExo-Next: Benchmarking VLMs on Visual-Option Next-State and Cross-View Reasoning",
+   "found": "2026-10-27",
+   "axis_guess": "4",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.18499",
+   "title": "EgoOmniWorld: Unifying Egocentric Understanding via Ego-Action-World Interactions",
+   "found": "2026-10-27",
+   "axis_guess": "4",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2609.16610",
+   "title": "EgoPathBench: Evaluating Zero-Shot Egocentric Waypoint Decision-Making in VLMs",
+   "found": "2026-10-27",
+   "axis_guess": "4",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.33685",
+   "title": "EXE: Egocentric Cross-Embodiment Pretraining via Factorized Latent Actions for VLA Models",
+   "found": "2026-10-27",
+   "axis_guess": "5",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.08726",
+   "title": "EgoLAP: Learning from Egocentric Human Data through Language-Action Reasoning",
+   "found": "2026-10-27",
+   "axis_guess": "5",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.18950",
+   "title": "λ0: Scaling Open-World Egocentric Human Data for Humanoid Loco-Manipulation",
+   "found": "2026-10-27",
+   "axis_guess": "5",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.18373",
+   "title": "DR-VLA: Learning Human-Like Quadruped Navigation from Egocentric Web Videos",
+   "found": "2026-10-27",
+   "axis_guess": "5",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.01092",
+   "title": "Ego2Act: Evaluating Goal-Directed Manipulation in Egocentric Video Generation",
+   "found": "2026-10-27",
+   "axis_guess": "6",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.30089",
+   "title": "ProactEgoMem: Benchmarking Proactive Memory in Streaming Egocentric Video",
+   "found": "2026-10-27",
+   "axis_guess": "7",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.17128",
+   "title": "EgoProbe: Benchmarking Long-Range and Exact Memory in Streaming Egocentric Videos",
+   "found": "2026-10-27",
+   "axis_guess": "7",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2609.01276",
+   "title": "Seeing the World and the Self from Egocentric Video",
+   "found": "2026-10-27",
+   "axis_guess": "",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "제목만 확인 · 축 미정"
+  },
+  {
+   "arxiv": "2610.12442",
+   "title": "LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation",
+   "found": "2026-10-27",
+   "axis_guess": "8",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.19330",
+   "title": "NavAble: A Large-Scale Dataset and Synthetic Data Generation Pipeline for Blind Navigation",
+   "found": "2026-10-27",
+   "axis_guess": "8",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 관찰 주제: 시각장애인 보조"
+  },
+  {
+   "arxiv": "2610.22822",
+   "title": "VISTA: A Multimodal Egocentric Benchmark for Goal-Oriented Perception and Assistance to BLV Users",
+   "found": "2026-10-27",
+   "axis_guess": "",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 관찰 주제: 시각장애인 보조"
+  },
+  {
+   "arxiv": "2610.18836",
+   "title": "PLAN-Bench: Can Existing VLMs Go Well Beyond Perception to Reason and Plan in Embodied Worlds?",
+   "found": "2026-10-27",
+   "axis_guess": "",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준"
+  },
+  {
+   "arxiv": "2610.00069",
+   "title": "A Framework for Egocentric and Exocentric Procedural Understanding via Temporal Segmentation and Semantic Abstraction",
+   "found": "2026-10-27",
+   "axis_guess": "",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 3D와 무관할 가능성 큼"
+  }
  ]
 }
