@@ -84,9 +84,17 @@ def validate_review(review, nodes, axes):
     return errs
 
 
-def validate_hoi(hoi):
+def validate_hoi(hoi, hoi_edges):
     errs = []
     ids = [r["id"] for r in hoi]
+    for e in hoi_edges:
+        for k in ("source", "target"):
+            if e[k] not in ids:
+                errs.append(f"hoi 엣지 {e['source']}→{e['target']}: 없는 노드 '{e[k]}'")
+        if e["rel"] not in REL_KO:
+            errs.append(f"hoi 엣지 {e['source']}→{e['target']}: 알 수 없는 rel '{e['rel']}'")
+        if e["evidence"] not in EVIDENCE:
+            errs.append(f"hoi 엣지 {e['source']}→{e['target']}: 알 수 없는 evidence '{e['evidence']}'")
     errs += [f"hoi: 중복 id '{i}'" for i, c in Counter(ids).items() if c > 1]
     for r in hoi:
         if r["group"] not in HOI_GROUPS:
@@ -98,7 +106,7 @@ def validate_hoi(hoi):
     return errs
 
 
-def hoi_md(hoi):
+def hoi_md(hoi, hoi_edges):
     out = ["# 번외 · 물리 기반 잡기/HOI 합성", "",
            "> `scripts/build.py`가 `data/hoi.csv`에서 자동 생성합니다. 직접 수정하지 마세요.",
            "> 에고센트릭 지형도와 별개인 번외 정리입니다. 그래프·통계·검토 대기·데일리 스캔에 포함되지 않습니다.", ""]
@@ -112,6 +120,9 @@ def hoi_md(hoi):
         out += [f"| {md_cell(r['title'])} | {md_cell(r['venue'])} | {arxiv_link(r['arxiv'])} | {md_cell(r['subject'])} | "
                 f"{md_cell(r['method'])} | {md_cell(r['physics'])} | {md_cell(r['relevance'])} |" for r in rows]
         out.append("")
+    label = {r["id"]: r["label"] for r in hoi}
+    out += ["## 연결", "", "| source → target | 관계 | 근거 | 메모 |", "| --- | --- | --- | --- |"]
+    out += [f"| {label[e['source']]} → {label[e['target']]} | {REL_KO[e['rel']]} | {e['evidence']} | {md_cell(e['note'])} |" for e in hoi_edges]
     return "\n".join(out)
 
 
@@ -198,18 +209,19 @@ def stats_block(nodes, edges, axes):
 
 def main():
     nodes, edges, axes, review, hoi = read("nodes"), read("edges"), read("axes"), read("review"), read("hoi")
-    errs = validate(nodes, edges, axes) + validate_review(review, nodes, axes) + validate_hoi(hoi)
+    hoi_edges = read("hoi_edges")
+    errs = validate(nodes, edges, axes) + validate_review(review, nodes, axes) + validate_hoi(hoi, hoi_edges)
     if errs:
         print("검증 실패:\n  " + "\n  ".join(errs), file=sys.stderr)
         sys.exit(1)
-    print(f"검증 통과: 노드 {len(nodes)}, 엣지 {len(edges)}, 축 {len(axes)}, 검토 대기 {len(review)}, 번외 HOI {len(hoi)}")
+    print(f"검증 통과: 노드 {len(nodes)}, 엣지 {len(edges)}, 축 {len(axes)}, 검토 대기 {len(review)}, 번외 HOI {len(hoi)}/{len(hoi_edges)}")
     if "--check" in sys.argv:
         return
 
     for a in axes:
         a["order"] = int(a["order"])
     graph = {"nodes": nodes, "edges": edges, "axes": axes, "review": review,
-             "hoi": hoi, "hoi_groups": [{"group": g, "name": n} for g, n in HOI_GROUPS.items()]}
+             "hoi": hoi, "hoi_edges": hoi_edges, "hoi_groups": [{"group": g, "name": n} for g, n in HOI_GROUPS.items()]}
     (DATA / "graph.json").write_text(json.dumps(graph, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
     html_path = ROOT / "index.html"
@@ -226,7 +238,7 @@ def main():
     (DOCS / "edges.md").write_text(edges_md(edges) + "\n", encoding="utf-8")
     (DOCS / "axes.md").write_text(axes_md(axes, nodes) + "\n", encoding="utf-8")
     (DOCS / "review.md").write_text(review_md(review) + "\n", encoding="utf-8")
-    (DOCS / "hoi.md").write_text(hoi_md(hoi) + "\n", encoding="utf-8")
+    (DOCS / "hoi.md").write_text(hoi_md(hoi, hoi_edges) + "\n", encoding="utf-8")
 
     readme = ROOT / "README.md"
     text = readme.read_text(encoding="utf-8")

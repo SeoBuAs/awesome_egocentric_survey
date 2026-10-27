@@ -59,3 +59,32 @@
 | UniDexGrasp: Universal Robotic Dexterous Grasping via Learning Diverse Proposal Generation and Goal-Conditioned Policy | CVPR 2023 | [2303.00938](https://arxiv.org/abs/2303.00938) | 로봇손 | 잡기 제안 생성 + 목표 조건 정책 2단계 | 물리 기반 (RL) | 사람 손이 아님 |
 | UniDexGrasp++: Improving Dexterous Grasping Policy Learning via Geometry-aware Curriculum and Iterative Generalist-Specialist Learning | ICCV 2023 | [2304.00464](https://arxiv.org/abs/2304.00464) | 로봇손 | 기하 인지 커리큘럼 + 일반-전문 정책 반복 학습. 학습/시험 성공률 85.4/78.2% | 물리 기반 (RL) | 사람 손이 아님 |
 
+## 연결
+
+| source → target | 관계 | 근거 | 메모 |
+| --- | --- | --- | --- |
+| GRAB → D-Grasp | 백본으로 사용 | 추정 | 정지 잡기를 목표 자세(reference)로 사용 |
+| D-Grasp → ArtiGrasp | 직접 확장 | 확인 | 양손·관절 물체로 확장 (같은 그룹) |
+| D-Grasp → GraspXL | 직접 확장 | 추정 | 같은 그룹, 물체 규모 확장 |
+| ArtiGrasp → GraspXL | 개념 연결 | 추정 | 같은 그룹 후속 |
+| D-Grasp → Braun et al. | 개념 연결 | 추정 | 손 → 전신으로 확장 (공저자 Christen) |
+| GRAB → Braun et al. | 평가 데이터 | 확인 | GRAB 기준 평가 |
+| Braun et al. → Omnigrasp | 비교 기준선 | 확인 | Omnigrasp의 비교 대상 |
+| Omnigrasp → CoorDex | 개념 연결 | 추정 | 몸·손 prior를 행동 공간으로 쓰는 방향 |
+| GRAB → PiHand | 평가 데이터 | 확인 | GRAB·DexYCB 평가 |
+| D-Grasp → PiHand | 개념 연결 | 추정 | MANO 손 물리 RL 계보 |
+| PhysHOI → SkillMimic | 직접 확장 | 추정 | 같은 1저자 후속 |
+| PhysHOI → InterReal | 개념 연결 | 추정 | HOI 모방을 실로봇으로 |
+| MaskedMimic → MaskedManipulator | 직접 확장 | 확인 | 전신 물체 조작으로 확장 |
+| MaskedManipulator → CoorDex | 개념 연결 | 추정 | 전신 조작 제어기 |
+| Grasp'D → Fast-Grasp'D | 직접 확장 | 확인 | 20배 가속 |
+| ContactOpt → GraspTTA | 개념 연결 | 추정 | 접촉 기반 잡기 보정 |
+| ContactOpt → Grasp-and-Lift | 개념 연결 | 추정 | 영상 추정 HOI 보정 (접촉 → 물리 성공) |
+| HOIC → Grasp-and-Lift | 개념 연결 | 추정 | 영상 → 물리 복원 |
+| GraspTTA → UniDexGrasp | 비교 기준선 | 확인 | UniDexGrasp의 기준선 |
+| DexGraspNet → UniDexGrasp | 학습 데이터 | 추정 |  |
+| UniDexGrasp → UniDexGrasp++ | 직접 확장 | 확인 | 성공률 +11%p |
+| QuasiSim → DexTrack | 직접 확장 | 추정 | 같은 그룹 후속 |
+| QuasiSim → ManipTrans | 비교 기준선 | 추정 |  |
+| ManipTrans → DexMachina | 비교 기준선 | 추정 |  |
+| Grasp'D → GraspXL | 개념 연결 | 추정 | MANO + 로봇손 양쪽 대상 |

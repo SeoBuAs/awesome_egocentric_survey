@@ -1,0 +1,26 @@
+source,target,rel,evidence,note
+GRAB,DGrasp,backbone,추정,정지 잡기를 목표 자세(reference)로 사용
+DGrasp,ArtiGrasp,extends,확인,양손·관절 물체로 확장 (같은 그룹)
+DGrasp,GraspXL,extends,추정,"같은 그룹, 물체 규모 확장"
+ArtiGrasp,GraspXL,cross,추정,같은 그룹 후속
+DGrasp,BraunFBHOI,cross,추정,손 → 전신으로 확장 (공저자 Christen)
+GRAB,BraunFBHOI,evaluates_on,확인,GRAB 기준 평가
+BraunFBHOI,Omnigrasp,compares,확인,Omnigrasp의 비교 대상
+Omnigrasp,CoorDex,cross,추정,몸·손 prior를 행동 공간으로 쓰는 방향
+GRAB,PiHand,evaluates_on,확인,GRAB·DexYCB 평가
+DGrasp,PiHand,cross,추정,MANO 손 물리 RL 계보
+PhysHOI,SkillMimic,extends,추정,같은 1저자 후속
+PhysHOI,InterReal,cross,추정,HOI 모방을 실로봇으로
+MaskedMimic,MaskedManipulator,extends,확인,전신 물체 조작으로 확장
+MaskedManipulator,CoorDex,cross,추정,전신 조작 제어기
+GraspD,FastGraspD,extends,확인,20배 가속
+ContactOpt,GraspTTA,cross,추정,접촉 기반 잡기 보정
+ContactOpt,GraspAndLift,cross,추정,영상 추정 HOI 보정 (접촉 → 물리 성공)
+HOIC,GraspAndLift,cross,추정,영상 → 물리 복원
+GraspTTA,UniDexGrasp,compares,확인,UniDexGrasp의 기준선
+DexGraspNet,UniDexGrasp,trains_on,추정,
+UniDexGrasp,UniDexGradPP,extends,확인,성공률 +11%p
+QuasiSim,DexTrack,extends,추정,같은 그룹 후속
+QuasiSim,ManipTrans,compares,추정,
+ManipTrans,DexMachina,compares,추정,
+GraspD,GraspXL,cross,추정,MANO + 로봇손 양쪽 대상
