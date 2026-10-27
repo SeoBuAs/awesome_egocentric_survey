@@ -5,6 +5,7 @@
 - **그래프 보기**: `index.html`을 브라우저로 열거나, GitHub Pages를 켜면 웹에서 바로 볼 수 있습니다.
 - **목록으로 보기**: [축별 논문 목록](docs/papers.md) · [연결 목록](docs/edges.md) · [축별 목표와 과제](docs/axes.md) · [검토 대기](docs/review.md)
 - **검토 대기 탭**: 페이지 상단의 `검토 대기` 탭(`index.html#review`)에서 arXiv 데일리 스캔이 찾은 미배치 논문을 봅니다.
+- **번외 · HOI 탭** (`index.html#hoi`, [표](docs/hoi.md)): 물리 기반 잡기·HOI 합성 연구를 따로 정리했습니다. 에고센트릭 지형도와 섞지 않으며 그래프·통계·데일리 스캔에 포함되지 않습니다. 원본은 `data/hoi.csv`.
 
 ## 현황
 
