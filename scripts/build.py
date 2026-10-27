@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DOCS = ROOT / "docs"
 
-AXIS_ORDER = ["B", "1", "2", "1∩2", "3", "4", "5", "6", "7", "8"]
+AXIS_ORDER = ["B", "1", "2", "1∩2", "3", "4", "5", "6", "7", "8", "9"]
 REL_KO = {
     "backbone": "백본으로 사용", "extends": "직접 확장", "trains_on": "학습 데이터",
     "evaluates_on": "평가 데이터", "compares": "비교 기준선", "cross": "개념 연결",

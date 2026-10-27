@@ -4,7 +4,7 @@
 
 `A → B`: B가 A를 백본·데이터·비교 대상 등으로 사용함.
 
-## 백본으로 사용 (`backbone`, 13)
+## 백본으로 사용 (`backbone`, 15)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -21,6 +21,8 @@
 | HaWoR → EgoRecovery | 원문 | 손 재구성 |
 | VGGT → VGGTDP | 확인 | VGGT를 시각 인코더로 채택 |
 | HaMeR → UniHand | 확인 | 2D 손 관절 라벨링 |
+| MANO → GazeHandPred | 추정 |  |
+| MANO → Gaze2HOI | 확인 | MANO 별도 라이선스 필요 |
 
 ## 직접 확장 (`extends`, 9)
 
@@ -53,7 +55,7 @@
 | DROIDdata → DexWM | 확인 |  |
 | EgoExo4D → EgoMAN | 확인 |  |
 
-## 평가 데이터 (`evaluates_on`, 12)
+## 평가 데이터 (`evaluates_on`, 18)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -69,8 +71,14 @@
 | HOT3D → DPDeGauss | 확인 |  |
 | EPICFields → DPDeGauss | 확인 |  |
 | HOT3D → ACEEgoHand | 확인 |  |
+| Ego4D → GLC | 확인 |  |
+| Ego4D → CSTS | 확인 |  |
+| ADT → Scanpath3D | 확인 | 184 시퀀스 |
+| AEA → EgoSpanLift | 확인 | FoVS-Aria 구성 |
+| EgoExo4D → EgoSpanLift | 확인 | FoVS-EgoExo 구성 |
+| EgoExo4D → ARGaze | 확인 |  |
 
-## 비교 기준선 (`compares`, 23)
+## 비교 기준선 (`compares`, 25)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -97,8 +105,10 @@
 | STream3R → IGGT4D | 추정 | 스트리밍 재구성 기준선과 비교했다고 보고, STream3R 포함 여부는 미확인 |
 | HOISynth → EgoInteract | 추정 | EgoInteract가 정지 이미지 한계로 언급한 기존 합성 HOI 파이프라인으로 추정 |
 | EgoXGen → Exo2EgoHOI | 추정 | 엑소→에고 생성 선행 연구 |
+| GLC → CSTS | 확인 | GLC를 기준선으로 비교 |
+| GLC → ARGaze | 추정 |  |
 
-## 개념 연결 (`cross`, 25)
+## 개념 연결 (`cross`, 32)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -127,6 +137,13 @@
 | Masquerade → EgoMatrix | 추정 | 사람 영상 → 로봇 시연 변환 |
 | DexWM → Wh0 | 추정 | 생성 월드 모델을 데이터원으로 활용하는 반대 방향 |
 | Xp10M → Wh0 | 추정 | 실제 대규모 에고 데이터 대 생성 데이터 |
+| CSTS → Scanpath3D | 추정 | 2D 시선 예측 → 3D 고정점 예측으로 확장 (공저자 Ryan) |
+| EgoSpanLift → Scanpath3D | 추정 | 3D 시야 범위 vs 3D 고정점 시퀀스 (공저자 Murdock) |
+| GLC → G3Ego | 추정 | 시선을 보조 입력이 아닌 그래프 구성 기준으로 사용 |
+| GazeHandPred → Gaze2HOI | 추정 | 시선 기반 손 동작·의도 예측 계보 |
+| LookFocusAct → TAVIS | 추정 | 시선 예측형 능동 시각 모방학습 |
+| EgoMI → TAVIS | 추정 | 머리/시선 능동 시각 |
+| Scanpath3D → Gaze2HOI | 추정 | 미래 3D 시선 → 상호작용 의도 단서 |
 
 ## 인용 (`cites`, 5)
 

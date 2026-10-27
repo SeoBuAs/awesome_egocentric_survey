@@ -1416,6 +1416,188 @@
    "isNew": "N",
    "status": "검증됨",
    "note": "웹 규모 단안 에고 영상에서 정적 3D 장면·카메라 궤적·손 동작을 짝지은 학습 데이터를 만드는 파이프라인 포함. 저가 수집 장치 EgoCap도 제안"
+  },
+  {
+   "id": "GLC",
+   "label": "GLC",
+   "title": "In the Eye of Transformer: Global-Local Correlation for Egocentric Gaze Estimation",
+   "date": "2022-08",
+   "venue": "미확인 (원문: BMVC 2022, 확장판 IJCV)",
+   "arxiv": "2208.04464",
+   "axis": "9",
+   "axis2": "",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "최초의 트랜스포머 기반 에고 시선 추정. EGTEA Gaze+, Ego4D에서 F1 +3.9/+5.6"
+  },
+  {
+   "id": "CSTS",
+   "label": "CSTS",
+   "title": "Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation",
+   "date": "2023-05",
+   "venue": "ECCV 2024",
+   "arxiv": "2305.03907",
+   "axis": "9",
+   "axis2": "",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "2D 시선 예측(anticipation). 오디오-비주얼 융합(CSTS). Ego4D·Aria 평가"
+  },
+  {
+   "id": "ADT",
+   "label": "Aria Digital Twin",
+   "title": "Aria Digital Twin: A New Benchmark Dataset for Egocentric 3D Machine Perception",
+   "date": "2023-06",
+   "venue": "미확인",
+   "arxiv": "2306.06362",
+   "axis": "3",
+   "axis2": "9",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "200 시퀀스, 객체 398개, 디지털 트윈 GT + 시선"
+  },
+  {
+   "id": "AEA",
+   "label": "Aria Everyday Activities",
+   "title": "Aria Everyday Activities (AEA) Dataset",
+   "date": "2024-02",
+   "venue": "미확인",
+   "arxiv": "",
+   "axis": "3",
+   "axis2": "9",
+   "isNew": "Y",
+   "status": "미확인",
+   "note": "143 녹화·7.3시간 (FoVS-Aria 기준). arXiv ID 미확인"
+  },
+  {
+   "id": "EgoSpanLift",
+   "label": "EgoSpanLift",
+   "title": "Gaze Beyond the Frame: Forecasting Egocentric 3D Visual Span",
+   "date": "2025-11",
+   "venue": "NeurIPS 2025 Spotlight (검색 기준)",
+   "arxiv": "2511.18470",
+   "axis": "9",
+   "axis2": "1",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "SLAM 키포인트로 시선을 3D로 올려 미래 3D 시야 범위를 격자로 예측. FoVS-Aria/FoVS-EgoExo 364.6K 샘플"
+  },
+  {
+   "id": "Scanpath3D",
+   "label": "3D Scanpath",
+   "title": "Forecasting 3D Scanpaths in Egocentric Video",
+   "date": "2026-06",
+   "venue": "CVPR 2026",
+   "arxiv": "",
+   "axis": "9",
+   "axis2": "1",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "Ryan·Ananthabhotla·Qian·Hoffman·Rehg·Ithapu·Murdock. 영상+헤드포즈+과거 3D 시선 → 마지막 카메라 포즈 기준 미래 3D 고정점 시퀀스. ADT 184 시퀀스. arXiv 미확인"
+  },
+  {
+   "id": "ARGaze",
+   "label": "ARGaze",
+   "title": "ARGaze: Autoregressive Transformers for Online Egocentric Gaze Estimation",
+   "date": "2026-02",
+   "venue": "—",
+   "arxiv": "2602.05132",
+   "axis": "9",
+   "axis2": "",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "온라인·인과적 시선 추정. EgoExo4D 에고 영상, Aria MPS 3D 시선 → 2D 히트맵"
+  },
+  {
+   "id": "EgoCampus",
+   "label": "EgoCampus",
+   "title": "EgoCampus: Egocentric Pedestrian Eye Gaze Model and Dataset",
+   "date": "2025-12",
+   "venue": "—",
+   "arxiv": "2512.07668",
+   "axis": "9",
+   "axis2": "3",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "Aria 글래스 실외 보행 시선 데이터, 25 경로·6km 이상. 공개 예정"
+  },
+  {
+   "id": "G3Ego",
+   "label": "G3Ego",
+   "title": "G3Ego: Gaze-Guided Graphs for Egocentric Action Understanding",
+   "date": "2026-08",
+   "venue": "—",
+   "arxiv": "2608.20157",
+   "axis": "9",
+   "axis2": "4",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "시선이 가리키지 않는 엔티티를 제거한 장면 그래프로 행동 인식·예측. EGTEA Gaze+, MECCANO"
+  },
+  {
+   "id": "GazeHandPred",
+   "label": "Gaze-Guided Hand Pred.",
+   "title": "Gaze-Guided 3D Hand Motion Prediction for Detecting Intent in Egocentric Grasping Tasks",
+   "date": "2025-03",
+   "venue": "IROS 2025 (2차 인용)",
+   "arxiv": "2504.01024",
+   "axis": "2",
+   "axis2": "9",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "시선+과거 손 동작+객체 정보 → 미래 3D 손 포즈 (VQ-VAE + AR 트랜스포머). 입력 프레임이 적을수록 시선 효과 큼"
+  },
+  {
+   "id": "Gaze2HOI",
+   "label": "Gaze2HOI",
+   "title": "Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting",
+   "date": "2026-10",
+   "venue": "—",
+   "arxiv": "2610.27877",
+   "axis": "2",
+   "axis2": "9",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "RGB+시선 → 구조화 의도 → 접촉 기하 → 손-물체 동작 생성. 3D 손/물체 상태와 씬 기하 필요. EgoAIM 벤치마크"
+  },
+  {
+   "id": "LookFocusAct",
+   "label": "Look, Focus, Act",
+   "title": "Look, Focus, Act: Efficient and Robust Robot Learning via Human Gaze and Foveated Vision",
+   "date": "2025-07",
+   "venue": "—",
+   "arxiv": "2507.15833",
+   "axis": "5",
+   "axis2": "9",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "VR 시연의 시선을 예측 → 중심와(foveated) 처리 → flow matching 행동. AV-ALOHA. 정식 제목 원문 확인 필요"
+  },
+  {
+   "id": "TAVIS",
+   "label": "TAVIS",
+   "title": "TAVIS: A Benchmark for Egocentric Active Vision and Anticipatory Gaze in Imitation Learning",
+   "date": "2026-05",
+   "venue": "—",
+   "arxiv": "2605.07943",
+   "axis": "5",
+   "axis2": "9",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "IsaacLab 시뮬레이션, GR1T2·Reachy2. 예측 시선 지표 GALT. π0·Diffusion Policy 기준선"
+  },
+  {
+   "id": "EgoMI",
+   "label": "EgoMI",
+   "title": "EgoMI: Learning Active Vision and Whole-Body Manipulation from Egocentric Human Demonstrations",
+   "date": "2025-10",
+   "venue": "—",
+   "arxiv": "2511.00153",
+   "axis": "5",
+   "axis2": "9",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "손+머리 궤적 동기 캡처 → 반휴머노이드 리타게팅. 시선 대신 머리 움직임 사용"
   }
  ],
  "edges": [
@@ -2132,6 +2314,125 @@
    "rel": "cross",
    "evidence": "추정",
    "note": "실제 대규모 에고 데이터 대 생성 데이터"
+  },
+  {
+   "source": "Ego4D",
+   "target": "GLC",
+   "rel": "evaluates_on",
+   "evidence": "확인",
+   "note": ""
+  },
+  {
+   "source": "GLC",
+   "target": "CSTS",
+   "rel": "compares",
+   "evidence": "확인",
+   "note": "GLC를 기준선으로 비교"
+  },
+  {
+   "source": "Ego4D",
+   "target": "CSTS",
+   "rel": "evaluates_on",
+   "evidence": "확인",
+   "note": ""
+  },
+  {
+   "source": "CSTS",
+   "target": "Scanpath3D",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "2D 시선 예측 → 3D 고정점 예측으로 확장 (공저자 Ryan)"
+  },
+  {
+   "source": "ADT",
+   "target": "Scanpath3D",
+   "rel": "evaluates_on",
+   "evidence": "확인",
+   "note": "184 시퀀스"
+  },
+  {
+   "source": "AEA",
+   "target": "EgoSpanLift",
+   "rel": "evaluates_on",
+   "evidence": "확인",
+   "note": "FoVS-Aria 구성"
+  },
+  {
+   "source": "EgoExo4D",
+   "target": "EgoSpanLift",
+   "rel": "evaluates_on",
+   "evidence": "확인",
+   "note": "FoVS-EgoExo 구성"
+  },
+  {
+   "source": "EgoSpanLift",
+   "target": "Scanpath3D",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "3D 시야 범위 vs 3D 고정점 시퀀스 (공저자 Murdock)"
+  },
+  {
+   "source": "EgoExo4D",
+   "target": "ARGaze",
+   "rel": "evaluates_on",
+   "evidence": "확인",
+   "note": ""
+  },
+  {
+   "source": "GLC",
+   "target": "ARGaze",
+   "rel": "compares",
+   "evidence": "추정",
+   "note": ""
+  },
+  {
+   "source": "GLC",
+   "target": "G3Ego",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "시선을 보조 입력이 아닌 그래프 구성 기준으로 사용"
+  },
+  {
+   "source": "MANO",
+   "target": "GazeHandPred",
+   "rel": "backbone",
+   "evidence": "추정",
+   "note": ""
+  },
+  {
+   "source": "MANO",
+   "target": "Gaze2HOI",
+   "rel": "backbone",
+   "evidence": "확인",
+   "note": "MANO 별도 라이선스 필요"
+  },
+  {
+   "source": "GazeHandPred",
+   "target": "Gaze2HOI",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "시선 기반 손 동작·의도 예측 계보"
+  },
+  {
+   "source": "LookFocusAct",
+   "target": "TAVIS",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "시선 예측형 능동 시각 모방학습"
+  },
+  {
+   "source": "EgoMI",
+   "target": "TAVIS",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "머리/시선 능동 시각"
+  },
+  {
+   "source": "Scanpath3D",
+   "target": "Gaze2HOI",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "미래 3D 시선 → 상호작용 의도 단서"
   }
  ],
  "axes": [
@@ -2234,6 +2535,16 @@
    "challenges": "합성–실제 도메인 격차, 생성 영상의 물리적·기하적 일관성, 자동 주석의 품질 검증, 사람→로봇 겉모습 차이를 메우는 편집의 한계, 데이터 양이 성능으로 이어지는지에 대한 스케일링 실증.",
    "benchmarks": "합성 데이터를 섞었을 때 실제 벤치마크 성능 향상(HOI 검출 AP, 행동 분할·예측 정확도, 카메라 추적·메시 복원 오차), 실로봇 성공률, 주석 품질(손 포즈 선호 평가 등).",
    "connections": "축 B·2의 손·기하 모델로 주석을 만들고, 축 6의 생성 모델을 데이터원으로 쓰며, 결과물은 축 1·2·4의 지각 모델과 축 5 로봇 정책의 학습 데이터가 됩니다."
+  },
+  {
+   "axis": "9",
+   "order": 10,
+   "name": "에고 시선·주의 예측 (2D→3D)",
+   "problem": "사람이 다음에 어디를 볼지는 행동 의도의 가장 이른 신호입니다. 기존 연구는 2D 영상 평면의 시선 히트맵 추정·예측에 머물러, 화면 밖이나 머리 회전 이후의 주의 대상을 다루지 못했습니다.",
+   "goal": "헤드포즈·영상·과거 시선으로 미래의 3D 고정점(scanpath)과 3D 시야 범위를 월드 좌표로 예측하고, 이를 손-물체 상호작용 예측·VLM 추론·로봇 능동 시각에 쓰는 것.",
+   "challenges": "3D 시선 GT를 가진 데이터가 Aria 계열(ADT, AEA, EgoExo4D)에 한정, 시선 고정점과 깊이의 결합 오차, 개인차·과제 의존성, 2D 지표(F1)와 3D 지표의 불일치, 시선 데이터의 개인정보 문제.",
+   "benchmarks": "2D: F1·AUC · 3D: 고정점 거리 오차, 시퀀스 유사도, 3D 시야 IoU · Ego4D, EGTEA Gaze+, ADT, FoVS-Aria/FoVS-EgoExo.",
+   "connections": "축 3(Aria 데이터)의 시선 GT와 축 1의 카메라 포즈·3D 기하를 입력으로 받고, 축 2의 손-물체 의도 예측, 축 4의 행동 이해, 축 5의 능동 시각 정책에 단서를 공급합니다."
   }
  ]
 }

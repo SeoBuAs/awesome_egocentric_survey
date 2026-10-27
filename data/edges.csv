@@ -101,3 +101,20 @@ EgoXGen,Exo2EgoHOI,compares,추정,엑소→에고 생성 선행 연구
 DWM,EgoSim,cites,확인,
 EgoExo4D,EgoSim,cites,확인,
 Xp10M,Wh0,cross,추정,실제 대규모 에고 데이터 대 생성 데이터
+Ego4D,GLC,evaluates_on,확인,
+GLC,CSTS,compares,확인,GLC를 기준선으로 비교
+Ego4D,CSTS,evaluates_on,확인,
+CSTS,Scanpath3D,cross,추정,2D 시선 예측 → 3D 고정점 예측으로 확장 (공저자 Ryan)
+ADT,Scanpath3D,evaluates_on,확인,184 시퀀스
+AEA,EgoSpanLift,evaluates_on,확인,FoVS-Aria 구성
+EgoExo4D,EgoSpanLift,evaluates_on,확인,FoVS-EgoExo 구성
+EgoSpanLift,Scanpath3D,cross,추정,3D 시야 범위 vs 3D 고정점 시퀀스 (공저자 Murdock)
+EgoExo4D,ARGaze,evaluates_on,확인,
+GLC,ARGaze,compares,추정,
+GLC,G3Ego,cross,추정,시선을 보조 입력이 아닌 그래프 구성 기준으로 사용
+MANO,GazeHandPred,backbone,추정,
+MANO,Gaze2HOI,backbone,확인,MANO 별도 라이선스 필요
+GazeHandPred,Gaze2HOI,cross,추정,시선 기반 손 동작·의도 예측 계보
+LookFocusAct,TAVIS,cross,추정,시선 예측형 능동 시각 모방학습
+EgoMI,TAVIS,cross,추정,머리/시선 능동 시각
+Scanpath3D,Gaze2HOI,cross,추정,미래 3D 시선 → 상호작용 의도 단서

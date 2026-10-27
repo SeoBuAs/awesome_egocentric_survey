@@ -108,3 +108,17 @@ Masquerade,Masquerade,Masquerade: Learning from In-the-wild Human Videos using D
 Wh0,Wh0,Wh0: Generative World Models as Scalable Sources of Egocentric Human Hand Manipulation Data,2026-06,—,2606.22136,8,"6,5",N,검증됨,"생성 비디오 월드 모델로 에고 손 조작 영상 5만 에피소드(WM-H)를 만들고, 소량의 실로봇 데이터와 함께 학습해 덱스터러스 VLA를 적응"
 Exo2EgoHOI,Exo2EgoHOI,Exo2EgoHOI: Hand-Object-Interaction Aware Exocentric-to-Egocentric Video Generation,2026-09,—,2609.38615,8,6,Y,검증됨,풍부한 3인칭 조작 영상을 1인칭으로 바꾸면서 손–물체 상호작용을 보존. 장면 기하·손 렌더링·손–물체 관계장을 합친 4D HOI prior 사용
 EgoSim,EgoSim,EgoSim: Egocentric World Simulator for Embodied Interaction Generation,2026-04,—,2604.01001,6,8,N,검증됨,웹 규모 단안 에고 영상에서 정적 3D 장면·카메라 궤적·손 동작을 짝지은 학습 데이터를 만드는 파이프라인 포함. 저가 수집 장치 EgoCap도 제안
+GLC,GLC,In the Eye of Transformer: Global-Local Correlation for Egocentric Gaze Estimation,2022-08,"미확인 (원문: BMVC 2022, 확장판 IJCV)",2208.04464,9,,Y,2차 확인,"최초의 트랜스포머 기반 에고 시선 추정. EGTEA Gaze+, Ego4D에서 F1 +3.9/+5.6"
+CSTS,CSTS,Listen to Look into the Future: Audio-Visual Egocentric Gaze Anticipation,2023-05,ECCV 2024,2305.03907,9,,Y,2차 확인,2D 시선 예측(anticipation). 오디오-비주얼 융합(CSTS). Ego4D·Aria 평가
+ADT,Aria Digital Twin,Aria Digital Twin: A New Benchmark Dataset for Egocentric 3D Machine Perception,2023-06,미확인,2306.06362,3,9,Y,2차 확인,"200 시퀀스, 객체 398개, 디지털 트윈 GT + 시선"
+AEA,Aria Everyday Activities,Aria Everyday Activities (AEA) Dataset,2024-02,미확인,,3,9,Y,미확인,143 녹화·7.3시간 (FoVS-Aria 기준). arXiv ID 미확인
+EgoSpanLift,EgoSpanLift,Gaze Beyond the Frame: Forecasting Egocentric 3D Visual Span,2025-11,NeurIPS 2025 Spotlight (검색 기준),2511.18470,9,1,Y,2차 확인,SLAM 키포인트로 시선을 3D로 올려 미래 3D 시야 범위를 격자로 예측. FoVS-Aria/FoVS-EgoExo 364.6K 샘플
+Scanpath3D,3D Scanpath,Forecasting 3D Scanpaths in Egocentric Video,2026-06,CVPR 2026,,9,1,Y,2차 확인,Ryan·Ananthabhotla·Qian·Hoffman·Rehg·Ithapu·Murdock. 영상+헤드포즈+과거 3D 시선 → 마지막 카메라 포즈 기준 미래 3D 고정점 시퀀스. ADT 184 시퀀스. arXiv 미확인
+ARGaze,ARGaze,ARGaze: Autoregressive Transformers for Online Egocentric Gaze Estimation,2026-02,—,2602.05132,9,,Y,2차 확인,"온라인·인과적 시선 추정. EgoExo4D 에고 영상, Aria MPS 3D 시선 → 2D 히트맵"
+EgoCampus,EgoCampus,EgoCampus: Egocentric Pedestrian Eye Gaze Model and Dataset,2025-12,—,2512.07668,9,3,Y,2차 확인,"Aria 글래스 실외 보행 시선 데이터, 25 경로·6km 이상. 공개 예정"
+G3Ego,G3Ego,G3Ego: Gaze-Guided Graphs for Egocentric Action Understanding,2026-08,—,2608.20157,9,4,Y,2차 확인,"시선이 가리키지 않는 엔티티를 제거한 장면 그래프로 행동 인식·예측. EGTEA Gaze+, MECCANO"
+GazeHandPred,Gaze-Guided Hand Pred.,Gaze-Guided 3D Hand Motion Prediction for Detecting Intent in Egocentric Grasping Tasks,2025-03,IROS 2025 (2차 인용),2504.01024,2,9,Y,2차 확인,시선+과거 손 동작+객체 정보 → 미래 3D 손 포즈 (VQ-VAE + AR 트랜스포머). 입력 프레임이 적을수록 시선 효과 큼
+Gaze2HOI,Gaze2HOI,Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting,2026-10,—,2610.27877,2,9,Y,2차 확인,RGB+시선 → 구조화 의도 → 접촉 기하 → 손-물체 동작 생성. 3D 손/물체 상태와 씬 기하 필요. EgoAIM 벤치마크
+LookFocusAct,"Look, Focus, Act","Look, Focus, Act: Efficient and Robust Robot Learning via Human Gaze and Foveated Vision",2025-07,—,2507.15833,5,9,Y,2차 확인,VR 시연의 시선을 예측 → 중심와(foveated) 처리 → flow matching 행동. AV-ALOHA. 정식 제목 원문 확인 필요
+TAVIS,TAVIS,TAVIS: A Benchmark for Egocentric Active Vision and Anticipatory Gaze in Imitation Learning,2026-05,—,2605.07943,5,9,Y,2차 확인,"IsaacLab 시뮬레이션, GR1T2·Reachy2. 예측 시선 지표 GALT. π0·Diffusion Policy 기준선"
+EgoMI,EgoMI,EgoMI: Learning Active Vision and Whole-Body Manipulation from Egocentric Human Demonstrations,2025-10,—,2511.00153,5,9,Y,2차 확인,손+머리 궤적 동기 캡처 → 반휴머노이드 리타게팅. 시선 대신 머리 움직임 사용
