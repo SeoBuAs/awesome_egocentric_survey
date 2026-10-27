@@ -2,7 +2,7 @@ arxiv,title,found,axis_guess,axis2_guess,status,note
 2610.26780,"V-JEPA Hand: Simple, Accurate and Fast 3D Hand and Camera Trajectory Recovery from Egocentric Videos",2026-10-27,2,,대기,검색 스니펫 기준
 2610.29936,DewHand: Direct Metric World-Space Hand Motion Reconstruction from Egocentric Videos,2026-10-27,2,,대기,검색 스니펫 기준 · 재검색으로는 다시 안 잡힘
 2610.01210,EgoFound3R: End-to-End Egocentric Hand Reconstruction in World Space with Point-Wise Interaction Attributes,2026-10-27,2,1∩2,대기,검색 스니펫 기준
-2607.17790,ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video,2026-10-27,1,,대기,검색 스니펫 기준 · 10/7 v3
+2607.17790,ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video,2026-10-27,1∩2,9,반영,검색 스니펫 기준 · 10/7 v3 · 2026-10-27 지형도 축 1∩2에 반영
 2610.07217,RoboCap: A New Platform for Egocentric Robot Learning,2026-10-27,3,5,대기,검색 스니펫 기준
 2610.22681,EgoP²C: Internalizing Plan-Perceive-Compose for Spatial Reasoning in Egocentric Video,2026-10-27,4,,대기,검색 스니펫 기준
 2610.04139,From Sight to Foresight: Predictive Spatial Reasoning in Vision-Language Models (SpatialMind),2026-10-27,4,,대기,검색 스니펫 기준

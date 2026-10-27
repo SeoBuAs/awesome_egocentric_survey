@@ -55,7 +55,7 @@
 | DROIDdata → DexWM | 확인 |  |
 | EgoExo4D → EgoMAN | 확인 |  |
 
-## 평가 데이터 (`evaluates_on`, 18)
+## 평가 데이터 (`evaluates_on`, 21)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -77,6 +77,9 @@
 | AEA → EgoSpanLift | 확인 | FoVS-Aria 구성 |
 | EgoExo4D → EgoSpanLift | 확인 | FoVS-EgoExo 구성 |
 | EgoExo4D → ARGaze | 확인 |  |
+| HOT3D → ReViV | 확인 |  |
+| ADT → ReViV | 확인 |  |
+| EgoExo4D → OmniEgoCap | 확인 |  |
 
 ## 비교 기준선 (`compares`, 25)
 
@@ -108,7 +111,7 @@
 | GLC → CSTS | 확인 | GLC를 기준선으로 비교 |
 | GLC → ARGaze | 추정 |  |
 
-## 개념 연결 (`cross`, 32)
+## 개념 연결 (`cross`, 38)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -144,6 +147,12 @@
 | LookFocusAct → TAVIS | 추정 | 시선 예측형 능동 시각 모방학습 |
 | EgoMI → TAVIS | 추정 | 머리/시선 능동 시각 |
 | Scanpath3D → Gaze2HOI | 추정 | 미래 3D 시선 → 상호작용 의도 단서 |
+| EgoGen → ReViV | 추정 | 같은 그룹(ETH VLG)·공저자 Lyu·Li |
+| EgoXperience → ReViV | 추정 | 카메라·손·장면 공동 피드포워드 복원이라는 같은 목표 |
+| EgoSpanLift → ReViV | 추정 | ReViV가 시선까지 함께 복원 (축 9 연결) |
+| Nymeria → OmniEgoCap | 추정 | 에고 전신 동작 데이터 계보 |
+| EgoBody3M → OmniEgoCap | 추정 | 에고 기기 기반 전신 추적 |
+| OmniEgoCap → ReViV | 추정 | 착용자(viewer) 몸 복원이라는 공통 과제 |
 
 ## 인용 (`cites`, 5)
 

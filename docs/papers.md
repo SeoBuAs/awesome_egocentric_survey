@@ -35,7 +35,7 @@
 | DynStream | DynStream: Online Streaming 4D Gaussian Reconstruction of Dynamic Worlds from Unposed Video | 2026-10 | — | [2610.09720](https://arxiv.org/abs/2610.09720) | — | 원문 기준 | ✓ |
 | MonST3R | MonST3R | 미확인 | 원문 기준 | — | — | 원문 기준 |  |
 
-## 축 2 · 3D 손·몸·물체 추적과 HOI (19)
+## 축 2 · 3D 손·몸·물체 추적과 HOI (20)
 
 | id | 제목 | 연월 | 게재처 | arXiv | 함께 걸친 축 | 검증 | 신규 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -51,6 +51,7 @@
 | EgoH4 | The Invisible EgoHand: 3D Hand Forecasting through EgoBody Pose Estimation | 2025-04 | 미확인 | [2504.08654](https://arxiv.org/abs/2504.08654) | — | 검증됨 |  |
 | UniHand | Uni-Hand: Universal Hand Motion Forecasting in Egocentric Views | 2025-11 | TPAMI 2026 (프로젝트 페이지 표기) | [2511.12878](https://arxiv.org/abs/2511.12878) | — | 검증됨 |  |
 | EgoMAN | Flowing from Reasoning to Motion (EgoMAN) | 2025-12 | 미확인 | [2512.16907](https://arxiv.org/abs/2512.16907) | 5 | 검증됨 |  |
+| OmniEgoCap | OmniEgoCap: Device-Agnostic Sequence-Level Egocentric Motion Reconstruction | 2025-12 | NeurIPS 2026 (프로젝트 페이지 표기) | [2512.19283](https://arxiv.org/abs/2512.19283) | 3 | 2차 확인 | ✓ |
 | EgoHandICL | EgoHandICL: Egocentric 3D Hand Reconstruction via In-Context Learning | 2026-01 | ICLR 2026 (원문) | [2601.19850](https://arxiv.org/abs/2601.19850) | — | 원문 기준 |  |
 | WHOLE | WHOLE: World-Grounded Hand-Object Lifted from Egocentric Videos | 2026-02 | — | [2602.22209](https://arxiv.org/abs/2602.22209) | — | 원문 기준 |  |
 | StableHand | StableHand: Quality-Aware Flow Matching for World-Space Dual-Hand Motion | 2026-05 | — | [2605.18553](https://arxiv.org/abs/2605.18553) | — | 원문 기준 |  |
@@ -59,10 +60,11 @@
 | EgoHand | EgoHand: Monocular 3D Hand Reconstruction from Egocentric Video | 2026-10 | arXiv | [2610.30293](https://arxiv.org/abs/2610.30293) | — | 검증됨 | ✓ |
 | Gaze2HOI | Gaze2HOI: Gaze-Aware Intention Disambiguation for Egocentric Hand-Object Interaction Forecasting | 2026-10 | — | [2610.27877](https://arxiv.org/abs/2610.27877) | 9 | 2차 확인 | ✓ |
 
-## 축 1∩2 · world-grounded 통합 재구성 (1)
+## 축 1∩2 · world-grounded 통합 재구성 (2)
 
 | id | 제목 | 연월 | 게재처 | arXiv | 함께 걸친 축 | 검증 | 신규 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| ReViV | ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video | 2026-07 | ECCV 2026 | [2607.17790](https://arxiv.org/abs/2607.17790) | 9 | 2차 확인 | ✓ |
 | EgoXperience | EgoXperience: Learning World-Grounded Egocentric Representations from Human Experience | 2026-10 | Ropedia Technical Report | [2610.26625](https://arxiv.org/abs/2610.26625) | — | 검증됨 | ✓ |
 
 ## 축 3 · 멀티뷰 에고 캡처·뉴럴 렌더링 (10)

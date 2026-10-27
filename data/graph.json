@@ -1598,6 +1598,32 @@
    "isNew": "Y",
    "status": "2차 확인",
    "note": "손+머리 궤적 동기 캡처 → 반휴머노이드 리타게팅. 시선 대신 머리 움직임 사용"
+  },
+  {
+   "id": "ReViV",
+   "label": "ReViV",
+   "title": "ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video",
+   "date": "2026-07",
+   "venue": "ECCV 2026",
+   "arxiv": "2607.17790",
+   "axis": "1∩2",
+   "axis2": "9",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "Lyu·Li·Qian·Zhang·Pollefeys·Tang (ETH VLG). 단일 에고 RGB 영상 → 착용자 몸·손 동작 + 깊이·카메라 궤적·시선을 한 번의 피드포워드로. 4M/EgoM2P 기반 마스크드 생성 트랜스포머. 코드·가중치 공개"
+  },
+  {
+   "id": "OmniEgoCap",
+   "label": "OmniEgoCap",
+   "title": "OmniEgoCap: Device-Agnostic Sequence-Level Egocentric Motion Reconstruction",
+   "date": "2025-12",
+   "venue": "NeurIPS 2026 (프로젝트 페이지 표기)",
+   "arxiv": "2512.19283",
+   "axis": "2",
+   "axis2": "3",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "Cho·Joo (서울대). 희소한 머리·손 신호 + 시퀀스 단위 맥락으로 착용자 전신 형상·동작을 확산 모델로 복원. 기하 인지 가시성 증강으로 기기 불문. OmniEgoDB(여러 소비자 에고 기기 + GT 동작) 공개. arXiv 제목은 'Camera-Agnostic'. 코드 공개 예정"
   }
  ],
  "edges": [
@@ -2433,6 +2459,69 @@
    "rel": "cross",
    "evidence": "추정",
    "note": "미래 3D 시선 → 상호작용 의도 단서"
+  },
+  {
+   "source": "HOT3D",
+   "target": "ReViV",
+   "rel": "evaluates_on",
+   "evidence": "확인",
+   "note": ""
+  },
+  {
+   "source": "ADT",
+   "target": "ReViV",
+   "rel": "evaluates_on",
+   "evidence": "확인",
+   "note": ""
+  },
+  {
+   "source": "EgoGen",
+   "target": "ReViV",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "같은 그룹(ETH VLG)·공저자 Lyu·Li"
+  },
+  {
+   "source": "EgoXperience",
+   "target": "ReViV",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "카메라·손·장면 공동 피드포워드 복원이라는 같은 목표"
+  },
+  {
+   "source": "EgoSpanLift",
+   "target": "ReViV",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "ReViV가 시선까지 함께 복원 (축 9 연결)"
+  },
+  {
+   "source": "EgoExo4D",
+   "target": "OmniEgoCap",
+   "rel": "evaluates_on",
+   "evidence": "확인",
+   "note": ""
+  },
+  {
+   "source": "Nymeria",
+   "target": "OmniEgoCap",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "에고 전신 동작 데이터 계보"
+  },
+  {
+   "source": "EgoBody3M",
+   "target": "OmniEgoCap",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "에고 기기 기반 전신 추적"
+  },
+  {
+   "source": "OmniEgoCap",
+   "target": "ReViV",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "착용자(viewer) 몸 복원이라는 공통 과제"
   }
  ],
  "axes": [
@@ -2579,10 +2668,10 @@
    "arxiv": "2607.17790",
    "title": "ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video",
    "found": "2026-10-27",
-   "axis_guess": "1",
-   "axis2_guess": "",
-   "status": "대기",
-   "note": "검색 스니펫 기준 · 10/7 v3"
+   "axis_guess": "1∩2",
+   "axis2_guess": "9",
+   "status": "반영",
+   "note": "검색 스니펫 기준 · 10/7 v3 · 2026-10-27 지형도 축 1∩2에 반영"
   },
   {
    "arxiv": "2610.07217",

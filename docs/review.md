@@ -27,4 +27,4 @@
 | 2026-10-27 | [2610.00069](https://arxiv.org/abs/2610.00069) | A Framework for Egocentric and Exocentric Procedural Understanding via Temporal Segmentation and Semantic Abstraction | 미정 | 대기 | 검색 스니펫 기준 · 3D와 무관할 가능성 큼 |
 | 2026-10-27 | [2609.16610](https://arxiv.org/abs/2609.16610) | EgoPathBench: Evaluating Zero-Shot Egocentric Waypoint Decision-Making in VLMs | 4 | 대기 | 검색 스니펫 기준 |
 | 2026-10-27 | [2609.01276](https://arxiv.org/abs/2609.01276) | Seeing the World and the Self from Egocentric Video | 미정 | 대기 | 제목만 확인 · 축 미정 |
-| 2026-10-27 | [2607.17790](https://arxiv.org/abs/2607.17790) | ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video | 1 | 대기 | 검색 스니펫 기준 · 10/7 v3 |
+| 2026-10-27 | [2607.17790](https://arxiv.org/abs/2607.17790) | ReViV: Reconstructing the Viewer and the View in 4D from Monocular Egocentric Video | 1∩2, 9 | 반영 | 검색 스니펫 기준 · 10/7 v3 · 2026-10-27 지형도 축 1∩2에 반영 |

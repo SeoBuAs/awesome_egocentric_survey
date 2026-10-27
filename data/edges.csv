@@ -118,3 +118,12 @@ GazeHandPred,Gaze2HOI,cross,추정,시선 기반 손 동작·의도 예측 계�
 LookFocusAct,TAVIS,cross,추정,시선 예측형 능동 시각 모방학습
 EgoMI,TAVIS,cross,추정,머리/시선 능동 시각
 Scanpath3D,Gaze2HOI,cross,추정,미래 3D 시선 → 상호작용 의도 단서
+HOT3D,ReViV,evaluates_on,확인,
+ADT,ReViV,evaluates_on,확인,
+EgoGen,ReViV,cross,추정,같은 그룹(ETH VLG)·공저자 Lyu·Li
+EgoXperience,ReViV,cross,추정,카메라·손·장면 공동 피드포워드 복원이라는 같은 목표
+EgoSpanLift,ReViV,cross,추정,ReViV가 시선까지 함께 복원 (축 9 연결)
+EgoExo4D,OmniEgoCap,evaluates_on,확인,
+Nymeria,OmniEgoCap,cross,추정,에고 전신 동작 데이터 계보
+EgoBody3M,OmniEgoCap,cross,추정,에고 기기 기반 전신 추적
+OmniEgoCap,ReViV,cross,추정,착용자(viewer) 몸 복원이라는 공통 과제
