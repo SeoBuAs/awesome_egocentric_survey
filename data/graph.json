@@ -2931,6 +2931,51 @@
    "axis2_guess": "",
    "status": "대기",
    "note": "검색 스니펫 기준(제목만) · 10/20 제출"
+  },
+  {
+   "arxiv": "2609.35743",
+   "title": "InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video",
+   "found": "2026-10-29",
+   "axis_guess": "2",
+   "axis2_guess": "1",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 스트리밍 피드포워드로 손 위치·MANO·카메라 궤적 동시 추정. ARCTIC PA 21.4% 개선(ViDiHand 대비)"
+  },
+  {
+   "arxiv": "2610.26641",
+   "title": "EgoRayFormer: Ray-Space Stereo Refinement for Egocentric 3D Human Pose Estimation",
+   "found": "2026-10-29",
+   "axis_guess": "2",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 머리 장착 스테레오 어안 카메라 몸 포즈. EgoPoseFormer 대비 MPJPE -9.09 mm (10/19 제출)"
+  },
+  {
+   "arxiv": "2609.17189",
+   "title": "EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset",
+   "found": "2026-10-29",
+   "axis_guess": "2",
+   "axis2_guess": "3",
+   "status": "대기",
+   "note": "검색 스니펫 기준(제목만) · 이벤트 카메라 손 메시 + 실데이터셋"
+  },
+  {
+   "arxiv": "2610.06137",
+   "title": "Robotizing Human Videos with Physically Consistent Interactions",
+   "found": "2026-10-29",
+   "axis_guess": "8",
+   "axis2_guess": "5",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 사람 손을 지우고 로봇을 렌더링하는 편집 계열(Phantom·Masquerade) 확장으로 보임"
+  },
+  {
+   "arxiv": "2609.23755",
+   "title": "EgoWild2Dex: Learning Dexterous Robotic Manipulation from In-the-Wild Human Experience",
+   "found": "2026-10-29",
+   "axis_guess": "5",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준(제목만) · 재검색으로는 다시 안 잡힘"
   }
  ],
  "hoi": [

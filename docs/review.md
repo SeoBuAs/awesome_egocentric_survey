@@ -5,6 +5,11 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-29 | [2610.26641](https://arxiv.org/abs/2610.26641) | EgoRayFormer: Ray-Space Stereo Refinement for Egocentric 3D Human Pose Estimation | 2 | 대기 | 검색 스니펫 기준 · 머리 장착 스테레오 어안 카메라 몸 포즈. EgoPoseFormer 대비 MPJPE -9.09 mm (10/19 제출) |
+| 2026-10-29 | [2610.06137](https://arxiv.org/abs/2610.06137) | Robotizing Human Videos with Physically Consistent Interactions | 8, 5 | 대기 | 검색 스니펫 기준 · 사람 손을 지우고 로봇을 렌더링하는 편집 계열(Phantom·Masquerade) 확장으로 보임 |
+| 2026-10-29 | [2609.35743](https://arxiv.org/abs/2609.35743) | InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video | 2, 1 | 대기 | 검색 스니펫 기준 · 스트리밍 피드포워드로 손 위치·MANO·카메라 궤적 동시 추정. ARCTIC PA 21.4% 개선(ViDiHand 대비) |
+| 2026-10-29 | [2609.23755](https://arxiv.org/abs/2609.23755) | EgoWild2Dex: Learning Dexterous Robotic Manipulation from In-the-Wild Human Experience | 5 | 대기 | 검색 스니펫 기준(제목만) · 재검색으로는 다시 안 잡힘 |
+| 2026-10-29 | [2609.17189](https://arxiv.org/abs/2609.17189) | EventEgoHands++: Event-based Egocentric 3D Hand Mesh Reconstruction with Real Dataset | 2, 3 | 대기 | 검색 스니펫 기준(제목만) · 이벤트 카메라 손 메시 + 실데이터셋 |
 | 2026-10-28 | [2610.31320](https://arxiv.org/abs/2610.31320) | Stream4D: Streaming 4D Reconstruction with Training-free Motion Decoupling via Causal KV-Cache Attention | 1, B | 대기 | 검색 스니펫 기준 · 에고 특화 아님. 학습 없이 causal Transformer 백본에 붙는 스트리밍 4D (ACM MM 2026) |
 | 2026-10-28 | [2610.28502](https://arxiv.org/abs/2610.28502) | GazeLens for Efficient Egocentric Video Question Answering with Simple Gaze-Driven Adaptive Token Reduction | 4, 9 | 대기 | 검색 스니펫 기준 · 시선으로 토큰을 줄이는 스마트 글래스 VQA. 3D 비중 낮음 |
 | 2026-10-28 | [2610.27946](https://arxiv.org/abs/2610.27946) | Decoupling Action from Egocentric Observation for World Simulation | 6 | 대기 | 검색 스니펫 기준(제목만) · 10/20 제출 |
