@@ -3323,6 +3323,21 @@
    "relevance": "사람 손이 아님",
    "status": "2차 확인",
    "note": ""
+  },
+  {
+   "id": "FLEX",
+   "label": "FLEX",
+   "title": "FLEX: Full-Body Grasping Without Full-Body Grasps",
+   "year": "2022",
+   "venue": "CVPR 2023",
+   "arxiv": "2211.11903",
+   "group": "A",
+   "subject": "SMPL-X 전신 + 오른손",
+   "method": "사전학습된 오른손 잡기 모델과 전신 포즈 prior의 잠재 공간을 3D 기하 제약(접촉·관통·지면 등)으로 함께 탐색해 전신 잡기 자세 생성. 3D 전신 잡기 데이터 불필요",
+   "physics": "없음 (운동학·기하 제약)",
+   "relevance": "전신 데이터 없이 전신 목표 잡기 자세를 만들 수 있음. 물리 기반 전신 제어기(Braun et al., Omnigrasp 계열)에 넣을 목표 자세 후보",
+   "status": "2차 확인",
+   "note": "Tendulkar·Surís·Vondrick (Columbia). 프로젝트 flex.cs.columbia.edu"
   }
  ],
  "hoi_edges": [
@@ -3500,6 +3515,20 @@
    "rel": "cross",
    "evidence": "추정",
    "note": "MANO + 로봇손 양쪽 대상"
+  },
+  {
+   "source": "GRAB",
+   "target": "FLEX",
+   "rel": "backbone",
+   "evidence": "추정",
+   "note": "GrabNet 계열 손 잡기 모델과 GRAB 물체를 사용한 것으로 보임"
+  },
+  {
+   "source": "FLEX",
+   "target": "BraunFBHOI",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "운동학 전신 잡기 → 물리 전신 잡기"
   }
  ],
  "hoi_groups": [

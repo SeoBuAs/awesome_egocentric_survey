@@ -24,3 +24,5 @@ QuasiSim,DexTrack,extends,추정,같은 그룹 후속
 QuasiSim,ManipTrans,compares,추정,
 ManipTrans,DexMachina,compares,추정,
 GraspD,GraspXL,cross,추정,MANO + 로봇손 양쪽 대상
+GRAB,FLEX,backbone,추정,GrabNet 계열 손 잡기 모델과 GRAB 물체를 사용한 것으로 보임
+FLEX,BraunFBHOI,cross,추정,운동학 전신 잡기 → 물리 전신 잡기

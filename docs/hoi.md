@@ -3,13 +3,14 @@
 > `scripts/build.py`가 `data/hoi.csv`에서 자동 생성합니다. 직접 수정하지 마세요.
 > 에고센트릭 지형도와 별개인 번외 정리입니다. 그래프·통계·검토 대기·데일리 스캔에 포함되지 않습니다.
 
-## 정지 잡기 생성·접촉 보정 (3)
+## 정지 잡기 생성·접촉 보정 (4)
 
 | 연구 | 게재처 | arXiv | 대상 | 방식 | 물리 고려 | 관련성 |
 | --- | --- | --- | --- | --- | --- | --- |
 | GRAB: A Dataset of Whole-Body Human Grasping of Objects (GrabNet) | ECCV 2020 | [2008.11200](https://arxiv.org/abs/2008.11200) | SMPL-X 전신 + MANO 손 | 전신 잡기 모캡 데이터셋과 정지 잡기 생성기 GrabNet | 없음 (운동학) | D-Grasp 등 물리 RL이 목표 잡기 자세(reference)로 가져다 쓰는 출발점 |
 | Hand-Object Contact Consistency Reasoning for Human Grasps Generation (GraspTTA) | ICCV 2021 | [2104.03304](https://arxiv.org/abs/2104.03304) | MANO 손 | 생성한 잡기를 시험 시점에 손-물체 접촉 일관성(자기지도)으로 보정. 처음 보는 물체에서 효과 큼 | 간접적 (시뮬레이션 안정성으로 평가) | 물리 RL 전에 목표 잡기 품질을 올리는 전처리 후보 |
 | ContactOpt: Optimizing Contact to Improve Grasps | CVPR 2021 | [2104.07267](https://arxiv.org/abs/2104.07267) | MANO 손 | DeepContact가 접촉 위치 예측 → DiffContact로 손 자세를 경사 최적화. 연조직을 흉내 내 약간의 관통 허용 | 간접적 (접촉 품질, 관통·떠 있음 감소) | 영상 추정 손 자세를 물리 시뮬레이터에 넣기 전 정리 |
+| FLEX: Full-Body Grasping Without Full-Body Grasps | CVPR 2023 | [2211.11903](https://arxiv.org/abs/2211.11903) | SMPL-X 전신 + 오른손 | 사전학습된 오른손 잡기 모델과 전신 포즈 prior의 잠재 공간을 3D 기하 제약(접촉·관통·지면 등)으로 함께 탐색해 전신 잡기 자세 생성. 3D 전신 잡기 데이터 불필요 | 없음 (운동학·기하 제약) | 전신 데이터 없이 전신 목표 잡기 자세를 만들 수 있음. 물리 기반 전신 제어기(Braun et al., Omnigrasp 계열)에 넣을 목표 자세 후보 |
 
 ## MANO 손 + 물리 강화학습 (4)
 
@@ -88,3 +89,5 @@
 | QuasiSim → ManipTrans | 비교 기준선 | 추정 |  |
 | ManipTrans → DexMachina | 비교 기준선 | 추정 |  |
 | Grasp'D → GraspXL | 개념 연결 | 추정 | MANO + 로봇손 양쪽 대상 |
+| GRAB → FLEX | 백본으로 사용 | 추정 | GrabNet 계열 손 잡기 모델과 GRAB 물체를 사용한 것으로 보임 |
+| FLEX → Braun et al. | 개념 연결 | 추정 | 운동학 전신 잡기 → 물리 전신 잡기 |
