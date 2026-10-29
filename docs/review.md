@@ -5,6 +5,8 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-30 | [2610.00438](https://arxiv.org/abs/2610.00438) | Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining | 5, B | 대기 | 검색 스니펫 기준 · HumanVerse-500과 λ0 정책을 소개. 이미 대기 중인 λ0(2610.18950)과 같은 연구의 다른 판일 수 있음 |
+| 2026-10-30 | [2609.39403](https://arxiv.org/abs/2609.39403) | IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining | 5 | 대기 | 검색 스니펫 기준 · 에고 영상+이종 로봇 데이터로 VLA 사전학습. 카메라 좌표 행동 표현으로 리타게팅 생략 |
 | 2026-10-29 | [2610.26641](https://arxiv.org/abs/2610.26641) | EgoRayFormer: Ray-Space Stereo Refinement for Egocentric 3D Human Pose Estimation | 2 | 대기 | 검색 스니펫 기준 · 머리 장착 스테레오 어안 카메라 몸 포즈. EgoPoseFormer 대비 MPJPE -9.09 mm (10/19 제출) |
 | 2026-10-29 | [2610.06137](https://arxiv.org/abs/2610.06137) | Robotizing Human Videos with Physically Consistent Interactions | 8, 5 | 대기 | 검색 스니펫 기준 · 사람 손을 지우고 로봇을 렌더링하는 편집 계열(Phantom·Masquerade) 확장으로 보임 |
 | 2026-10-29 | [2609.35743](https://arxiv.org/abs/2609.35743) | InfiniHand: Streaming World-Space Hand Motion Estimation from Egocentric Video | 2, 1 | 대기 | 검색 스니펫 기준 · 스트리밍 피드포워드로 손 위치·MANO·카메라 궤적 동시 추정. ARCTIC PA 21.4% 개선(ViDiHand 대비) |

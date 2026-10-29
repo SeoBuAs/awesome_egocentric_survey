@@ -2976,6 +2976,24 @@
    "axis2_guess": "",
    "status": "대기",
    "note": "검색 스니펫 기준(제목만) · 재검색으로는 다시 안 잡힘"
+  },
+  {
+   "arxiv": "2609.39403",
+   "title": "IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining",
+   "found": "2026-10-30",
+   "axis_guess": "5",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · 에고 영상+이종 로봇 데이터로 VLA 사전학습. 카메라 좌표 행동 표현으로 리타게팅 생략"
+  },
+  {
+   "arxiv": "2610.00438",
+   "title": "Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining",
+   "found": "2026-10-30",
+   "axis_guess": "5",
+   "axis2_guess": "B",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · HumanVerse-500과 λ0 정책을 소개. 이미 대기 중인 λ0(2610.18950)과 같은 연구의 다른 판일 수 있음"
   }
  ],
  "hoi": [
