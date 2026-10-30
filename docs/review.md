@@ -5,6 +5,14 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-10-31 | [2610.39167](https://arxiv.org/abs/2610.39167) | EgoContact: Evaluating Physical Intelligence with Egocentric Video | 2, 5 | 대기 | 검색 스니펫 기준 · 미래 접촉점 예측으로 조작 prior를 평가하는 대규모 에고 데이터셋 (10/29 제출) |
+| 2026-10-31 | [2610.37509](https://arxiv.org/abs/2610.37509) | Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos | 5 | 대기 | 검색 스니펫 기준 · 에고 영상으로 체현 간 시각 표현 학습. LIBERO-Plus 90.2% |
+| 2026-10-31 | [2610.36859](https://arxiv.org/abs/2610.36859) | ActiveAlign: Aligning Egocentric Manipulation via Active Perception | 5, 9 | 대기 | 검색 스니펫 기준 · 상호작용 중 능동 지각으로 Real2Sim2Real 격차를 줄임 (10/27 제출) |
+| 2026-10-31 | [2610.36384](https://arxiv.org/abs/2610.36384) | SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding | 4, 2 | 대기 | 검색 스니펫 기준(제목만) · 재검색으로는 다시 안 잡힘 |
+| 2026-10-31 | [2610.34186](https://arxiv.org/abs/2610.34186) | HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience | 5 | 대기 | 검색 스니펫 기준 · 에고 사람+로봇 데이터 2000시간 이상으로 사전학습한 휴머노이드 VLA. HumanoidArena SOTA |
+| 2026-10-31 | [2610.20904](https://arxiv.org/abs/2610.20904) | EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos | 5 | 대기 | 검색 스니펫 기준 · 수작업 리타게팅 대신 체현 무관 잠재 행동 학습 |
+| 2026-10-31 | [2610.17572](https://arxiv.org/abs/2610.17572) | EgoCPT: Learning Dexterous Manipulation from a Single Ego-Centric Video with Contact-Aware Optimization | 5 | 대기 | 검색 스니펫 기준 · 에고 영상 한 편+기준 손 포즈로 접촉 인지 최적화 리타게팅 |
+| 2026-10-31 | [2610.12440](https://arxiv.org/abs/2610.12440) | Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation | 5, 8 | 대기 | 검색 스니펫 기준 · 오손 생성형 리타게팅. HOT3D 등에서 사람-로봇 궤적 쌍 223k개 생성 |
 | 2026-10-30 | [2610.00438](https://arxiv.org/abs/2610.00438) | Towards a General Humanoid Loco-Manipulation Model via Egocentric Whole-Body Human Data Pretraining | 5, B | 대기 | 검색 스니펫 기준 · HumanVerse-500과 λ0 정책을 소개. 이미 대기 중인 λ0(2610.18950)과 같은 연구의 다른 판일 수 있음 |
 | 2026-10-30 | [2609.39403](https://arxiv.org/abs/2609.39403) | IronMind: Scaling Humanoid Dexterous Manipulation via Camera-Space Ego-Centric Pretraining | 5 | 대기 | 검색 스니펫 기준 · 에고 영상+이종 로봇 데이터로 VLA 사전학습. 카메라 좌표 행동 표현으로 리타게팅 생략 |
 | 2026-10-29 | [2610.26641](https://arxiv.org/abs/2610.26641) | EgoRayFormer: Ray-Space Stereo Refinement for Egocentric 3D Human Pose Estimation | 2 | 대기 | 검색 스니펫 기준 · 머리 장착 스테레오 어안 카메라 몸 포즈. EgoPoseFormer 대비 MPJPE -9.09 mm (10/19 제출) |
