@@ -40,6 +40,6 @@ arxiv,title,found,axis_guess,axis2_guess,status,note
 2610.34186,HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience,2026-10-31,5,,대기,검색 스니펫 기준 · 에고 사람+로봇 데이터 2000시간 이상으로 사전학습한 휴머노이드 VLA. HumanoidArena SOTA
 2610.37509,Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos,2026-10-31,5,,대기,검색 스니펫 기준 · 에고 영상으로 체현 간 시각 표현 학습. LIBERO-Plus 90.2%
 2610.20904,EgoJEPA: Beyond Retargeting for Dexterous Manipulation from Egocentric Videos,2026-10-31,5,,대기,검색 스니펫 기준 · 수작업 리타게팅 대신 체현 무관 잠재 행동 학습
-2610.12440,Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation,2026-10-31,5,8,대기,검색 스니펫 기준 · 오손 생성형 리타게팅. HOT3D 등에서 사람-로봇 궤적 쌍 223k개 생성
+2610.12440,Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation,2026-10-31,5,8,대기,검색 스니펫 기준 · 다섯 손가락 로봇 손용 생성형 리타게팅. HOT3D 등에서 사람-로봇 궤적 쌍 223k개 생성
 2610.17572,EgoCPT: Learning Dexterous Manipulation from a Single Ego-Centric Video with Contact-Aware Optimization,2026-10-31,5,,대기,검색 스니펫 기준 · 에고 영상 한 편+기준 손 포즈로 접촉 인지 최적화 리타게팅
 2610.36384,SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding,2026-10-31,4,2,대기,검색 스니펫 기준(제목만) · 재검색으로는 다시 안 잡힘
