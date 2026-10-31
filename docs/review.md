@@ -5,6 +5,11 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-11-01 | [2610.23943](https://arxiv.org/abs/2610.23943) | ESCAPE: Egocentric Sensing for Collision Avoidance and Policy Execution | 5 | 대기 | 검색 스니펫 기준(제목만) |
+| 2026-11-01 | [2610.12926](https://arxiv.org/abs/2610.12926) | What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors for Human Activity Recognition | 미정 | 대기 | 검색 스니펫 기준(제목만) · 영상+IMU 행동 인식. 3D와 무관할 가능성 큼 |
+| 2026-11-01 | [2610.12248](https://arxiv.org/abs/2610.12248) | EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams | 미정 | 대기 | 검색 스니펫 기준(제목만) · 3D와 관계 약함. 웨어러블 어시스턴트 |
+| 2026-11-01 | [2609.37559](https://arxiv.org/abs/2609.37559) | APM-Bench: Benchmarking cross-Session Persistent Memory for Real-World Egocentric Streaming Video Assistants | 7 | 대기 | 검색 스니펫 기준 · 세션 간 지속 메모리 벤치. 재현율·지연·저장 공간 사이 트레이드오프를 보고 (v2 10/12) |
+| 2026-11-01 | [2609.10706](https://arxiv.org/abs/2609.10706) | HuRo: Robotizing Human Videos for Scalable VLA Pretraining | 8, 5 | 대기 | 검색 스니펫 기준 · 사람 영상을 로봇용 데이터로 바꿔 VLA 사전학습 |
 | 2026-10-31 | [2610.39167](https://arxiv.org/abs/2610.39167) | EgoContact: Evaluating Physical Intelligence with Egocentric Video | 2, 5 | 대기 | 검색 스니펫 기준 · 미래 접촉점 예측으로 조작 prior를 평가하는 대규모 에고 데이터셋 (10/29 제출) |
 | 2026-10-31 | [2610.37509](https://arxiv.org/abs/2610.37509) | Ego-CEVR: Learning Cross-Embodiment Visual Representations from Human Egocentric Videos | 5 | 대기 | 검색 스니펫 기준 · 에고 영상으로 체현 간 시각 표현 학습. LIBERO-Plus 90.2% |
 | 2026-10-31 | [2610.36859](https://arxiv.org/abs/2610.36859) | ActiveAlign: Aligning Egocentric Manipulation via Active Perception | 5, 9 | 대기 | 검색 스니펫 기준 · 상호작용 중 능동 지각으로 Real2Sim2Real 격차를 줄임 (10/27 제출) |

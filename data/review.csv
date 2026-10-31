@@ -43,3 +43,8 @@ arxiv,title,found,axis_guess,axis2_guess,status,note
 2610.12440,Generative Neural Retargeting for Human-to-Robot Dexterous Manipulation,2026-10-31,5,8,대기,검색 스니펫 기준 · 다섯 손가락 로봇 손용 생성형 리타게팅. HOT3D 등에서 사람-로봇 궤적 쌍 223k개 생성
 2610.17572,EgoCPT: Learning Dexterous Manipulation from a Single Ego-Centric Video with Contact-Aware Optimization,2026-10-31,5,,대기,검색 스니펫 기준 · 에고 영상 한 편+기준 손 포즈로 접촉 인지 최적화 리타게팅
 2610.36384,SOMA: A Benchmark for Fine-Grained Egocentric Behavior and Body-Motion Understanding,2026-10-31,4,2,대기,검색 스니펫 기준(제목만) · 재검색으로는 다시 안 잡힘
+2609.37559,APM-Bench: Benchmarking cross-Session Persistent Memory for Real-World Egocentric Streaming Video Assistants,2026-11-01,7,,대기,검색 스니펫 기준 · 세션 간 지속 메모리 벤치. 재현율·지연·저장 공간 사이 트레이드오프를 보고 (v2 10/12)
+2609.10706,HuRo: Robotizing Human Videos for Scalable VLA Pretraining,2026-11-01,8,5,대기,검색 스니펫 기준 · 사람 영상을 로봇용 데이터로 바꿔 VLA 사전학습
+2610.23943,ESCAPE: Egocentric Sensing for Collision Avoidance and Policy Execution,2026-11-01,5,,대기,검색 스니펫 기준(제목만)
+2610.12248,EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams,2026-11-01,,,대기,검색 스니펫 기준(제목만) · 3D와 관계 약함. 웨어러블 어시스턴트
+2610.12926,What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors for Human Activity Recognition,2026-11-01,,,대기,검색 스니펫 기준(제목만) · 영상+IMU 행동 인식. 3D와 무관할 가능성 큼
