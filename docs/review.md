@@ -5,6 +5,7 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- |
+| 2026-11-02 | [2610.12402](https://arxiv.org/abs/2610.12402) | SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models | 4 | 대기 | 검색 스니펫 기준 · ScanNet/ScanNet++ 실내 장면 기반 VLM 예측적 공간추론 벤치(21개 모델 최고 58.0% 대 사람 87.2%). 에고 영상 아님(경계) · 큐의 2610.04139와 같은 주제 |
 | 2026-11-01 | [2610.23943](https://arxiv.org/abs/2610.23943) | ESCAPE: Egocentric Sensing for Collision Avoidance and Policy Execution | 5 | 대기 | 검색 스니펫 기준(제목만) |
 | 2026-11-01 | [2610.12926](https://arxiv.org/abs/2610.12926) | What Egocentric Video Embeddings Encode and How to Combine Them with Inertial Sensors for Human Activity Recognition | 미정 | 대기 | 검색 스니펫 기준(제목만) · 영상+IMU 행동 인식. 3D와 무관할 가능성 큼 |
 | 2026-11-01 | [2610.12248](https://arxiv.org/abs/2610.12248) | EgoVoice: Proactive Spoken Assistance from Egocentric Multimodal Streams | 미정 | 대기 | 검색 스니펫 기준(제목만) · 3D와 관계 약함. 웨어러블 어시스턴트 |

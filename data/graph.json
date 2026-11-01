@@ -3111,6 +3111,15 @@
    "axis2_guess": "",
    "status": "대기",
    "note": "검색 스니펫 기준(제목만) · 영상+IMU 행동 인식. 3D와 무관할 가능성 큼"
+  },
+  {
+   "arxiv": "2610.12402",
+   "title": "SpaceCast-Bench: Evaluating Predictive Spatial Reasoning in Vision-Language Models",
+   "found": "2026-11-02",
+   "axis_guess": "4",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "검색 스니펫 기준 · ScanNet/ScanNet++ 실내 장면 기반 VLM 예측적 공간추론 벤치(21개 모델 최고 58.0% 대 사람 87.2%). 에고 영상 아님(경계) · 큐의 2610.04139와 같은 주제"
   }
  ],
  "hoi": [
