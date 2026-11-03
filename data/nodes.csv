@@ -140,3 +140,4 @@ EgoTrackFPV,Is FPV Tracking Harder?,Is Tracking really more challenging in First
 TAPVid3D,TAPVid-3D,TAPVid-3D: A Benchmark for Tracking Any Point in 3D,2024-07,NeurIPS 2024 D&B,2407.05921,11,1,Y,2차 확인,"영상 4,000+개, 메트릭 3D 궤적 210만 개. 3D Jaccard 지표. 에고(ADT) 서브셋 포함 여부는 검색으로 미확인"
 TAPIP3D,TAPIP3D,TAPIP3D: Tracking Any Point in Persistent 3D Geometry,2025-04,—,2504.14717,11,1,Y,2차 확인,지속되는 3D 기하 위에서 점 추적
 SpatialTrackerV2,SpatialTrackerV2,SpatialTrackerV2: 3D Point Tracking Made Easy,2025-07,—,2507.12462,11,1,Y,2차 확인,3D 점 추적. 카메라·깊이와 함께 추정
+PARSEEgo4D,PARSE-Ego4D,PARSE-Ego4D: Personal Action Recommendation Suggestions for Egocentric Videos,2024-07,"ICLR 2025 Workshops (FM-Wild, Bi-Align oral)",2407.09503,10,,Y,2차 확인,"Abreu 외 (Google 등). Ego4D 위에서 LLM으로 행동 제안 18,000개 이상 생성 + 대규모 사람 선호 평가. 묻기 전에 제안하는 비서. Bi-Align 워크숍 제목은 'Toward Bidirectionally Aligned Action Recommendations for Egocentric Videos'. 본 학회 논문 아님"

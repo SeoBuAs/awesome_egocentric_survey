@@ -157,3 +157,5 @@ EgoPoints,Whareformer,cross,추정,화면 이탈·재식별 = 시야 밖 대상 
 EgoPoints,NeverLookBack,cross,추정,재방문 시 같은 대상 재식별
 TrackOn,DynStream,cross,추정,인과적 추적 메모리 → 스트리밍 4D
 TAPIP3D,DynStream,cross,추정,지속 3D 점 추적 → 동적 4D 복원
+Ego4D,PARSEEgo4D,trains_on,확인,Ego4D 영상에 행동 제안 주석
+PARSEEgo4D,EgoWearBench,cross,추정,선제적 제안·개입 계보 (EgoProactive)

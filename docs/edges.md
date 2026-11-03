@@ -40,7 +40,7 @@
 | Phantom → Masquerade | 확인 | Phantom의 데이터 편집 파이프라인을 야생 영상으로 확장 |
 | TAPVid → TAPVid3D | 추정 | TAP 과제를 3D로 (같은 DeepMind 계열) |
 
-## 학습 데이터 (`trains_on`, 14)
+## 학습 데이터 (`trains_on`, 15)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -58,6 +58,7 @@
 | EgoExo4D → EgoMAN | 확인 |  |
 | EPICFields → EgoPoints | 확인 | EPIC Fields 장면점으로 준실사 학습 시퀀스 생성 |
 | ADT → TAPVid3D | 추정 | 에고 서브셋 출처로 알려짐, 미확인 |
+| Ego4D → PARSEEgo4D | 확인 | Ego4D 영상에 행동 제안 주석 |
 
 ## 평가 데이터 (`evaluates_on`, 24)
 
@@ -124,7 +125,7 @@
 | CoTracker3 → EgoPoints | 추정 | EgoPoints는 CoTracker를 미세조정 (버전 미확인) |
 | BootsTAP → CoTracker3 | 확인 | BootsTAPIR 대비 비교 |
 
-## 개념 연결 (`cross`, 52)
+## 개념 연결 (`cross`, 53)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -180,6 +181,7 @@
 | EgoPoints → NeverLookBack | 추정 | 재방문 시 같은 대상 재식별 |
 | TrackOn → DynStream | 추정 | 인과적 추적 메모리 → 스트리밍 4D |
 | TAPIP3D → DynStream | 추정 | 지속 3D 점 추적 → 동적 4D 복원 |
+| PARSEEgo4D → EgoWearBench | 추정 | 선제적 제안·개입 계보 (EgoProactive) |
 
 ## 인용 (`cites`, 8)
 
