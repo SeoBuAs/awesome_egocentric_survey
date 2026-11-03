@@ -192,3 +192,19 @@
 | StreamInterv | Streaming Interventions: Can Video LLMs Correct Mistakes as They Occur? | 2026-06 | ECCV 2026 Wearable AI Workshop (우수상) | [2606.09547](https://arxiv.org/abs/2606.09547) | — | 원문 기준 | ✓ |
 | MERIT | Keep It Simple: Multi-Key Episodic Memory Retrieval for Ultra-Long Video Understanding | 2026-08 | ECCV 2026 Wearable AI Workshop (최우수 논문) | [2608.07663](https://arxiv.org/abs/2608.07663) | 7 | 원문 기준 | ✓ |
 
+## 축 11 · 에고 포인트 추적 (2D→3D) (11)
+
+| id | 제목 | 연월 | 게재처 | arXiv | 함께 걸친 축 | 검증 | 신규 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| TAPVid | TAP-Vid: A Benchmark for Tracking Any Point in a Video | 2022-11 | NeurIPS 2022 D&B | [2211.03726](https://arxiv.org/abs/2211.03726) | — | 미확인 | ✓ |
+| PIPspp | PointOdyssey: A Large-Scale Synthetic Dataset for Long-Term Point Tracking (PIPs++) | 2023-07 | ICCV 2023 | [2307.15055](https://arxiv.org/abs/2307.15055) | — | 2차 확인 | ✓ |
+| BootsTAP | BootsTAP: Bootstrapped Training for Tracking-Any-Point | 2024-02 | ACCV 2024 | [2402.00847](https://arxiv.org/abs/2402.00847) | — | 2차 확인 | ✓ |
+| TAPVid3D | TAPVid-3D: A Benchmark for Tracking Any Point in 3D | 2024-07 | NeurIPS 2024 D&B | [2407.05921](https://arxiv.org/abs/2407.05921) | 1 | 2차 확인 | ✓ |
+| CoTracker3 | CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos | 2024-10 | — | [2410.11831](https://arxiv.org/abs/2410.11831) | — | 2차 확인 | ✓ |
+| EgoPoints | EgoPoints: Advancing Point Tracking for Egocentric Videos | 2024-12 | WACV 2025 | [2412.04592](https://arxiv.org/abs/2412.04592) | 3 | 2차 확인 | ✓ |
+| TrackOn | Track-On: Transformer-based Online Point Tracking with Memory | 2025-01 | ICLR 2025 | [2501.18487](https://arxiv.org/abs/2501.18487) | 7 | 2차 확인 | ✓ |
+| TAPIP3D | TAPIP3D: Tracking Any Point in Persistent 3D Geometry | 2025-04 | — | [2504.14717](https://arxiv.org/abs/2504.14717) | 1 | 2차 확인 | ✓ |
+| AllTracker | AllTracker: Efficient Dense Point Tracking at High Resolution | 2025-06 | — | [2506.07310](https://arxiv.org/abs/2506.07310) | — | 2차 확인 | ✓ |
+| EgoTrackFPV | Is Tracking really more challenging in First Person Egocentric Vision? | 2025-07 | ICCV 2025 | [2507.16015](https://arxiv.org/abs/2507.16015) | — | 2차 확인 | ✓ |
+| SpatialTrackerV2 | SpatialTrackerV2: 3D Point Tracking Made Easy | 2025-07 | — | [2507.12462](https://arxiv.org/abs/2507.12462) | 1 | 2차 확인 | ✓ |
+

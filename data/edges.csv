@@ -137,3 +137,23 @@ EgoWearBench,MERIT,cross,추정,같은 워크숍 최우수 논문 (EgoWearBench 
 AMEGO,MERIT,cross,추정,장시간 에고 영상 에피소드 메모리
 EgoWearBench,StreamInterv,cross,추정,스트리밍 개입 (EgoProactive와 같은 문제의식)
 NVILA,SinkPrune,cross,추정,효율적 Video LLM
+TAPVid,EgoPoints,compares,확인,TAP-Vid-DAVIS 대비 화면 이탈·재식별 비율 비교
+EPICFields,EgoPoints,trains_on,확인,EPIC Fields 장면점으로 준실사 학습 시퀀스 생성
+PIPspp,EgoPoints,compares,확인,PIPs++ 미세조정·평가
+CoTracker3,EgoPoints,compares,추정,EgoPoints는 CoTracker를 미세조정 (버전 미확인)
+TAPVid,PIPspp,evaluates_on,추정,
+TAPVid,BootsTAP,evaluates_on,추정,TAP-Vid 계열(DeepMind)
+BootsTAP,CoTracker3,compares,확인,BootsTAPIR 대비 비교
+TAPVid,TrackOn,evaluates_on,확인,TAP-Vid 포함 7개 데이터셋
+PIPspp,AllTracker,cross,추정,같은 저자(Harley) 계보
+EgoPoints,AllTracker,cross,추정,"같은 저자(Harley), 에고 벤치마크 → 조밀 추적"
+EgoPoints,EgoTrackFPV,cites,확인,참고문헌에 EgoPoints
+TAPVid,TAPVid3D,extends,추정,TAP 과제를 3D로 (같은 DeepMind 계열)
+ADT,TAPVid3D,trains_on,추정,"에고 서브셋 출처로 알려짐, 미확인"
+TAPVid3D,TAPIP3D,cites,확인,TAPVid-3D 인용 목록
+TAPVid3D,SpatialTrackerV2,cites,확인,TAPVid-3D 인용 목록
+CoTracker3,SpatialTrackerV2,cross,추정,2D 추적기 → 3D 추적
+EgoPoints,Whareformer,cross,추정,화면 이탈·재식별 = 시야 밖 대상 유지 (축 7)
+EgoPoints,NeverLookBack,cross,추정,재방문 시 같은 대상 재식별
+TrackOn,DynStream,cross,추정,인과적 추적 메모리 → 스트리밍 4D
+TAPIP3D,DynStream,cross,추정,지속 3D 점 추적 → 동적 4D 복원

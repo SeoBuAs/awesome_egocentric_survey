@@ -25,7 +25,7 @@
 | MANO → Gaze2HOI | 확인 | MANO 별도 라이선스 필요 |
 | MANO → ComPose | 추정 | 손 관절 단서 |
 
-## 직접 확장 (`extends`, 9)
+## 직접 확장 (`extends`, 10)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -38,8 +38,9 @@
 | MADiff → MMTwin | 추정 | 같은 저자 그룹 계보 |
 | HOISynth → HOISynthExt | 확인 | 같은 파이프라인·벤치마크의 확장 |
 | Phantom → Masquerade | 확인 | Phantom의 데이터 편집 파이프라인을 야생 영상으로 확장 |
+| TAPVid → TAPVid3D | 추정 | TAP 과제를 3D로 (같은 DeepMind 계열) |
 
-## 학습 데이터 (`trains_on`, 12)
+## 학습 데이터 (`trains_on`, 14)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -55,8 +56,10 @@
 | EgoDex → DexWM | 확인 |  |
 | DROIDdata → DexWM | 확인 |  |
 | EgoExo4D → EgoMAN | 확인 |  |
+| EPICFields → EgoPoints | 확인 | EPIC Fields 장면점으로 준실사 학습 시퀀스 생성 |
+| ADT → TAPVid3D | 추정 | 에고 서브셋 출처로 알려짐, 미확인 |
 
-## 평가 데이터 (`evaluates_on`, 21)
+## 평가 데이터 (`evaluates_on`, 24)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -81,8 +84,11 @@
 | HOT3D → ReViV | 확인 |  |
 | ADT → ReViV | 확인 |  |
 | EgoExo4D → OmniEgoCap | 확인 |  |
+| TAPVid → PIPspp | 추정 |  |
+| TAPVid → BootsTAP | 추정 | TAP-Vid 계열(DeepMind) |
+| TAPVid → TrackOn | 확인 | TAP-Vid 포함 7개 데이터셋 |
 
-## 비교 기준선 (`compares`, 27)
+## 비교 기준선 (`compares`, 31)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -113,8 +119,12 @@
 | GLC → ARGaze | 추정 |  |
 | Ego4D → EgoWearBench | 원문 | 워크숍 페이지 데이터셋 비교표 |
 | EgoExo4D → EgoWearBench | 원문 | 워크숍 페이지 데이터셋 비교표 |
+| TAPVid → EgoPoints | 확인 | TAP-Vid-DAVIS 대비 화면 이탈·재식별 비율 비교 |
+| PIPspp → EgoPoints | 확인 | PIPs++ 미세조정·평가 |
+| CoTracker3 → EgoPoints | 추정 | EgoPoints는 CoTracker를 미세조정 (버전 미확인) |
+| BootsTAP → CoTracker3 | 확인 | BootsTAPIR 대비 비교 |
 
-## 개념 연결 (`cross`, 45)
+## 개념 연결 (`cross`, 52)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -163,8 +173,15 @@
 | AMEGO → MERIT | 추정 | 장시간 에고 영상 에피소드 메모리 |
 | EgoWearBench → StreamInterv | 추정 | 스트리밍 개입 (EgoProactive와 같은 문제의식) |
 | NVILA → SinkPrune | 추정 | 효율적 Video LLM |
+| PIPspp → AllTracker | 추정 | 같은 저자(Harley) 계보 |
+| EgoPoints → AllTracker | 추정 | 같은 저자(Harley), 에고 벤치마크 → 조밀 추적 |
+| CoTracker3 → SpatialTrackerV2 | 추정 | 2D 추적기 → 3D 추적 |
+| EgoPoints → Whareformer | 추정 | 화면 이탈·재식별 = 시야 밖 대상 유지 (축 7) |
+| EgoPoints → NeverLookBack | 추정 | 재방문 시 같은 대상 재식별 |
+| TrackOn → DynStream | 추정 | 인과적 추적 메모리 → 스트리밍 4D |
+| TAPIP3D → DynStream | 추정 | 지속 3D 점 추적 → 동적 4D 복원 |
 
-## 인용 (`cites`, 5)
+## 인용 (`cites`, 8)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -173,6 +190,9 @@
 | DexWM → EgoExoWM | 확인 |  |
 | DWM → EgoSim | 확인 |  |
 | EgoExo4D → EgoSim | 확인 |  |
+| EgoPoints → EgoTrackFPV | 확인 | 참고문헌에 EgoPoints |
+| TAPVid3D → TAPIP3D | 확인 | TAPVid-3D 인용 목록 |
+| TAPVid3D → SpatialTrackerV2 | 확인 | TAPVid-3D 인용 목록 |
 
 ## 구성 요소 (`part_of`, 1)
 

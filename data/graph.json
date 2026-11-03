@@ -1689,6 +1689,149 @@
    "isNew": "Y",
    "status": "원문 기준",
    "note": "Kim 외 (KAIST 등). 효율적 Video LLM의 토큰 가지치기 — 웨어러블 온디바이스 효율"
+  },
+  {
+   "id": "TAPVid",
+   "label": "TAP-Vid",
+   "title": "TAP-Vid: A Benchmark for Tracking Any Point in a Video",
+   "date": "2022-11",
+   "venue": "NeurIPS 2022 D&B",
+   "arxiv": "2211.03726",
+   "axis": "11",
+   "axis2": "",
+   "isNew": "Y",
+   "status": "미확인",
+   "note": "임의 점 추적(TAP) 과제 정의. TAP-Vid-DAVIS 등. arXiv ID는 검색으로 미확인"
+  },
+  {
+   "id": "PIPspp",
+   "label": "PIPs++ / PointOdyssey",
+   "title": "PointOdyssey: A Large-Scale Synthetic Dataset for Long-Term Point Tracking (PIPs++)",
+   "date": "2023-07",
+   "venue": "ICCV 2023",
+   "arxiv": "2307.15055",
+   "axis": "11",
+   "axis2": "",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "Zheng·Harley 외. 장기 점 추적 합성 데이터셋 + 시간 창을 넓힌 PIPs++"
+  },
+  {
+   "id": "BootsTAP",
+   "label": "BootsTAP",
+   "title": "BootsTAP: Bootstrapped Training for Tracking-Any-Point",
+   "date": "2024-02",
+   "venue": "ACCV 2024",
+   "arxiv": "2402.00847",
+   "axis": "11",
+   "axis2": "",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "DeepMind·Oxford. TAPIR를 실제 무라벨 영상으로 자기지도 부트스트랩"
+  },
+  {
+   "id": "CoTracker3",
+   "label": "CoTracker3",
+   "title": "CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos",
+   "date": "2024-10",
+   "venue": "—",
+   "arxiv": "2410.11831",
+   "axis": "11",
+   "axis2": "",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "Meta·Oxford. 실제 영상 의사라벨로 단순한 구조의 추적기 학습. 게재처 미확인"
+  },
+  {
+   "id": "EgoPoints",
+   "label": "EgoPoints",
+   "title": "EgoPoints: Advancing Point Tracking for Egocentric Videos",
+   "date": "2024-12",
+   "venue": "WACV 2025",
+   "arxiv": "2412.04592",
+   "axis": "11",
+   "axis2": "3",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "Darkhalil·Guerrier·Harley·Damen. EPIC-KITCHENS 517개 시퀀스 4.7K 점 궤적. TAP-Vid-DAVIS 대비 화면 이탈 9배·재식별 59배. EPIC Fields 장면점 + Kubric 동적 물체로 11K 준실사 학습 시퀀스 → CoTracker +2.7%p·재식별 +2.4%p, PIPs++ +0.3·+2.8"
+  },
+  {
+   "id": "TrackOn",
+   "label": "Track-On",
+   "title": "Track-On: Transformer-based Online Point Tracking with Memory",
+   "date": "2025-01",
+   "venue": "ICLR 2025",
+   "arxiv": "2501.18487",
+   "axis": "11",
+   "axis2": "7",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "미래 프레임 없이 인과적으로 추적. 공간·맥락 메모리 2종. 스트리밍 에고 추적의 후보 구조"
+  },
+  {
+   "id": "AllTracker",
+   "label": "AllTracker",
+   "title": "AllTracker: Efficient Dense Point Tracking at High Resolution",
+   "date": "2025-06",
+   "venue": "—",
+   "arxiv": "2506.07310",
+   "axis": "11",
+   "axis2": "",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "질의 프레임과 모든 프레임 사이 흐름장을 추정하는 고해상도 조밀 점 추적. 코드·가중치 공개"
+  },
+  {
+   "id": "EgoTrackFPV",
+   "label": "Is FPV Tracking Harder?",
+   "title": "Is Tracking really more challenging in First Person Egocentric Vision?",
+   "date": "2025-07",
+   "venue": "ICCV 2025",
+   "arxiv": "2507.16015",
+   "axis": "11",
+   "axis2": "",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "Dunnhofer·Manigrasso·Micheloni. 같은 활동의 1인칭·3인칭 동기 영상(VISTA)으로 시점만 바꿔 비교. 정지 물체는 FPV가 어렵고(ego-motion), 손에 든 움직이는 물체는 FPV가 더 잘 됨. 점이 아니라 물체 추적"
+  },
+  {
+   "id": "TAPVid3D",
+   "label": "TAPVid-3D",
+   "title": "TAPVid-3D: A Benchmark for Tracking Any Point in 3D",
+   "date": "2024-07",
+   "venue": "NeurIPS 2024 D&B",
+   "arxiv": "2407.05921",
+   "axis": "11",
+   "axis2": "1",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "영상 4,000+개, 메트릭 3D 궤적 210만 개. 3D Jaccard 지표. 에고(ADT) 서브셋 포함 여부는 검색으로 미확인"
+  },
+  {
+   "id": "TAPIP3D",
+   "label": "TAPIP3D",
+   "title": "TAPIP3D: Tracking Any Point in Persistent 3D Geometry",
+   "date": "2025-04",
+   "venue": "—",
+   "arxiv": "2504.14717",
+   "axis": "11",
+   "axis2": "1",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "지속되는 3D 기하 위에서 점 추적"
+  },
+  {
+   "id": "SpatialTrackerV2",
+   "label": "SpatialTrackerV2",
+   "title": "SpatialTrackerV2: 3D Point Tracking Made Easy",
+   "date": "2025-07",
+   "venue": "—",
+   "arxiv": "2507.12462",
+   "axis": "11",
+   "axis2": "1",
+   "isNew": "Y",
+   "status": "2차 확인",
+   "note": "3D 점 추적. 카메라·깊이와 함께 추정"
   }
  ],
  "edges": [
@@ -2657,6 +2800,146 @@
    "rel": "cross",
    "evidence": "추정",
    "note": "효율적 Video LLM"
+  },
+  {
+   "source": "TAPVid",
+   "target": "EgoPoints",
+   "rel": "compares",
+   "evidence": "확인",
+   "note": "TAP-Vid-DAVIS 대비 화면 이탈·재식별 비율 비교"
+  },
+  {
+   "source": "EPICFields",
+   "target": "EgoPoints",
+   "rel": "trains_on",
+   "evidence": "확인",
+   "note": "EPIC Fields 장면점으로 준실사 학습 시퀀스 생성"
+  },
+  {
+   "source": "PIPspp",
+   "target": "EgoPoints",
+   "rel": "compares",
+   "evidence": "확인",
+   "note": "PIPs++ 미세조정·평가"
+  },
+  {
+   "source": "CoTracker3",
+   "target": "EgoPoints",
+   "rel": "compares",
+   "evidence": "추정",
+   "note": "EgoPoints는 CoTracker를 미세조정 (버전 미확인)"
+  },
+  {
+   "source": "TAPVid",
+   "target": "PIPspp",
+   "rel": "evaluates_on",
+   "evidence": "추정",
+   "note": ""
+  },
+  {
+   "source": "TAPVid",
+   "target": "BootsTAP",
+   "rel": "evaluates_on",
+   "evidence": "추정",
+   "note": "TAP-Vid 계열(DeepMind)"
+  },
+  {
+   "source": "BootsTAP",
+   "target": "CoTracker3",
+   "rel": "compares",
+   "evidence": "확인",
+   "note": "BootsTAPIR 대비 비교"
+  },
+  {
+   "source": "TAPVid",
+   "target": "TrackOn",
+   "rel": "evaluates_on",
+   "evidence": "확인",
+   "note": "TAP-Vid 포함 7개 데이터셋"
+  },
+  {
+   "source": "PIPspp",
+   "target": "AllTracker",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "같은 저자(Harley) 계보"
+  },
+  {
+   "source": "EgoPoints",
+   "target": "AllTracker",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "같은 저자(Harley), 에고 벤치마크 → 조밀 추적"
+  },
+  {
+   "source": "EgoPoints",
+   "target": "EgoTrackFPV",
+   "rel": "cites",
+   "evidence": "확인",
+   "note": "참고문헌에 EgoPoints"
+  },
+  {
+   "source": "TAPVid",
+   "target": "TAPVid3D",
+   "rel": "extends",
+   "evidence": "추정",
+   "note": "TAP 과제를 3D로 (같은 DeepMind 계열)"
+  },
+  {
+   "source": "ADT",
+   "target": "TAPVid3D",
+   "rel": "trains_on",
+   "evidence": "추정",
+   "note": "에고 서브셋 출처로 알려짐, 미확인"
+  },
+  {
+   "source": "TAPVid3D",
+   "target": "TAPIP3D",
+   "rel": "cites",
+   "evidence": "확인",
+   "note": "TAPVid-3D 인용 목록"
+  },
+  {
+   "source": "TAPVid3D",
+   "target": "SpatialTrackerV2",
+   "rel": "cites",
+   "evidence": "확인",
+   "note": "TAPVid-3D 인용 목록"
+  },
+  {
+   "source": "CoTracker3",
+   "target": "SpatialTrackerV2",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "2D 추적기 → 3D 추적"
+  },
+  {
+   "source": "EgoPoints",
+   "target": "Whareformer",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "화면 이탈·재식별 = 시야 밖 대상 유지 (축 7)"
+  },
+  {
+   "source": "EgoPoints",
+   "target": "NeverLookBack",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "재방문 시 같은 대상 재식별"
+  },
+  {
+   "source": "TrackOn",
+   "target": "DynStream",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "인과적 추적 메모리 → 스트리밍 4D"
+  },
+  {
+   "source": "TAPIP3D",
+   "target": "DynStream",
+   "rel": "cross",
+   "evidence": "추정",
+   "note": "지속 3D 점 추적 → 동적 4D 복원"
   }
  ],
  "axes": [
@@ -2779,6 +3062,16 @@
    "challenges": "개입 시점(유용성 대 방해)의 정의와 평가, 장문맥 메모리(KV 캐시) 한계, LLM 채점의 신뢰성, 3D 표현이 텍스트·토큰 기억보다 실제로 나은지에 대한 검증 부재.",
    "benchmarks": "EgoWearBench(EgoProactive P/R/F1, EgoConv LLM 채점, EgoLongQA 객관식), EgoSchema, HD-EPIC VQA.",
    "connections": "축 7(지속형 3D 메모리)·축 4(공간 추론)·축 9(시선)를 입력으로 받을 수 있는 응용 층입니다. 3D를 쓰지 않는 검토 대기 논문도 이 축으로 모읍니다."
+  },
+  {
+   "axis": "11",
+   "order": 12,
+   "name": "에고 포인트 추적 (2D→3D)",
+   "problem": "1인칭 영상에서는 머리 움직임으로 점이 자주 화면을 벗어났다 돌아오고, 손에 가려지고, 시점이 크게 바뀝니다. 3인칭 기준으로 만든 점 추적기와 벤치마크(TAP-Vid-DAVIS)는 이런 화면 이탈·재식별 상황을 거의 다루지 않습니다.",
+   "goal": "에고 스트림에서 임의의 점을 화면 이탈·가림·재방문을 넘어 인과적으로 추적하고, 메트릭 3D 월드 궤적으로 올려 4D 복원(축 1)·손-물체 추적(축 2)·물체 기억(축 7)의 대응점으로 쓰는 것.",
+   "challenges": "에고 특화 3D 점 추적 GT 부족(EgoPoints는 2D), 재식별 성능의 낮은 절대치, 오프라인 추적기와 스트리밍 요구의 차이, 정지 장면점과 손에 든 물체점의 서로 다른 난이도(EgoTrackFPV), 고해상도·장시간 연산량.",
+   "benchmarks": "δ_avg, AJ, OA(2D) · 화면 이탈/재식별 정확도(EgoPoints) · 3D AJ·APD(TAPVid-3D) · EgoPoints, TAP-Vid, TAPVid-3D, PointOdyssey.",
+   "connections": "축 3(EPIC Fields)의 장면 기하로 학습 데이터를 만들고, 축 1의 스트리밍 4D 복원과 축 7의 재식별·물체 영속성에 대응점을 공급합니다."
   }
  ],
  "review": [

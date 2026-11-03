@@ -129,3 +129,14 @@ EgoWearBench,EgoWearBench,"EgoWearBench: A Benchmark Suite for Long-Context, Con
 MERIT,MERIT,Keep It Simple: Multi-Key Episodic Memory Retrieval for Ultra-Long Video Understanding,2026-08,ECCV 2026 Wearable AI Workshop (최우수 논문),2608.07663,10,7,Y,원문 기준,Choi·Yoo·Lee·Kang·Kim (연세대·Adobe). 초장시간 영상 이해를 위한 다중 키 에피소드 메모리 검색
 StreamInterv,Streaming Interventions,Streaming Interventions: Can Video LLMs Correct Mistakes as They Occur?,2026-06,ECCV 2026 Wearable AI Workshop (우수상),2606.09547,10,,Y,원문 기준,Bhattacharyya 외 (Qualcomm). 사용자의 실수를 일어나는 순간 바로잡는 스트리밍 Video LLM 개입
 SinkPrune,Sink-Token Pruning,Sink-Token-Aware Pruning for Fine-Grained Video Understanding in Efficient Video LLMs,2026-04,ECCV 2026 Wearable AI Workshop (우수상),2604.20937,10,,Y,원문 기준,Kim 외 (KAIST 등). 효율적 Video LLM의 토큰 가지치기 — 웨어러블 온디바이스 효율
+TAPVid,TAP-Vid,TAP-Vid: A Benchmark for Tracking Any Point in a Video,2022-11,NeurIPS 2022 D&B,2211.03726,11,,Y,미확인,임의 점 추적(TAP) 과제 정의. TAP-Vid-DAVIS 등. arXiv ID는 검색으로 미확인
+PIPspp,PIPs++ / PointOdyssey,PointOdyssey: A Large-Scale Synthetic Dataset for Long-Term Point Tracking (PIPs++),2023-07,ICCV 2023,2307.15055,11,,Y,2차 확인,Zheng·Harley 외. 장기 점 추적 합성 데이터셋 + 시간 창을 넓힌 PIPs++
+BootsTAP,BootsTAP,BootsTAP: Bootstrapped Training for Tracking-Any-Point,2024-02,ACCV 2024,2402.00847,11,,Y,2차 확인,DeepMind·Oxford. TAPIR를 실제 무라벨 영상으로 자기지도 부트스트랩
+CoTracker3,CoTracker3,CoTracker3: Simpler and Better Point Tracking by Pseudo-Labelling Real Videos,2024-10,—,2410.11831,11,,Y,2차 확인,Meta·Oxford. 실제 영상 의사라벨로 단순한 구조의 추적기 학습. 게재처 미확인
+EgoPoints,EgoPoints,EgoPoints: Advancing Point Tracking for Egocentric Videos,2024-12,WACV 2025,2412.04592,11,3,Y,2차 확인,"Darkhalil·Guerrier·Harley·Damen. EPIC-KITCHENS 517개 시퀀스 4.7K 점 궤적. TAP-Vid-DAVIS 대비 화면 이탈 9배·재식별 59배. EPIC Fields 장면점 + Kubric 동적 물체로 11K 준실사 학습 시퀀스 → CoTracker +2.7%p·재식별 +2.4%p, PIPs++ +0.3·+2.8"
+TrackOn,Track-On,Track-On: Transformer-based Online Point Tracking with Memory,2025-01,ICLR 2025,2501.18487,11,7,Y,2차 확인,미래 프레임 없이 인과적으로 추적. 공간·맥락 메모리 2종. 스트리밍 에고 추적의 후보 구조
+AllTracker,AllTracker,AllTracker: Efficient Dense Point Tracking at High Resolution,2025-06,—,2506.07310,11,,Y,2차 확인,질의 프레임과 모든 프레임 사이 흐름장을 추정하는 고해상도 조밀 점 추적. 코드·가중치 공개
+EgoTrackFPV,Is FPV Tracking Harder?,Is Tracking really more challenging in First Person Egocentric Vision?,2025-07,ICCV 2025,2507.16015,11,,Y,2차 확인,"Dunnhofer·Manigrasso·Micheloni. 같은 활동의 1인칭·3인칭 동기 영상(VISTA)으로 시점만 바꿔 비교. 정지 물체는 FPV가 어렵고(ego-motion), 손에 든 움직이는 물체는 FPV가 더 잘 됨. 점이 아니라 물체 추적"
+TAPVid3D,TAPVid-3D,TAPVid-3D: A Benchmark for Tracking Any Point in 3D,2024-07,NeurIPS 2024 D&B,2407.05921,11,1,Y,2차 확인,"영상 4,000+개, 메트릭 3D 궤적 210만 개. 3D Jaccard 지표. 에고(ADT) 서브셋 포함 여부는 검색으로 미확인"
+TAPIP3D,TAPIP3D,TAPIP3D: Tracking Any Point in Persistent 3D Geometry,2025-04,—,2504.14717,11,1,Y,2차 확인,지속되는 3D 기하 위에서 점 추적
+SpatialTrackerV2,SpatialTrackerV2,SpatialTrackerV2: 3D Point Tracking Made Easy,2025-07,—,2507.12462,11,1,Y,2차 확인,3D 점 추적. 카메라·깊이와 함께 추정

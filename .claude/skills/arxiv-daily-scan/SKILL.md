@@ -32,6 +32,7 @@ description: 에고센트릭 비디오 × 3D 비전 분야의 최근 arXiv 논�
      - 축 7: `egocentric 3D memory long video object`
      - 축 8: `synthetic egocentric data generation`
      - 축 9: `egocentric gaze forecasting 3D`
+     - 축 11: `egocentric point tracking`, `tracking any point 3D egocentric`
      - 축 10 (3D 외곽, 웨어러블 비서): `egocentric proactive assistant`, `long egocentric video memory LLM`, `streaming video LLM wearable`
      - 축이 새로 생겼으면 그 축의 질의도 추가한다.
    - arxiv.org 접속이 막혀 있으면 WebSearch 결과만 쓰고, 보고서 첫 줄에 그 사실을 적는다.
