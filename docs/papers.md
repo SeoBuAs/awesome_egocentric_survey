@@ -183,3 +183,12 @@
 | Scanpath3D | Forecasting 3D Scanpaths in Egocentric Video | 2026-06 | CVPR 2026 | — | 1 | 2차 확인 | ✓ |
 | G3Ego | G3Ego: Gaze-Guided Graphs for Egocentric Action Understanding | 2026-08 | — | [2608.20157](https://arxiv.org/abs/2608.20157) | 4 | 2차 확인 | ✓ |
 
+## 축 10 · 웨어러블 비서: 장기 기억·선제 개입·스트리밍 대화 (3D 외곽) (4)
+
+| id | 제목 | 연월 | 게재처 | arXiv | 함께 걸친 축 | 검증 | 신규 |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| SinkPrune | Sink-Token-Aware Pruning for Fine-Grained Video Understanding in Efficient Video LLMs | 2026-04 | ECCV 2026 Wearable AI Workshop (우수상) | [2604.20937](https://arxiv.org/abs/2604.20937) | — | 원문 기준 | ✓ |
+| EgoWearBench | EgoWearBench: A Benchmark Suite for Long-Context, Conversational, and Proactive Egocentric AI | 2026-05 | ECCV 2026 Wearable AI Workshop Grand Challenge | — | 7 | 원문 기준 | ✓ |
+| StreamInterv | Streaming Interventions: Can Video LLMs Correct Mistakes as They Occur? | 2026-06 | ECCV 2026 Wearable AI Workshop (우수상) | [2606.09547](https://arxiv.org/abs/2606.09547) | — | 원문 기준 | ✓ |
+| MERIT | Keep It Simple: Multi-Key Episodic Memory Retrieval for Ultra-Long Video Understanding | 2026-08 | ECCV 2026 Wearable AI Workshop (최우수 논문) | [2608.07663](https://arxiv.org/abs/2608.07663) | 7 | 원문 기준 | ✓ |
+

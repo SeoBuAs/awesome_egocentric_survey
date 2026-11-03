@@ -32,6 +32,7 @@ description: 에고센트릭 비디오 × 3D 비전 분야의 최근 arXiv 논�
      - 축 7: `egocentric 3D memory long video object`
      - 축 8: `synthetic egocentric data generation`
      - 축 9: `egocentric gaze forecasting 3D`
+     - 축 10 (3D 외곽, 웨어러블 비서): `egocentric proactive assistant`, `long egocentric video memory LLM`, `streaming video LLM wearable`
      - 축이 새로 생겼으면 그 축의 질의도 추가한다.
    - arxiv.org 접속이 막혀 있으면 WebSearch 결과만 쓰고, 보고서 첫 줄에 그 사실을 적는다.
 
@@ -59,6 +60,9 @@ description: 에고센트릭 비디오 × 3D 비전 분야의 최근 arXiv 논�
 | `axis_guess` / `axis2_guess` | 잠정 주 축 / 보조 축(쉼표 구분). 모르면 빈칸 |
 | `status` | 항상 `대기` |
 | `note` | 확인 수준(`검색 스니펫 기준`, `초록 확인` 등)과 한 줄 메모 |
+| `label` · `pub` · `venue` · `pub_evidence` · `scope` | 선택. 뒤쪽 열이라 비워 두거나 생략해도 빌드가 통과한다. 채운다면 `pub`은 `출간`·`채택`·`채택 표기`·`기술 보고서`·`프리프린트` 중 하나, `label`은 그래프용 짧은 이름 |
+
+3D 요소가 없는 웨어러블 비서 연구(장기 기억 QA, 선제 개입, 음성·대화 비서)는 `axis_guess`를 `10`으로 둔다.
 
 그다음:
 

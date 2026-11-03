@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 DOCS = ROOT / "docs"
 
-AXIS_ORDER = ["B", "1", "2", "1∩2", "3", "4", "5", "6", "7", "8", "9"]
+AXIS_ORDER = ["B", "1", "2", "1∩2", "3", "4", "5", "6", "7", "8", "9", "10"]
 REL_KO = {
     "backbone": "백본으로 사용", "extends": "직접 확장", "trains_on": "학습 데이터",
     "evaluates_on": "평가 데이터", "compares": "비교 기준선", "cross": "개념 연결",
@@ -24,6 +24,8 @@ REL_KO = {
 STATUSES = {"검증됨", "2차 확인", "원문 기준", "미확인"}
 EVIDENCE = {"원문", "확인", "추정"}
 REVIEW_STATUSES = {"대기", "보류", "반영", "제외"}
+PUB_STATUSES = {"", "출간", "채택", "채택 표기", "기술 보고서", "프리프린트"}
+GAP_PRIORITIES = {"높음", "중간", "낮음"}
 HOI_GROUPS = {
     "A": "정지 잡기 생성·접촉 보정", "B": "MANO 손 + 물리 강화학습", "C": "미분 가능 물리·영상→물리 보정",
     "D": "전신 휴머노이드 + 물리", "E": "사람 손 → 로봇손 전이", "F": "로봇손 잡기 (참고)",
@@ -32,7 +34,8 @@ HOI_GROUPS = {
 
 def read(name):
     with open(DATA / f"{name}.csv", newline="", encoding="utf-8") as f:
-        return list(csv.DictReader(f))
+        # 데일리 스캔이 앞쪽 열만 채워 행을 덧붙일 수 있으므로, 빠진 뒤쪽 열은 빈칸으로 채운다
+        return [{k: (v or "") for k, v in r.items() if k is not None} for r in csv.DictReader(f)]
 
 
 def validate(nodes, edges, axes):
@@ -81,7 +84,56 @@ def validate_review(review, nodes, axes):
                     errs.append(f"review {a}: 알 수 없는 {f} '{x}'")
         if r["status"] not in REVIEW_STATUSES:
             errs.append(f"review {a}: 알 수 없는 status '{r['status']}'")
+        if r.get("pub", "") not in PUB_STATUSES:
+            errs.append(f"review {a}: 알 수 없는 pub '{r['pub']}'")
     return errs
+
+
+def validate_review_edges(review_edges, nodes, review):
+    errs = []
+    ids = {n["id"] for n in nodes} | {r["arxiv"] for r in review}
+    for e in review_edges:
+        for k in ("source", "target"):
+            if e[k] not in ids:
+                errs.append(f"review 엣지 {e['source']}→{e['target']}: 없는 노드 '{e[k]}'")
+        if e["rel"] not in REL_KO:
+            errs.append(f"review 엣지 {e['source']}→{e['target']}: 알 수 없는 rel '{e['rel']}'")
+        if e["evidence"] not in EVIDENCE:
+            errs.append(f"review 엣지 {e['source']}→{e['target']}: 알 수 없는 evidence '{e['evidence']}'")
+    return errs
+
+
+def validate_gaps(gaps, axes):
+    errs = []
+    axis_ids = {a["axis"] for a in axes}
+    for g in gaps:
+        for k in ("id", "title", "axes", "priority", "gap_ko"):
+            if not g.get(k):
+                errs.append(f"gap {g.get('id', '?')}: '{k}' 없음")
+        errs += [f"gap {g['id']}: 알 수 없는 축 '{x}'" for x in g.get("axes", []) if x not in axis_ids]
+        if g.get("priority") not in GAP_PRIORITIES:
+            errs.append(f"gap {g['id']}: 알 수 없는 priority '{g.get('priority')}'")
+    return errs
+
+
+def gaps_md(gaps, label):
+    out = ["# 연구 빈칸", "",
+           "> `scripts/build.py`가 `data/gaps.json`에서 자동 생성합니다. 직접 수정하지 마세요.",
+           "> 검토 대기열 감사(2026-11-01)에서 도출. 근거는 웹 검색 결과와 GitHub 페이지이며 arXiv 원문 직접 열람은 못 했습니다.", ""]
+    order = {"높음": 0, "중간": 1, "낮음": 2}
+    for g in sorted(gaps, key=lambda g: (order[g["priority"]], g["id"])):
+        out += [f"## [{g['priority']}] {g['title']}", "",
+                f"- **축**: {', '.join(g['axes'])} · **판정**: {g.get('verdict', '')}",
+                f"- **빈칸**: {g['gap_ko']}"]
+        if g.get("nearest_work"):
+            out.append("- **가장 가까운 연구**: " + ", ".join(label.get(x, x) for x in g["nearest_work"]))
+        if g.get("partial_fillers"):
+            out.append("- **부분적으로 채우는 것**:")
+            out += [f"  - {md_cell(x)}" for x in g["partial_fillers"]]
+        if g.get("what_would_fill"):
+            out.append(f"- **채우려면**: {g['what_would_fill']}")
+        out.append("")
+    return "\n".join(out)
 
 
 def validate_hoi(hoi, hoi_edges):
@@ -130,10 +182,11 @@ def review_md(review):
     out = ["# 검토 대기 논문", "",
            "> `scripts/build.py`가 `data/review.csv`에서 자동 생성합니다. 직접 수정하지 마세요.",
            "> arXiv 데일리 스캔이 찾은, 아직 지형도에 배치하지 않은 논문입니다. 축은 잠정입니다.", "",
-           "| 발견일 | arXiv | 제목 | 잠정 축 | 상태 | 메모 |", "| --- | --- | --- | --- | --- | --- |"]
+           "| 발견일 | arXiv | 제목 | 잠정 축 | 출간 상태 | 게재처 | 상태 | 메모 |", "| --- | --- | --- | --- | --- | --- | --- | --- |"]
     for r in sorted(review, key=lambda r: (r["found"], r["arxiv"]), reverse=True):
         ax = ", ".join(filter(None, [r["axis_guess"], r["axis2_guess"]])) or "미정"
-        out.append(f"| {r['found']} | {arxiv_link(r['arxiv'])} | {md_cell(r['title'])} | {ax} | {r['status']} | {md_cell(r['note'])} |")
+        out.append(f"| {r['found']} | {arxiv_link(r['arxiv'])} | {md_cell(r['title'])} | {ax} | {r.get('pub') or '미확인'} | "
+                   f"{md_cell(r.get('venue', '')) or '—'} | {r['status']} | {md_cell(r['note'])} |")
     return "\n".join(out)
 
 
@@ -209,18 +262,20 @@ def stats_block(nodes, edges, axes):
 
 def main():
     nodes, edges, axes, review, hoi = read("nodes"), read("edges"), read("axes"), read("review"), read("hoi")
-    hoi_edges = read("hoi_edges")
-    errs = validate(nodes, edges, axes) + validate_review(review, nodes, axes) + validate_hoi(hoi, hoi_edges)
+    hoi_edges, review_edges = read("hoi_edges"), read("review_edges")
+    gaps = json.loads((DATA / "gaps.json").read_text(encoding="utf-8"))
+    errs = (validate(nodes, edges, axes) + validate_review(review, nodes, axes) + validate_hoi(hoi, hoi_edges)
+            + validate_review_edges(review_edges, nodes, review) + validate_gaps(gaps, axes))
     if errs:
         print("검증 실패:\n  " + "\n  ".join(errs), file=sys.stderr)
         sys.exit(1)
-    print(f"검증 통과: 노드 {len(nodes)}, 엣지 {len(edges)}, 축 {len(axes)}, 검토 대기 {len(review)}, 번외 HOI {len(hoi)}/{len(hoi_edges)}")
+    print(f"검증 통과: 노드 {len(nodes)}, 엣지 {len(edges)}, 축 {len(axes)}, 검토 대기 {len(review)}/{len(review_edges)}, 연구 빈칸 {len(gaps)}, 번외 HOI {len(hoi)}/{len(hoi_edges)}")
     if "--check" in sys.argv:
         return
 
     for a in axes:
         a["order"] = int(a["order"])
-    graph = {"nodes": nodes, "edges": edges, "axes": axes, "review": review,
+    graph = {"nodes": nodes, "edges": edges, "axes": axes, "review": review, "review_edges": review_edges, "gaps": gaps,
              "hoi": hoi, "hoi_edges": hoi_edges, "hoi_groups": [{"group": g, "name": n} for g, n in HOI_GROUPS.items()]}
     (DATA / "graph.json").write_text(json.dumps(graph, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
 
@@ -239,6 +294,8 @@ def main():
     (DOCS / "axes.md").write_text(axes_md(axes, nodes) + "\n", encoding="utf-8")
     (DOCS / "review.md").write_text(review_md(review) + "\n", encoding="utf-8")
     (DOCS / "hoi.md").write_text(hoi_md(hoi, hoi_edges) + "\n", encoding="utf-8")
+    label = {n["id"]: n["label"] for n in nodes} | {r["arxiv"]: r.get("label") or r["arxiv"] for r in review}
+    (DOCS / "gaps.md").write_text(gaps_md(gaps, label) + "\n", encoding="utf-8")
 
     readme = ROOT / "README.md"
     text = readme.read_text(encoding="utf-8")

@@ -130,3 +130,10 @@ OmniEgoCap,ReViV,cross,추정,착용자(viewer) 몸 복원이라는 공통 과�
 MANO,ComPose,backbone,추정,손 관절 단서
 WHOLE,ComPose,cross,추정,손-물체 공동 추적 (WHOLE은 월드 좌표 복원)
 ComPose,Phantom,cross,추정,사람 영상 → 로봇 전이용 물체 궤적
+Ego4D,EgoWearBench,compares,원문,워크숍 페이지 데이터셋 비교표
+EgoExo4D,EgoWearBench,compares,원문,워크숍 페이지 데이터셋 비교표
+HDEPIC,EgoWearBench,cross,추정,장시간 에고 영상 QA 벤치마크
+EgoWearBench,MERIT,cross,추정,같은 워크숍 최우수 논문 (EgoWearBench 평가 여부 미확인)
+AMEGO,MERIT,cross,추정,장시간 에고 영상 에피소드 메모리
+EgoWearBench,StreamInterv,cross,추정,스트리밍 개입 (EgoProactive와 같은 문제의식)
+NVILA,SinkPrune,cross,추정,효율적 Video LLM

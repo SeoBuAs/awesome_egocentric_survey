@@ -82,7 +82,7 @@
 | ADT → ReViV | 확인 |  |
 | EgoExo4D → OmniEgoCap | 확인 |  |
 
-## 비교 기준선 (`compares`, 25)
+## 비교 기준선 (`compares`, 27)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -111,8 +111,10 @@
 | EgoXGen → Exo2EgoHOI | 추정 | 엑소→에고 생성 선행 연구 |
 | GLC → CSTS | 확인 | GLC를 기준선으로 비교 |
 | GLC → ARGaze | 추정 |  |
+| Ego4D → EgoWearBench | 원문 | 워크숍 페이지 데이터셋 비교표 |
+| EgoExo4D → EgoWearBench | 원문 | 워크숍 페이지 데이터셋 비교표 |
 
-## 개념 연결 (`cross`, 40)
+## 개념 연결 (`cross`, 45)
 
 | source → target | 근거 | 메모 |
 | --- | --- | --- |
@@ -156,6 +158,11 @@
 | OmniEgoCap → ReViV | 추정 | 착용자(viewer) 몸 복원이라는 공통 과제 |
 | WHOLE → ComPose | 추정 | 손-물체 공동 추적 (WHOLE은 월드 좌표 복원) |
 | ComPose → Phantom | 추정 | 사람 영상 → 로봇 전이용 물체 궤적 |
+| HDEPIC → EgoWearBench | 추정 | 장시간 에고 영상 QA 벤치마크 |
+| EgoWearBench → MERIT | 추정 | 같은 워크숍 최우수 논문 (EgoWearBench 평가 여부 미확인) |
+| AMEGO → MERIT | 추정 | 장시간 에고 영상 에피소드 메모리 |
+| EgoWearBench → StreamInterv | 추정 | 스트리밍 개입 (EgoProactive와 같은 문제의식) |
+| NVILA → SinkPrune | 추정 | 효율적 Video LLM |
 
 ## 인용 (`cites`, 5)
 
