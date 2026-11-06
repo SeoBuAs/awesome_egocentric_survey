@@ -5,6 +5,10 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 출간 상태 | 게재처 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-07 | [2611.08477](https://arxiv.org/abs/2611.08477) | EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling | 6, 2 | 프리프린트 | — | 대기 | 초록 확인 · 사전학습 비디오 생성기를 메트릭 3D 사람 동작 조건 에고 영상 생성·포즈 추정·동작-영상 공동 생성 등 5개 과제로 통합 |
+| 2026-11-07 | [2611.07711](https://arxiv.org/abs/2611.07711) | Fast and Accurate Hand Estimation in Pixels, Interaction and World Space | 2 | 프리프린트 | — | 대기 | 초록 확인 · FAH: SAM 3D Body 손 분기를 미세조정·증류해 2D/3D 관절·접촉·인과 정제·카메라 추정으로 월드 좌표 손 추적(ViT-L 65 fps). 에고 특화는 아님(경계) |
+| 2026-11-07 | [2611.07683](https://arxiv.org/abs/2611.07683) | ReferClaw: Disambiguating User Intent for Egocentric Assistance | 10 | 프리프린트 | — | 대기 | 초록 확인 · 에고 스트리밍 QA에서 모호한 질문("어디 뒀지?")에 되묻기로 의도를 확정하는 에이전트 프레임워크. 3D 없음 |
+| 2026-11-07 | [2611.07272](https://arxiv.org/abs/2611.07272) | VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations | 5, 3 | 프리프린트 | — | 대기 | 초록 확인 · PICO 4 Ultra(EgoKit)의 머리·손 추적과 스테레오 물체 위치로 기록한 에고 시연으로 조작 정책 학습, Aria 기록과 같은 배치 비교(시뮬 2과제). HumanEgo 전처리 적응 |
 | 2026-11-06 | [2611.06061](https://arxiv.org/abs/2611.06061) | TouchéWorld tech report : Towards Online Unified Camera--Hand Exploration in Generative Worlds | 6, 8 | 기술 보고서 | — | 대기 | 초록 확인 · 카메라 제어 비디오 월드 모델에 손 골격·손 동작 조건을 더해 온라인 생성, 이질적 에고 영상으로 카메라-손 데이터 구축, TouchéBench 제안 |
 | 2026-11-06 | [2611.05163](https://arxiv.org/abs/2611.05163) | Synthesizing Dexterous Robot Demonstrations from Human Videos via Virtual Try-On | 8, 5 | 프리프린트 | — | 대기 | 초록 확인 · RoboTryOn: 에고 사람 영상을 가상 착용처럼 로봇 영상으로 변환하고 깊이 특징 IDM으로 행동 라벨을 추정. 로봇화 편집 계열(HuRo 등) |
 | 2026-11-06 | [2611.05062](https://arxiv.org/abs/2611.05062) | FloMo: 3D Scene Flow as a World Action Model Intermediate for Learning from Human Video | 5, 6 | 프리프린트 | — | 대기 | 초록 확인 · 비디오 생성 모델을 3D 장면 흐름+행동 토큰 예측으로 미세조정, 사람 영상 사전학습 + 로봇 데이터 공동학습. 사람 영상이 1인칭인지는 초록에 없음(경계) |

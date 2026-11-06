@@ -3955,6 +3955,62 @@
    "venue": "",
    "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
    "scope": "범위 밖 후보 (3D 없음)"
+  },
+  {
+   "arxiv": "2611.08477",
+   "title": "EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling",
+   "found": "2026-11-07",
+   "axis_guess": "6",
+   "axis2_guess": "2",
+   "status": "대기",
+   "note": "초록 확인 · 사전학습 비디오 생성기를 메트릭 3D 사람 동작 조건 에고 영상 생성·포즈 추정·동작-영상 공동 생성 등 5개 과제로 통합",
+   "label": "EgoGeneralist",
+   "pub": "프리프린트",
+   "venue": "",
+   "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
+   "scope": "핵심"
+  },
+  {
+   "arxiv": "2611.07711",
+   "title": "Fast and Accurate Hand Estimation in Pixels, Interaction and World Space",
+   "found": "2026-11-07",
+   "axis_guess": "2",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "초록 확인 · FAH: SAM 3D Body 손 분기를 미세조정·증류해 2D/3D 관절·접촉·인과 정제·카메라 추정으로 월드 좌표 손 추적(ViT-L 65 fps). 에고 특화는 아님(경계)",
+   "label": "FAH",
+   "pub": "프리프린트",
+   "venue": "",
+   "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
+   "scope": "경계 (에고 특화 아님)"
+  },
+  {
+   "arxiv": "2611.07272",
+   "title": "VREgo: Consumer VR Headsets for Learning Robot Manipulation from Egocentric Demonstrations",
+   "found": "2026-11-07",
+   "axis_guess": "5",
+   "axis2_guess": "3",
+   "status": "대기",
+   "note": "초록 확인 · PICO 4 Ultra(EgoKit)의 머리·손 추적과 스테레오 물체 위치로 기록한 에고 시연으로 조작 정책 학습, Aria 기록과 같은 배치 비교(시뮬 2과제). HumanEgo 전처리 적응",
+   "label": "VREgo",
+   "pub": "프리프린트",
+   "venue": "",
+   "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
+   "scope": "핵심"
+  },
+  {
+   "arxiv": "2611.07683",
+   "title": "ReferClaw: Disambiguating User Intent for Egocentric Assistance",
+   "found": "2026-11-07",
+   "axis_guess": "10",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "초록 확인 · 에고 스트리밍 QA에서 모호한 질문(\"어디 뒀지?\")에 되묻기로 의도를 확정하는 에이전트 프레임워크. 3D 없음",
+   "label": "ReferClaw",
+   "pub": "프리프린트",
+   "venue": "",
+   "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
+   "scope": "범위 밖 후보 (3D 없음, 축 10)"
   }
  ],
  "review_edges": [
