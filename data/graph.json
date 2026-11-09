@@ -4025,6 +4025,34 @@
    "venue": "",
    "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
    "scope": "경계 (로봇 시점 동기, 스포츠)"
+  },
+  {
+   "arxiv": "2611.09036",
+   "title": "ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use",
+   "found": "2026-11-10",
+   "axis_guess": "3",
+   "axis2_guess": "2,5",
+   "status": "대기",
+   "note": "초록 확인 · 에고 카메라 + 외부 8대 동기화로 창의적 도구 사용(물체 골라 쓰기·변형 상호작용) 사람 시연을 대규모 수집, 손·도구·대상 물체 주석과 벤치마크 3종. Fei-Fei Li 그룹",
+   "label": "ToolDex",
+   "pub": "프리프린트",
+   "venue": "",
+   "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
+   "scope": "핵심"
+  },
+  {
+   "arxiv": "2611.09089",
+   "title": "EventHOI: Event-Driven Resource-Efficient Hand-Object Interaction Logging on Smartglasses",
+   "found": "2026-11-10",
+   "axis_guess": "10",
+   "axis2_guess": "2",
+   "status": "대기",
+   "note": "초록 확인 · 스마트글래스에서 이벤트 센서로 RGB 촬영 시점·영역을 정하고 IMU로 자기운동 이벤트를 제거해 BLE로 HOI 기록(97명 50시간 벤치). 3D 약함, 기억 보조용 시스템",
+   "label": "EventHOI",
+   "pub": "프리프린트",
+   "venue": "",
+   "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
+   "scope": "경계 (3D 약함, 시스템)"
   }
  ],
  "review_edges": [

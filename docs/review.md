@@ -5,6 +5,8 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 출간 상태 | 게재처 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-10 | [2611.09089](https://arxiv.org/abs/2611.09089) | EventHOI: Event-Driven Resource-Efficient Hand-Object Interaction Logging on Smartglasses | 10, 2 | 프리프린트 | — | 대기 | 초록 확인 · 스마트글래스에서 이벤트 센서로 RGB 촬영 시점·영역을 정하고 IMU로 자기운동 이벤트를 제거해 BLE로 HOI 기록(97명 50시간 벤치). 3D 약함, 기억 보조용 시스템 |
+| 2026-11-10 | [2611.09036](https://arxiv.org/abs/2611.09036) | ToolDex: An Ego-Exo Human Demonstration Dataset for Creative Physical Tool Use | 3, 2,5 | 프리프린트 | — | 대기 | 초록 확인 · 에고 카메라 + 외부 8대 동기화로 창의적 도구 사용(물체 골라 쓰기·변형 상호작용) 사람 시연을 대규모 수집, 손·도구·대상 물체 주석과 벤치마크 3종. Fei-Fei Li 그룹 |
 | 2026-11-09 | [2610.37619](https://arxiv.org/abs/2610.37619) | Perceiving and Predicting Dynamic Sports: Spatiotemporal Intelligence in Vision Models for Egocentric Tennis Video | 4, 1 | 프리프린트 | — | 대기 | 초록 확인 · 10/25–10/28 누락분 점검(월간 목록) · 에고 테니스 영상(+외부 5시점)에서 선수·공 3D 위치·미래 궤적·접촉 시점 예측 7과제로 비전 모델 평가, 깊이 보조가 3D 공 위치에 큰 도움 |
 | 2026-11-07 | [2611.08477](https://arxiv.org/abs/2611.08477) | EgoGeneralist: Unifying Egocentric Action-Video Tasks through Video-Native Modeling | 6, 2 | 프리프린트 | — | 대기 | 초록 확인 · 사전학습 비디오 생성기를 메트릭 3D 사람 동작 조건 에고 영상 생성·포즈 추정·동작-영상 공동 생성 등 5개 과제로 통합 |
 | 2026-11-07 | [2611.07711](https://arxiv.org/abs/2611.07711) | Fast and Accurate Hand Estimation in Pixels, Interaction and World Space | 2 | 프리프린트 | — | 대기 | 초록 확인 · FAH: SAM 3D Body 손 분기를 미세조정·증류해 2D/3D 관절·접촉·인과 정제·카메라 추정으로 월드 좌표 손 추적(ViT-L 65 fps). 에고 특화는 아님(경계) |
