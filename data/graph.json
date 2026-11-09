@@ -4011,6 +4011,20 @@
    "venue": "",
    "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
    "scope": "범위 밖 후보 (3D 없음, 축 10)"
+  },
+  {
+   "arxiv": "2610.37619",
+   "title": "Perceiving and Predicting Dynamic Sports: Spatiotemporal Intelligence in Vision Models for Egocentric Tennis Video",
+   "found": "2026-11-09",
+   "axis_guess": "4",
+   "axis2_guess": "1",
+   "status": "대기",
+   "note": "초록 확인 · 10/25–10/28 누락분 점검(월간 목록) · 에고 테니스 영상(+외부 5시점)에서 선수·공 3D 위치·미래 궤적·접촉 시점 예측 7과제로 비전 모델 평가, 깊이 보조가 3D 공 위치에 큰 도움",
+   "label": "EgoTennis",
+   "pub": "프리프린트",
+   "venue": "",
+   "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
+   "scope": "경계 (로봇 시점 동기, 스포츠)"
   }
  ],
  "review_edges": [
