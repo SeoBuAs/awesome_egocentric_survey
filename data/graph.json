@@ -4207,6 +4207,62 @@
    "venue": "ACCV 2026 (저자 표기)",
    "pub_evidence": "arXiv Comments \"ACCV 2026\"",
    "scope": "경계 (2D 시간 검출)"
+  },
+  {
+   "arxiv": "2611.16012",
+   "title": "Topology-Aware 4D Gaussian Splatting for Egocentric Videos",
+   "found": "2026-11-14",
+   "axis_guess": "1",
+   "axis2_guess": "2",
+   "status": "대기",
+   "note": "초록 확인 · 자르기·조립·열기/닫기처럼 위상이 바뀌는 에고 상호작용용 4DGS(부품별 강체 변환 + 가우시안 활성/비활성)와 첫 위상 변화 에고 벤치 TopoEgo. 빈칸 G9(관절·변형 물체)과 직결",
+   "label": "Topo-4DGS",
+   "pub": "프리프린트",
+   "venue": "",
+   "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
+   "scope": "핵심"
+  },
+  {
+   "arxiv": "2611.16417",
+   "title": "VBot Exo2Ego Policy: Lightweight Data Collection and Exocentric-to-Egocentric Video Generation",
+   "found": "2026-11-14",
+   "axis_guess": "8",
+   "axis2_guess": "6,5",
+   "status": "대기",
+   "note": "초록 확인 · 3인칭 영상을 특정 행위자의 1인칭 관측으로 바꾸는 비디오 확산 모델, 모바일 앱으로 1·3인칭 동기 수집. 카메라 기하를 학습 중 점차 제거",
+   "label": "VBot Exo2Ego",
+   "pub": "프리프린트",
+   "venue": "",
+   "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
+   "scope": "핵심"
+  },
+  {
+   "arxiv": "2611.16728",
+   "title": "EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming",
+   "found": "2026-11-14",
+   "axis_guess": "5",
+   "axis2_guess": "",
+   "status": "대기",
+   "note": "초록 확인 · 사람·실로봇·시뮬 시연을 에고 관측·행동 모달리티로 묶어 MXT+(모달리티별 토크나이저·전문가 + 공유 트렁크 + 미래 잠재 예측)를 사전학습. 지도의 EgoX(EgoXGen, 엑소→에고 생성)와 이름만 같음",
+   "label": "EgoX (MXT+)",
+   "pub": "프리프린트",
+   "venue": "",
+   "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
+   "scope": "핵심"
+  },
+  {
+   "arxiv": "2611.17238",
+   "title": "HEIR: Harness Egocentric Intent for Human-Robot Interactions",
+   "found": "2026-11-14",
+   "axis_guess": "5",
+   "axis2_guess": "9,10",
+   "status": "대기",
+   "note": "초록 확인 · 사람 음성·측정 시선·에고 영상과 로봇 관측·원격조작 내비-조작 궤적을 짝지은 인간-로봇 상호작용 데이터(의도 grounding·실행 계획 평가)",
+   "label": "HEIR",
+   "pub": "프리프린트",
+   "venue": "",
+   "pub_evidence": "arxiv.org/abs 확인, 학회 표기 없음",
+   "scope": "경계 (3D 약함)"
   }
  ],
  "review_edges": [

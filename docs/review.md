@@ -5,6 +5,10 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 출간 상태 | 게재처 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-14 | [2611.17238](https://arxiv.org/abs/2611.17238) | HEIR: Harness Egocentric Intent for Human-Robot Interactions | 5, 9,10 | 프리프린트 | — | 대기 | 초록 확인 · 사람 음성·측정 시선·에고 영상과 로봇 관측·원격조작 내비-조작 궤적을 짝지은 인간-로봇 상호작용 데이터(의도 grounding·실행 계획 평가) |
+| 2026-11-14 | [2611.16728](https://arxiv.org/abs/2611.16728) | EgoX: Egocentric Cross-Embodiment Manipulation with Embodiment Dreaming | 5 | 프리프린트 | — | 대기 | 초록 확인 · 사람·실로봇·시뮬 시연을 에고 관측·행동 모달리티로 묶어 MXT+(모달리티별 토크나이저·전문가 + 공유 트렁크 + 미래 잠재 예측)를 사전학습. 지도의 EgoX(EgoXGen, 엑소→에고 생성)와 이름만 같음 |
+| 2026-11-14 | [2611.16417](https://arxiv.org/abs/2611.16417) | VBot Exo2Ego Policy: Lightweight Data Collection and Exocentric-to-Egocentric Video Generation | 8, 6,5 | 프리프린트 | — | 대기 | 초록 확인 · 3인칭 영상을 특정 행위자의 1인칭 관측으로 바꾸는 비디오 확산 모델, 모바일 앱으로 1·3인칭 동기 수집. 카메라 기하를 학습 중 점차 제거 |
+| 2026-11-14 | [2611.16012](https://arxiv.org/abs/2611.16012) | Topology-Aware 4D Gaussian Splatting for Egocentric Videos | 1, 2 | 프리프린트 | — | 대기 | 초록 확인 · 자르기·조립·열기/닫기처럼 위상이 바뀌는 에고 상호작용용 4DGS(부품별 강체 변환 + 가우시안 활성/비활성)와 첫 위상 변화 에고 벤치 TopoEgo. 빈칸 G9(관절·변형 물체)과 직결 |
 | 2026-11-12 | [2611.14092](https://arxiv.org/abs/2611.14092) | DexSeed: Expanding Human Hand-Object Interactions into Robot Demonstrations for Dexterous Policy Learning | 8, 5 | 프리프린트 | — | 대기 | 초록 확인 · 사람 손-물체 상호작용 데이터의 파지를 유지한 채 물체·위치를 넓혀 물리 시뮬로 실행 가능한 정교 로봇 VLA 시연을 생성. 원천이 에고 영상인지는 초록에 없음(경계) |
 | 2026-11-12 | [2611.13685](https://arxiv.org/abs/2611.13685) | Ego Guidance: Enhancing Robot Policy Learning with Action-Free Human Egocentric Videos | 5 | 프리프린트 | — | 대기 | 초록 확인 · SPAR: VLM 기반 MoT로 행동 라벨 없는 에고 영상의 미래 시각 상태 예측을 행동 예측과 함께 학습, OOD 로봇 과제 향상과 데이터 규모 효과 보고 |
 | 2026-11-12 | [2611.13654](https://arxiv.org/abs/2611.13654) | EgoHMP: Achieving Precise Human Motion Prediction in 3D Scenes via Egocentric Cues | 2, 1∩2,9 | 채택 표기 | NeurIPS 2026 main (저자 표기, 학회 미개최) | 대기 | 초록 확인 · 시선 대신 에고 시점 영상과 머리 움직임을 의도 단서로 써서 3D 장면 속 사람 동작을 예측(시각-동작 정렬 인코더 + 에고 의도 예측기) |
