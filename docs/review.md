@@ -5,6 +5,11 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 출간 상태 | 게재처 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-19 | [2611.22164](https://arxiv.org/abs/2611.22164) | HandRSI: Recursive Self-Improvement for Hand Pose Estimation | 2 | 기술 보고서 | — | 대기 | 초록 확인 · 코딩 에이전트가 추론 하네스를 고치고 10개 지표가 모두 나빠지지 않을 때만 받아들여 에고 3D 손 추정기를 반복 개선(가장자리·가림·떨림 대응). 기술 보고서 |
+| 2026-11-19 | [2611.22151](https://arxiv.org/abs/2611.22151) | EgoHandWAM: Probing the Role of Hand Motion in Egocentric World Action Modeling | 6, 2,5 | 프리프린트 | — | 대기 | 초록 확인 · 현재 영상과 최근 손 상태로 3D 손목·손끝 궤적과 미래 시각 특징을 예측해 손 동작이 다음 에고 관측에 주는 정보를 탐침(EgoDex 75만 창) |
+| 2026-11-19 | [2611.21938](https://arxiv.org/abs/2611.21938) | HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning | B, 5 | 프리프린트 | — | 대기 | 초록 확인 · 실제 작업장 숙련 작업 에고 영상 v1.0: 머리 장착 폰 카메라 1080p 10,124시간 + 100 Hz IMU, 1.2만 명 이상 기여. 로봇 학습용 다양성 중심 |
+| 2026-11-19 | [2611.21908](https://arxiv.org/abs/2611.21908) | From Human Videos to Bimanual Dexterous Manipulation Data: Confidence-Guided RL Refinement of Video Priors | 8, 5 | 프리프린트 | — | 대기 | 초록 확인 · PriDex: 사람 영상의 손-물체 상호작용을 affordance 단서로 써서 시뮬 RL로 실행 가능한 양손 정교 로봇 시연으로 변환. 에고 여부는 초록에 없음(경계) |
+| 2026-11-19 | [2611.21690](https://arxiv.org/abs/2611.21690) | EgoLink: Egocentric Language-Vision Interactive Network Knowledge Challenge Summary | 10 | 출간 | ACM MM 2026 (챌린지 요약, 저자 표기) | 대기 | 초록 확인 · ACM MM 2026 EgoLink 챌린지 요약: 에고 영상 사회적 추론과 도구 사용 서비스 에이전트 2트랙. 3D 없음 |
 | 2026-11-18 | [2611.21479](https://arxiv.org/abs/2611.21479) | LynnReal-Hand: Unlocking World Interaction with Hand Control | 6 | 프리프린트 | — | 대기 | 초록 확인 · 손 동작으로 조작하는 실시간 스트리밍 비디오 월드 모델(상호작용 클립 10만, causal flow map 소수 단계 생성). 에고 시점 여부는 초록에 명시 없음(경계) |
 | 2026-11-18 | [2611.21143](https://arxiv.org/abs/2611.21143) | WinDEX: Metric 3D Hand Motion Reconstruction in the Wild for Dexterous Teleoperation and Policy Learning | 2, 3,5 | 프리프린트 | — | 대기 | 초록 확인 · 야생 에고 스테레오 영상 + VIO SLAM으로 메트릭 3D 손 주석을 만들고 어안 네이티브 WinDEX-Net(오프라인·인과 스트리밍)과 저가 CyberCap 리그 제안 |
 | 2026-11-18 | [2611.21060](https://arxiv.org/abs/2611.21060) | MetricHand: Geometry-Aware Flow Matching for 4D Hand Reconstruction in Metric World Space | 2, 1∩2 | 프리프린트 | — | 대기 | 초록 확인 · 근거리 약원근 근사를 버리고 손-물체 영역 깊이 prior를 관절 표현에 넣은 flow matching으로 메트릭 월드 좌표 4D 손 복원(에고 손 감독용). 월드 좌표 손 계보 |
