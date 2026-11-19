@@ -5,6 +5,13 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 출간 상태 | 게재처 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-20 | [2611.24731](https://arxiv.org/abs/2611.24731) | HandWorldBench: A Unified Benchmark for Hand-Centric World Models | 6, 2 | 프리프린트 | — | 대기 | 초록 확인 · 사람 손·시뮬 정교 손·실제 정교 손에서 손 중심 월드 모델을 시각 품질·손 충실도·물리 일관성 등 6차원으로 평가하는 벤치. 빈칸 G7과 직결 |
+| 2026-11-20 | [2611.24616](https://arxiv.org/abs/2611.24616) | EgoJev: Finding Evidence in Egocentric Video by Reading VLM Decisions | 10 | 프리프린트 | — | 대기 | 초록 확인 · 장시간 에고 영상 QA에서 VLM의 프레임 선택 분포를 읽어 증거 순간을 찾는 무학습 프레임 선택기(웨어러블 어시스턴트용). 3D 없음 |
+| 2026-11-20 | [2611.24585](https://arxiv.org/abs/2611.24585) | SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data | 5 | 프리프린트 | — | 대기 | 초록 확인 · 에고 사람 데이터의 리타게팅 엔드이펙터 행동을 이산 토큰 보조 과제로, 로봇 관절 행동을 병렬 연속 스트림으로 읽는 정교 조작 VLA |
+| 2026-11-20 | [2611.24138](https://arxiv.org/abs/2611.24138) | Ego2X: Contact-aware Transfer from Egocentric Human Data to Any Robot | 5, 8 | 프리프린트 | — | 대기 | 초록 확인 · 단안 에고 영상을 물체 움직임과 접촉 중심 표현(CORE)으로 바꿔 정교 손·평행 그리퍼 로봇이 실행 가능한 데이터로 변환. 손 모양 리타게팅 대신 물체·접촉 전이. 지도/큐의 EgoX와 다른 연구 |
+| 2026-11-20 | [2611.23970](https://arxiv.org/abs/2611.23970) | TOMAS: Topology-Aware Operation Modeling and Adaptive Staging for Egocentric Hand Forecasting | 2 | 프리프린트 | — | 대기 | 초록 확인 · 손 골격 위상·관절 동역학과 물체 의미를 연결하고 조작 단계를 적응적으로 나눠 에고 영상의 미래 손 궤적을 예측 |
+| 2026-11-20 | [2611.23871](https://arxiv.org/abs/2611.23871) | HOForce: Motion and Force Reconstruction of Hand-Object Interaction Using a Single-View RGB-D Video | 2 | 프리프린트 | — | 대기 | 초록 확인 · 단일 시점 RGB-D 영상과 물체 물성으로 양손·물체 움직임과 손끝·물체 간 힘을 함께 복원(DexYCB·TACO). 에고 특화 아님(경계) |
+| 2026-11-20 | [2611.23534](https://arxiv.org/abs/2611.23534) | Smart Glasses for Ubiquitous Computing: A Layered Survey and the Road Ahead | 10, 3 | 프리프린트 | — | 대기 | 초록 확인 · 서베이: 2020–2026.10 스마트글래스 논문 163편, 하드웨어 14종·데이터셋 10종을 자원·센싱/지각 등 4개 층으로 정리 |
 | 2026-11-19 | [2611.22164](https://arxiv.org/abs/2611.22164) | HandRSI: Recursive Self-Improvement for Hand Pose Estimation | 2 | 기술 보고서 | — | 대기 | 초록 확인 · 코딩 에이전트가 추론 하네스를 고치고 10개 지표가 모두 나빠지지 않을 때만 받아들여 에고 3D 손 추정기를 반복 개선(가장자리·가림·떨림 대응). 기술 보고서 |
 | 2026-11-19 | [2611.22151](https://arxiv.org/abs/2611.22151) | EgoHandWAM: Probing the Role of Hand Motion in Egocentric World Action Modeling | 6, 2,5 | 프리프린트 | — | 대기 | 초록 확인 · 현재 영상과 최근 손 상태로 3D 손목·손끝 궤적과 미래 시각 특징을 예측해 손 동작이 다음 에고 관측에 주는 정보를 탐침(EgoDex 75만 창) |
 | 2026-11-19 | [2611.21938](https://arxiv.org/abs/2611.21938) | HubEgo-100K: In-the-Wild Egocentric Video of Skilled Work for Robot Learning | B, 5 | 프리프린트 | — | 대기 | 초록 확인 · 실제 작업장 숙련 작업 에고 영상 v1.0: 머리 장착 폰 카메라 1080p 10,124시간 + 100 Hz IMU, 1.2만 명 이상 기여. 로봇 학습용 다양성 중심 |
