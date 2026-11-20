@@ -5,6 +5,11 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 출간 상태 | 게재처 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-21 | [2611.26434](https://arxiv.org/abs/2611.26434) | HumanCOIN: A 12,500-Hour Dataset for Human Intent in Egocentric Manipulation | B, 5,9 | 프리프린트 | — | 대기 | 초록 확인 · 시선·근부하·뇌활동 등 의도 경로 신호를 함께 기록한 1만 2,500시간 1인칭 조작 데이터(38개 장면 유형) |
+| 2026-11-21 | [2611.26380](https://arxiv.org/abs/2611.26380) | EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning | 10 | 프리프린트 | — | 대기 | 초록 확인 · 영상 개요 + 시점이 찍힌 단계 서술로 된 세밀한 에고 영상 캡션 형식과 5만 건 데이터. 3D 없음 |
+| 2026-11-21 | [2611.26165](https://arxiv.org/abs/2611.26165) | StreamEgo: Streaming Exocentric-to-Egocentric Video Generation | 8, 6 | 프리프린트 | — | 대기 | 초록 확인 · 3인칭→1인칭 영상 생성을 실시간·무제한 길이 스트리밍으로 확장(조작 영역용 이중 분기 prior). LEGO·VBot Exo2Ego 계열 |
+| 2026-11-21 | [2611.25849](https://arxiv.org/abs/2611.25849) | EgoWitness: Benchmarking Instance-Level Spatial Memory and Reasoning in Egocentric Video Streams | 7, 4 | 프리프린트 | — | 대기 | 초록 확인 · 일주일 분량 포함 324시간 에고 스트림에서 물체 인스턴스를 날·사람에 걸쳐 재인식하고 어디서·언제·누가 봤는지 묻는 공간 기억 벤치(8,453문항, 마스크 100만+). 빈칸 G5와 연결 |
+| 2026-11-21 | [2611.24995](https://arxiv.org/abs/2611.24995) | EgoPass-Bench: Identifying Objects That May Affect the Wearer's Passage in Egocentric Video | 4 | 프리프린트 | — | 대기 | 초록 확인 · Ray-Ban Meta Gen 2로 찍은 에고 영상에서 착용자 통행에 영향을 줄 물체를 찾고 해석하는 MFM 벤치(284 클립, 2,201문항, 5과제). EgoPathBench와 인접 |
 | 2026-11-20 | [2611.24731](https://arxiv.org/abs/2611.24731) | HandWorldBench: A Unified Benchmark for Hand-Centric World Models | 6, 2 | 프리프린트 | — | 대기 | 초록 확인 · 사람 손·시뮬 정교 손·실제 정교 손에서 손 중심 월드 모델을 시각 품질·손 충실도·물리 일관성 등 6차원으로 평가하는 벤치. 빈칸 G7과 직결 |
 | 2026-11-20 | [2611.24616](https://arxiv.org/abs/2611.24616) | EgoJev: Finding Evidence in Egocentric Video by Reading VLM Decisions | 10 | 프리프린트 | — | 대기 | 초록 확인 · 장시간 에고 영상 QA에서 VLM의 프레임 선택 분포를 읽어 증거 순간을 찾는 무학습 프레임 선택기(웨어러블 어시스턴트용). 3D 없음 |
 | 2026-11-20 | [2611.24585](https://arxiv.org/abs/2611.24585) | SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data | 5 | 프리프린트 | — | 대기 | 초록 확인 · 에고 사람 데이터의 리타게팅 엔드이펙터 행동을 이산 토큰 보조 과제로, 로봇 관절 행동을 병렬 연속 스트림으로 읽는 정교 조작 VLA |
