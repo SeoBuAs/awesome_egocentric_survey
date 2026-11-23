@@ -5,6 +5,13 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 출간 상태 | 게재처 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-24 | [2611.27513](https://arxiv.org/abs/2611.27513) | Ego4Gen: Generating Geometry-Grounded Motion Tokens as a World-Action Interface | 6, 5 | 프리프린트 | — | 대기 | 초록 확인 · 에고 이미지 1장과 텍스트로 RGB·조밀 포인트맵·장면 흐름을 함께 생성하는 4D 미래 생성 월드 모델(Cosmos3-Nano 기반), 로봇 행동으로 연결. 로봇 에고 시점 |
+| 2026-11-24 | [2611.27459](https://arxiv.org/abs/2611.27459) | Ego2Ego: Generative Visual Perspective Taking Across Collaborators | 8, 4,6 | 프리프린트 | — | 대기 | 초록 확인 · 한 사람의 에고 영상·장면 포인트클라우드·협업자 카메라 궤적으로 협업자의 1인칭 영상을 생성하는 생성적 시점 취하기 과제 |
+| 2026-11-24 | [2611.27290](https://arxiv.org/abs/2611.27290) | EgoLAM: Learning Latent Actions from Hand and Head Motion | 5 | 프리프린트 | — | 대기 | 초록 확인 · 에고 영상 잠재 행동 학습에서 손목 움직임으로 행동 코드를 감독하고 카메라(머리) 움직임은 따로 넣어, 고개 돌림과 손 조작을 분리 |
+| 2026-11-24 | [2611.27101](https://arxiv.org/abs/2611.27101) | EgoSurgHands: An Egocentric 3D Hand Pose Dataset & Benchmark for Open Surgery Training | 2, 3 | 채택 표기 | NeurIPS 2026 (저자 표기, 학회 미개최) | 대기 | 초록 확인 · 다중 센서 안경으로 찍은 개방 수술 훈련 에고 3D 손 포즈 데이터·리더보드(학습 4.2만, 평가 9,476 행, 장갑 색 3종). 빈칸 G2 비평에서 근접 사례로 언급된 논문 |
+| 2026-11-24 | [2611.27047](https://arxiv.org/abs/2611.27047) | BeyondEgo: Learning to Act Beyond Egocentric Perception via Humanoid Ego-Exo Foresight | 5 | 프리프린트 | — | 대기 | 초록 확인 · 휴머노이드 VLA에 동기화된 외부 시점 토큰과 양 시점 미래 관측 감독을 더해 에고 지각 밖의 몸-장면 관계를 보완. 로봇 에고 시점 |
+| 2026-11-24 | [2611.26916](https://arxiv.org/abs/2611.26916) | RoboCap-10k: A Metrically Accurate Egocentric Dataset for Robot Learning | B, 3,5 | 프리프린트 | — | 대기 | 초록 확인 · 11개국 작업자 실근무 중 RoboCap(6캠·이중 IMU 모자)으로 찍은 1만 시간 조작 데이터, 기기 온라인 보정으로 메트릭 3D 라벨. 큐의 RoboCap(2610.07217) 후속 데이터 |
+| 2026-11-24 | [2611.26764](https://arxiv.org/abs/2611.26764) | TacHOI: Contact-Aware Object Reconstruction and Tracking for Egocentric Videos | 2, 1∩2,5 | 프리프린트 | — | 대기 | 초록 확인 · 촉각 접촉을 단안 에고 영상과 결합해 물체 템플릿·깊이 센서 없이 손-물체를 메트릭 스케일로 복원·추적(무학습). 빈칸 G4와 연결 |
 | 2026-11-21 | [2611.26434](https://arxiv.org/abs/2611.26434) | HumanCOIN: A 12,500-Hour Dataset for Human Intent in Egocentric Manipulation | B, 5,9 | 프리프린트 | — | 대기 | 초록 확인 · 시선·근부하·뇌활동 등 의도 경로 신호를 함께 기록한 1만 2,500시간 1인칭 조작 데이터(38개 장면 유형) |
 | 2026-11-21 | [2611.26380](https://arxiv.org/abs/2611.26380) | EgoCaptioner: Towards Comprehensive and Fine-Grained Egocentric Video Captioning | 10 | 프리프린트 | — | 대기 | 초록 확인 · 영상 개요 + 시점이 찍힌 단계 서술로 된 세밀한 에고 영상 캡션 형식과 5만 건 데이터. 3D 없음 |
 | 2026-11-21 | [2611.26165](https://arxiv.org/abs/2611.26165) | StreamEgo: Streaming Exocentric-to-Egocentric Video Generation | 8, 6 | 프리프린트 | — | 대기 | 초록 확인 · 3인칭→1인칭 영상 생성을 실시간·무제한 길이 스트리밍으로 확장(조작 영역용 이중 분기 prior). LEGO·VBot Exo2Ego 계열 |
