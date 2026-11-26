@@ -5,6 +5,11 @@
 
 | 발견일 | arXiv | 제목 | 잠정 축 | 출간 상태 | 게재처 | 상태 | 메모 |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-11-27 | [2611.34489](https://arxiv.org/abs/2611.34489) | Who Is Ego? Scaling Cross-View Camera Wearer Identification and Segmentation beyond Humans | 3, 4 | 프리프린트 | — | 대기 | 초록 확인 · 동기화된 외부 영상에서 1인칭 카메라 착용자(사람·로봇·차량·동물·드론)를 찾고 분할하며 상호 카메라 위치를 추정하는 과제와 FindEgo-1M(116만 쌍) |
+| 2026-11-27 | [2611.34347](https://arxiv.org/abs/2611.34347) | AIRIS: Benchmarking Social Embodied Intelligence in Egocentric Streaming Videos | 10 | 프리프린트 | — | 대기 | 초록 확인 · 스트리밍 에고 영상에서 주의-의도-반응-상호작용 사슬로 사회적 판단(언제 개입할지)을 인과적으로 평가하는 8,000문항 벤치. 3D 없음 |
+| 2026-11-27 | [2611.34224](https://arxiv.org/abs/2611.34224) | EgoMyo: Physical Hand State Estimation from Egocentric Video and Wrist Electromyography | 2, 5 | 프리프린트 | — | 대기 | 초록 확인 · 에고 영상 + 손목 sEMG로 손 자세·접촉·힘을 함께 추정하는 물리적 손 상태 과제와 벤치(575만 프레임, 50명, 접촉 구성 34종). EVFormer·DoF-Query와 같은 시각-근전도 갈래 |
+| 2026-11-27 | [2611.33760](https://arxiv.org/abs/2611.33760) | GlassGround: GUI Grounding Beyond Native Screenshots with Egocentric Wearable Vision | 10 | 프리프린트 | — | 대기 | 초록 확인 · 웨어러블 카메라로 본 화면에서 GUI 요소를 찾는 벤치(3,250과제, 기기 4종). 스크린샷 94.8% → 카메라 48.5%. 3D 없음 |
+| 2026-11-27 | [2611.33565](https://arxiv.org/abs/2611.33565) | EgoCARBS: Egocentric Video Meets Active Acoustics for Kitchen Action Understanding | 3, 2 | 프리프린트 | — | 대기 | 초록 확인 · 웨어러블 스피커·마이크의 비가청 처프 반향으로 손·팔 움직임을 감지해 에고 영상과 짝지은 주방 행동 데이터·벤치. 3D 약함 |
 | 2026-11-26 | [2611.32996](https://arxiv.org/abs/2611.32996) | PAVE: Preference-Aligned Visual Egocentric Learning for the Blind and Low-Vision Users | 10, 4 | 프리프린트 | — | 대기 | 초록 확인 · EgoBlind 실제 BLV 에고 영상·질의로 공간 방향·행동 정보·간결성을 반영한 선호 정렬 에고 VQA 학습. VISTA·NavAble와 같은 시각장애인 보조 갈래 |
 | 2026-11-26 | [2611.32876](https://arxiv.org/abs/2611.32876) | MemHand: Memory-Enhanced World-Space Hand Motion Reconstruction from Egocentric Videos | 2, 1∩2,7 | 프리프린트 | — | 대기 | 초록 확인 · 고정 길이 창 대신 메모리로 가림·화면 이탈 구간에 필요한 시간 맥락을 끌어와 에고 영상의 월드 좌표 양손 동작을 연속 복원. 월드 좌표 손 계보 |
 | 2026-11-26 | [2611.32260](https://arxiv.org/abs/2611.32260) | EgoLoAF: Learning Humanoid Loco-Manipulation from Egocentric Demonstrations with Hand-Object Affordances | 5, 2 | 프리프린트 | — | 대기 | 초록 확인 · 착용형 모션 트래커·로봇 원격조작 없이 에고 사람 시연만으로 휴머노이드 로코-매니퓰레이션 VLA 학습 데이터를 만들고 손-물체 affordance를 명시적 신호로 사용 |
